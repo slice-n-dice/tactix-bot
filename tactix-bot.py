@@ -13,13 +13,16 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Save all rune data in an object
 f = open('runes.json')
-rune_data = json.load(f)
+rune_data_raw = json.load(f) # this is a dict with 1 key-value pair
+# key "runelist"; value is ALL rune info in a list of dicts
 f.close()
+
+rune_data = rune_data_raw["runelist"] # this is a list of dicts; 1 dict per rune
 
 # Generate rune list
 rune_list = []
-for i in rune_data['runelist']:
-    rune_list.append(i['rune_name'])
+for i in rune_data:
+    rune_list.append(i["rune_name"])
 
 #client = discord.Client()
 bot = commands.Bot(command_prefix='!')
@@ -36,24 +39,22 @@ async def runelist(ctx):
     print("Done")
     await ctx.send(s)
 
-# Error at Line 50: TypeError: string indices must be integers
-# Is the rune_data variable a dict or list?
-
 @bot.command()
-async def runeinfo(ctx, rune):
+async def runeinfo(ctx, r):
+    rune = r.capitalize() # 
     if rune not in rune_list:
         await ctx.send("That rune does not exist.")
     else:
         i = rune_list.index(rune)
-        rune_data = rune_list[i]
+        d = rune_data[i] # temporarily store the dict of info for this rune
         s = ""
-        s += (rune + " Rune\n")
-        s += ("Weapon Effect: " + rune_data["weapon_effect"] + "\n")
-        s += ("Armor Effect: " + rune_data["armor_effect"] + "\n")
-        s += ("Shield Effect: " + rune_data["shield_effect"] + "\n")
-        s += ("Character Level Required: " + rune_data["clvl_required"] + "\n")
-        s += (rune_data["upgrade_from"] + "\n")
-        s += (rune_data["upgrade_to"] + "\n")
+        s += ("__**" + rune + " Rune**__\n")
+        s += ("**Weapon Effect:** " + d["weapon_effect"] + "\n")
+        s += ("**Armor Effect:** " + d["armor_effect"] + "\n")
+        s += ("**Shield Effect:** " + d["shield_effect"] + "\n")
+        s += ("**Character Level Required:** " + d["clvl_required"] + "\n")
+        s += (d["upgrade_from"] + "\n")
+        s += (d["upgrade_to"] + "\n")
         await ctx.send(s)
 
 

@@ -47,15 +47,16 @@ async def runeinfo(ctx, r):
     else:
         i = rune_list.index(rune)
         d = rune_data[i] # temporarily store the dict of info for this rune
-        s = ""
-        s += ("__**" + rune + " Rune**__\n")
-        s += ("**Weapon Effect:** " + d["weapon_effect"] + "\n")
-        s += ("**Armor Effect:** " + d["armor_effect"] + "\n")
-        s += ("**Shield Effect:** " + d["shield_effect"] + "\n")
-        s += ("**Character Level Required:** " + d["clvl_required"] + "\n")
-        s += (d["upgrade_from"] + "\n")
-        s += (d["upgrade_to"] + "\n")
-        await ctx.send(s)
+        embed = build_rune_embed(rune, d) # construct embed
+        #s = ""
+        #s += ("__**" + rune + " Rune**__\n")
+        #s += ("**Weapon Effect:** " + d["weapon_effect"] + "\n")
+        #s += ("**Armor Effect:** " + d["armor_effect"] + "\n")
+        #s += ("**Shield Effect:** " + d["shield_effect"] + "\n")
+        #s += ("**Character Level Required:** " + d["clvl_required"] + "\n")
+        #s += (d["upgrade_from"] + "\n")
+        #s += (d["upgrade_to"] + "\n")
+        await ctx.send(embed=embed)
 
 
 #@client.event
@@ -78,8 +79,19 @@ async def runeinfo(ctx, r):
 #    if message.content.find("!hello") != -1:
 #        await message.channel.send("Hi!")
 
-def get_rune_number(rune):
-    
-    pass
+def build_rune_embed(rune, data):
+    # Create the rune embed object
+    # rune - string, capitalized
+    # data - list containing the rune information
+    embed = discord.Embed(title=rune+" Rune", color=0x1c3818)
+    embed.set_thumbnail(url="images/runes/"+rune+".PNG")
+    embed.add_field(name="Weapon Effect", value=data["weapon_effect"])
+    embed.add_field(name="Armor Effect", value=data["armor_effect"])
+    embed.add_field(name="Shield Effect", value=data["shield_effect"])
+    embed.add_field(name="Character Level Required", value=data["clvl_required"])
+    embed.add_field(name="Previous Rune", value=data["upgrade_from"])
+    embed.add_field(name="Next Rune", value=data["upgrade_to"])
+    return embed
+
 
 bot.run(TOKEN)

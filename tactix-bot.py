@@ -48,44 +48,16 @@ async def runeinfo(ctx, r):
         i = rune_list.index(rune)
         d = rune_data[i] # temporarily store the dict of info for this rune
         embed = build_rune_embed(rune, d) # construct embed
-        #s = ""
-        #s += ("__**" + rune + " Rune**__\n")
-        #s += ("**Weapon Effect:** " + d["weapon_effect"] + "\n")
-        #s += ("**Armor Effect:** " + d["armor_effect"] + "\n")
-        #s += ("**Shield Effect:** " + d["shield_effect"] + "\n")
-        #s += ("**Character Level Required:** " + d["clvl_required"] + "\n")
-        #s += (d["upgrade_from"] + "\n")
-        #s += (d["upgrade_to"] + "\n")
         await ctx.send(embed=embed)
-
-
-#@client.event
-#async def on_ready():
-    #for guild in client.guilds:
-    #    if guild.name == GUILD:
-    #        print('Guild found!')
-
-    #print(
-    #    f'{client.user} is connected to the following guild:\n'
-    #    f'{guild.name}(id: {guild.id})'
-    #)
-
-    #members = [member.name for member in guild.members]
-    #print(members)
-    #print(guild.members)
-
-#@bot.event
-#async def on_message(message):
-#    if message.content.find("!hello") != -1:
-#        await message.channel.send("Hi!")
 
 def build_rune_embed(rune, data):
     # Create the rune embed object
     # rune - string, capitalized
     # data - list containing the rune information
     embed = discord.Embed(title=rune+" Rune", color=0x1c3818)
-    embed.set_thumbnail(url="http://jameskennethnelson.com/discord_bot/tactix-bot/images/runes/" \
-        +rune+".PNG")
+    url = "http://jameskennethnelson.com/discord_bot/tactix-bot/images/runes/"+rune+".PNG"
+    print(url)
+    embed.set_thumbnail(url=url)
     embed.add_field(name="Weapon Effect", value=data["weapon_effect"])
     embed.add_field(name="Armor Effect", value=data["armor_effect"])
     embed.add_field(name="Shield Effect", value=data["shield_effect"])
@@ -94,6 +66,5 @@ def build_rune_embed(rune, data):
     embed.add_field(name="Previous Rune", value=data["upgrade_from"])
     embed.add_field(name="Next Rune", value=data["upgrade_to"])
     return embed
-
 
 bot.run(TOKEN)

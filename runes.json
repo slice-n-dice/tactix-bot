@@ -1,0 +1,301 @@
+{
+    "runelist": [
+        {
+            "rune_name": "El",
+            "weapon_effect": "+50 to Attack Rating, +1 to Light Radius",
+            "armor_effect": "+15 to Defense, +1 to Light Radius",
+            "shield_effect": "+15 to Defense, +1 to Light Radius",
+            "clvl_required": "11",
+            "upgrade_from": "Cannot be crafted from other runes.",
+            "upgrade_to": "Upgrades to Eld Rune. Recipe: 3 El Runes."
+        },
+        {
+            "rune_name": "Eld",
+            "weapon_effect": "+75% Damage vs Undead, +50 Attack Rating vs Undead",
+            "armor_effect": "-15% Stamina Drain",
+            "shield_effect": "+7% to Block Chance",
+            "clvl_required": "11",
+            "upgrade_from": "Crafted from 3 El Runes.",
+            "upgrade_to": "Upgrades to Tir Rune. Recipe: 3 Eld Runes."
+        },
+        {
+            "rune_name": "Tir",
+            "weapon_effect": "+2 Mana Per Kill",
+            "armor_effect": "+2 Mana Per Kill",
+            "shield_effect": "+2 Mana Per Kill",
+            "clvl_required": "13",
+            "upgrade_from": "Crafted from 3 Eld Runes.",
+            "upgrade_to": "Upgrades to Nef Rune. Recipe: 3 Tir Runes."
+        },
+        {
+            "rune_name": "Nef",
+            "weapon_effect": "Knockback",
+            "armor_effect": "+30 Defense vs Missiles",
+            "shield_effect": "+30 Defense vs Missiles",
+            "clvl_required": "13",
+            "upgrade_from": "Crafted from 3 Tir Runes.",
+            "upgrade_to": "Upgrades to Eth Rune. Recipe: 3 Nef Runes."
+        },
+        {
+            "rune_name": "Eth",
+            "weapon_effect": "-25% to Target Defense",
+            "armor_effect": "+15% Mana Regeneration",
+            "shield_effect": "+15% Mana Regeneration",
+            "clvl_required": "15",
+            "upgrade_from": "Crafted from 3 Nef Runes.",
+            "upgrade_to": "Upgrades to Ith Rune. Recipe: 3 Eth Runes."
+        },
+        {
+            "rune_name": "Ith",
+            "weapon_effect": "+9 to Maximum Damage",
+            "armor_effect": "15% Damage Taken Goes To Mana",
+            "shield_effect": "15% Damage Taken Goes To Mana",
+            "clvl_required": "15",
+            "upgrade_from": "Crafted from 3 Eth Runes.",
+            "upgrade_to": "Upgrades to Tal Rune. Recipe: 3 Ith Runes."
+        },
+        {
+            "rune_name": "Tal",
+            "weapon_effect": "75 Poison Damage over 5 Seconds",
+            "armor_effect": "+30% Poison Resistance",
+            "shield_effect": "+35% Poison Resistance",
+            "clvl_required": "17",
+            "upgrade_from": "Crafted from 3 Ith Runes.",
+            "upgrade_to": "Upgrades to Ral Rune. Recipe: 3 Tal Runes."
+        },
+        {
+            "rune_name": "Ral",
+            "weapon_effect": "+5-30 Fire Damage",
+            "armor_effect": "+30% Fire Resistance",
+            "shield_effect": "+35% Fire Resistance",
+            "clvl_required": "19",
+            "upgrade_from": "Crafted from 3 Tal Runes.",
+            "upgrade_to": "Upgrades to Ort Rune. Recipe 3 Ral Runes."
+        },
+        {
+            "rune_name": "Ort",
+            "weapon_effect": "+1-50 Lightning Damage",
+            "armor_effect": "+30% Lightning Resistance",
+            "shield_effect": "+35% Lightning Resistance",
+            "clvl_required": "21",
+            "upgrade_from": "Crafted from 3 Ral Runes.",
+            "upgrade_to": "Upgrades to Thul Rune. Recipe: 3 Ort Runes."
+        },
+        {
+            "rune_name": "Thul",
+            "weapon_effect": "+3-14 Cold Damage",
+            "armor_effect": "+30% Cold Resistance",
+            "shield_effect": "+35% Cold Resistance",
+            "clvl_required": "23",
+            "upgrade_from": "Crafted from 3 Ort Runes.",
+            "upgrade_to": "Upgrades to Amn Rune. Recipe: 3 Thul Runes + 1 Chipped Topaz."
+        },
+        {
+            "rune_name": "Amn",
+            "weapon_effect": "7% Life Stolen Per Hit",
+            "armor_effect": "Attacker Takes Damage of 14",
+            "shield_effect": "Attacker Takes Damage of 14",
+            "clvl_required": "25",
+            "upgrade_from": "Crafted from 3 Thul Runes + 1 Flawed Topaz.",
+            "upgrade_to": "Upgrades to Sol Rune. Recipe: 3 Amn Runes + 1 Chipped Amethyst."
+        },
+        {
+            "rune_name": "Sol",
+            "weapon_effect": "+9 to Minimum Damage",
+            "armor_effect": "-7 Damage Taken",
+            "shield_effect": "-7 Damage Taken",
+            "clvl_required": "27",
+            "upgrade_from": "Crafted from 3 Amn Runes + 1 Chipped Amethyst.",
+            "upgrade_to": "Upgrades to Shael Rune. Recipe: 3 Sol Runes + 1 Chipped Sapphire."
+        },
+        {
+            "rune_name": "Shael",
+            "weapon_effect": "+20% Increased Attack Speed",
+            "armor_effect": "+20% Faster Hit Recovery",
+            "shield_effect": "+20% Faster Block Rate",
+            "clvl_required": "29",
+            "upgrade_from": "Crafted from 3 Sol Runes + 1 Chipped Sapphire.",
+            "upgrade_to": "Upgrades to Dol Rune. Recipe: 3 Shael Runes + 1 Chipped Ruby."
+        },
+        {
+            "rune_name": "Dol",
+            "weapon_effect": "25% Chance that Hit Causes Monsters To Flee",
+            "armor_effect": "Replenish Life +7",
+            "shield_effect": "Replenish Life +7",
+            "clvl_required": "31",
+            "upgrade_from": "Crafted from 3 Shael Runes + 1 Chipped Ruby.",
+            "upgrade_to": "Upgrades to Hel Rune. Recipe: 3 Dol Runes + 1 Chipped Emerald."
+        },
+        {
+            "rune_name": "Hel",
+            "weapon_effect": "-20% to Requirements",
+            "armor_effect": "-15% to Requirements",
+            "shield_effect": "-15% to Requirements",
+            "clvl_required": "None",
+            "upgrade_from": "Crafted from 3 Dol Runes + 1 Chipped Emerald.",
+            "upgrade_to": "Upgrades to Io Rune. Recipe: 3 Hel Runes + 1 Chipped Diamond."
+        },
+        {
+            "rune_name": "Io",
+            "weapon_effect": "+10 to Vitality",
+            "armor_effect": "+10 to Vitality",
+            "shield_effect": "+10 to Vitality",
+            "clvl_required": "35",
+            "upgrade_from": "Crafted from 3 Hel Runes + 1 Chipped Diamond.",
+            "upgrade_to": "Upgrades to Lum Rune. Recipe: 3 Io Runes + 1 Flawed Topaz."
+        },
+        {
+            "rune_name": "Lum",
+            "weapon_effect": "+10 to Energy",
+            "armor_effect": "+10 to Energy",
+            "shield_effect": "+10 to Energy",
+            "clvl_required": "37",
+            "upgrade_from": "Crafted from 3 Io Runes + 1 Flawed Topaz.",
+            "upgrade_to": "Upgrades to Ko Rune. Recipe: 3 Lum Runes + 1 Flawed Amethyst."
+        },
+        {
+            "rune_name": "Ko",
+            "weapon_effect": "+10 to Dexterity",
+            "armor_effect": "+10 to Dexterity",
+            "shield_effect": "+10 to Dexterity",
+            "clvl_required": "39",
+            "upgrade_from": "Crafted from 3 Lum Runes + 1 Flawed Amethyst.",
+            "upgrade_to": "Upgrades to Fal Rune. Recipe: 3 Ko Runes + 1 Flawed Sapphire."
+        },
+        {
+            "rune_name": "Fal",
+            "weapon_effect": "+10 to Strength",
+            "armor_effect": "+10 to Strength",
+            "shield_effect": "+10 to Strength",
+            "clvl_required": "41",
+            "upgrade_from": "Crafted from 3 Ko Runes + 1 Flawed Sapphire",
+            "upgrade_to": "Upgrades to Lem Rune. Recipe: 3 Fal Runes + 1 Flawed Ruby."
+        },
+        {
+            "rune_name": "Lem",
+            "weapon_effect": "+75% Extra Gold from Monsters",
+            "armor_effect": "+50% Extra Gold from Monsters",
+            "shield_effect": "+50% Extra Gold from Monsters",
+            "clvl_required": "43",
+            "upgrade_from": "Crafted from 3 Fal Runes + 1 Flawed Ruby.",
+            "upgrade_to": "Upgrades to Pul Rune. Recipe: 3 Lem Runes + 1 Flawed Emerald."
+        },
+        {
+            "rune_name": "Pul",
+            "weapon_effect": "+75% Damage vs Demons, +100 Attack Rating vs Demons",
+            "armor_effect": "+30% Defense",
+            "shield_effect": "+30% Defense",
+            "clvl_required": "45",
+            "upgrade_from": "Crafted from 3 Lem Runes + 1 Flawed Emerald.",
+            "upgrade_to": "Upgrades to Um Rune. Recipe: 2 Pul Runes + 1 Flawed Diamond."
+        },
+        {
+            "rune_name": "Um",
+            "weapon_effect": "+25% Chance of Open Wounds",
+            "armor_effect": "All Resistances +15",
+            "shield_effect": "All Resistances +22",
+            "clvl_required": "47",
+            "upgrade_from": "Crafted from 2 Pul Runes + 1 Flawed Diamond.",
+            "upgrade_to": "Upgrades to Mal Rune. Recipe: 2 Um Runes + 1 Topaz."
+        },
+        {
+            "rune_name": "Mal",
+            "weapon_effect": "Prevent Monster Healing",
+            "armor_effect": "Magic Damage Reduced by 7",
+            "shield_effect": "Magic Damage Reduced by 7",
+            "clvl_required": "49",
+            "upgrade_from": "Crafted from 2 Um Runes + 1 Topaz.",
+            "upgrade_to": "Upgrades to Ist Rune. Recipe: 2 Mal Runes + 1 Amethyst."
+        },
+        {
+            "rune_name": "Ist",
+            "weapon_effect": "+30% Better Chance of Finding Magical Items",
+            "armor_effect": "+25% Better Chance of Finding Magical Items",
+            "shield_effect": "+25% Better Chance of Finding Magical Items",
+            "clvl_required": "51",
+            "upgrade_from": "Crafted from 2 Mal Runes + 1 Amethyst.",
+            "upgrade_to": "Upgrades to Gul Rune. Recipe: 2 Ist Runes + 1 Sapphire."
+        },
+        {
+            "rune_name": "Gul",
+            "weapon_effect": "20% Bonus to Attack Rating",
+            "armor_effect": "+5% to Maximum Poison Resist",
+            "shield_effect": "+5% to Maximum Poison Resist",
+            "clvl_required": "53",
+            "upgrade_from": "Crafted from 2 Ist Runes + 1 Sapphire.",
+            "upgrade_to": "Upgrades to Vex Rune. Recipe: 2 Gul Runes + 1 Ruby."
+        },
+        {
+            "rune_name": "Vex",
+            "weapon_effect": "7% Mana Stolen Per Hit",
+            "armor_effect": "+5% to Maximum Fire Resist",
+            "shield_effect": "+5% to Maximum Fire Resist",
+            "clvl_required": "55",
+            "upgrade_from": "Crafted from 2 Gul Runes + 1 Ruby.",
+            "upgrade_to": "Upgrades to Ohm Rune. Recipe: 2 Vex Runes + 1 Emerald."
+        },
+        {
+            "rune_name": "Ohm",
+            "weapon_effect": "+50% Enhanced Damage",
+            "armor_effect": "+5% to Maximum Cold Resist",
+            "shield_effect": "+5% to Maximum Cold Resist",
+            "clvl_required": "57",
+            "upgrade_from": "Crafted from 2 Vex Runes + 1 Emerald.",
+            "upgrade_to": "Upgrades to Lo Rune. Recipe: 2 Ohm Runes + 1 Diamond."
+        },
+        {
+            "rune_name": "Lo",
+            "weapon_effect": "+20% Chance of Deadly Strike",
+            "armor_effect": "+5% to Maximum Lightning Resist",
+            "shield_effect": "+5% to Maximum Lightning Resist",
+            "clvl_required": "59",
+            "upgrade_from": "Crafted from 2 Ohm Runes + 1 Diamond.",
+            "upgrade_to": "Upgrades to Sur Rune. Recipe: 2 Lo Runes + 1 Flawless Topaz."
+        },
+        {
+            "rune_name": "Sur",
+            "weapon_effect": "Hit Blinds Target",
+            "armor_effect": "Increase Maximum Mana +5%",
+            "shield_effect": "+50 to Mana",
+            "clvl_required": "61",
+            "upgrade_from": "Crafted from 2 Lo Runes + 1 Flawless Topaz.",
+            "upgrade_to": "Upgrades to Ber Rune. Recipe: 2 Sur Runes + 1 Flawless Amethyst."
+        },
+        {
+            "rune_name": "Ber",
+            "weapon_effect": "+20% Chance of Crushing Blow",
+            "armor_effect": "Damage Reduced by 8%",
+            "shield_effect": "Damage Reduced by 8%",
+            "clvl_required": "63",
+            "upgrade_from": "Crafted from 2 Sur Runes + 1 Flawless Amethyst.",
+            "upgrade_to": "Upgrades to Jah Rune. Recipe: 2 Ber Runes + 1 Flawless Sapphire."
+        },
+        {
+            "rune_name": "Jah",
+            "weapon_effect": "Ignores Target Defense",
+            "armor_effect": "Increase Maximum Life 5%",
+            "shield_effect": "+50 to Life",
+            "clvl_required": "65",
+            "upgrade_from": "Crafted from 2 Ber Runes + 1 Flawless Saphhire.",
+            "upgrade_to": "Upgrades to Cham Rune. Recipe: 2 Jah Runes + 1 Flawless Ruby."
+        },
+        {
+            "rune_name": "Cham",
+            "weapon_effect": "Freezes Target +3",
+            "armor_effect": "Cannot Be Frozen",
+            "shield_effect": "Cannot Be Frozen",
+            "clvl_required": "67",
+            "upgrade_from": "Crafted from 2 Jah Runes + 1 Flawless Ruby.",
+            "upgrade_to": "Upgrades to Zod Rune. Recipe: 2 Cham Runes + 1 Flawless Emerald."
+        },
+        {
+            "rune_name": "Zod",
+            "weapon_effect": "Indestructible",
+            "armor_effect": "Indestructible",
+            "shield_effect": "Indestructible",
+            "clvl_required": "69",
+            "upgrade_from": "Crafted from 2 Cham Runes + 1 Flawless Emerald.",
+            "upgrade_to": "Cannot upgrade to any other runes."
+        }
+    ]
+}

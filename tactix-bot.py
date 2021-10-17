@@ -28,16 +28,34 @@ for i in rune_data:
 bot = commands.Bot(command_prefix='!')
 
 @bot.command()
-async def test(ctx):
-    await ctx.send("Test")
+async def about(ctx):
+    embed = discord.Embed(title="TactiX-Bot", 
+    url="https://github.com/slice-n-dice/tactix-bot",
+    description="Created by tentacles for TactiX's War Room.",
+    color=0x1c3818)
+    url = "http://jameskennethnelson.com/discord_bot/tactix-bot/images/bot-avatar.png"
+    embed.set_thumbnail(url=url)
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def github(ctx):
+    await ctx.send("https://github.com/slice-n-dice/tactix-bot")
 
 @bot.command()
 async def runelist(ctx):
-    s = ""
-    for rune in rune_list:
-        s += (rune + "\n")
-    print("Done")
-    await ctx.send(s)
+    low_runes = rune_list[0:11]
+    mid_runes = rune_list[11:22]
+    high_runes = rune_list[22:]
+    t = ", "
+    s_low = t.join(low_runes)
+    s_mid = t.join(mid_runes)
+    s_high = t.join(high_runes)
+    embed = discord.Embed(title="Rune List", color=0x1c3818)
+    embed.add_field(name="Low Runes", value=s_low)
+    embed.add_field(name="Mid Runes", value=s_mid)
+    embed.add_field(name="High Runes", value=s_high)
+    embed.set_footer(text="Use !runeinfo for more detail on any rune.\nExample: '!runeinfo lem'")
+    await ctx.send(embed=embed)
 
 @bot.command()
 async def runeinfo(ctx, r):
@@ -56,7 +74,6 @@ def build_rune_embed(rune, data):
     # data - list containing the rune information
     embed = discord.Embed(title=rune+" Rune", color=0x1c3818)
     url = "http://jameskennethnelson.com/discord_bot/tactix-bot/images/runes/"+rune+".PNG"
-    print(url)
     embed.set_thumbnail(url=url)
     embed.add_field(name="Weapon Effect", value=data["weapon_effect"])
     embed.add_field(name="Armor Effect", value=data["armor_effect"])

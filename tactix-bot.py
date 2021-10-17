@@ -29,6 +29,7 @@ bot = commands.Bot(command_prefix='!')
 
 @bot.command()
 async def about(ctx):
+    '''Provides general information on this bot.'''
     embed = discord.Embed(title="TactiX-Bot", 
     url="https://github.com/slice-n-dice/tactix-bot",
     description="Created by tentacles for TactiX's War Room.",
@@ -39,10 +40,12 @@ async def about(ctx):
 
 @bot.command()
 async def github(ctx):
+    '''Links to the bot resources on github.'''
     await ctx.send("https://github.com/slice-n-dice/tactix-bot")
 
 @bot.command()
 async def runelist(ctx):
+    '''Prints the full Diablo 2 rune list.'''
     low_runes = rune_list[0:11]
     mid_runes = rune_list[11:22]
     high_runes = rune_list[22:]
@@ -59,6 +62,7 @@ async def runelist(ctx):
 
 @bot.command()
 async def runeinfo(ctx, r):
+    '''Prints information on the given Diablo 2 rune.'''
     rune = r.capitalize() # 
     if rune not in rune_list:
         await ctx.send("That rune does not exist.")
@@ -69,7 +73,7 @@ async def runeinfo(ctx, r):
         await ctx.send(embed=embed)
 
 def build_rune_embed(rune, data):
-    # Create the rune embed object
+    '''Creates an embed object based on the given rune and its data.'''
     # rune - string, capitalized
     # data - list containing the rune information
     embed = discord.Embed(title=rune+" Rune", color=0x1c3818)

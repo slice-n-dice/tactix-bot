@@ -84,11 +84,13 @@ def build_rune_embed(rune, data):
     # rune - string, capitalized
     # data - list containing the rune information
     embed = discord.Embed(title=rune+" Rune", color=0x1c3818)
-    embed.set_thumbnail(url="images/runes/"+rune+".PNG")
+    embed.set_thumbnail(url="http://jameskennethnelson.com/discord_bot/tactix-bot/images/runes/" \
+        +rune+".PNG")
     embed.add_field(name="Weapon Effect", value=data["weapon_effect"])
     embed.add_field(name="Armor Effect", value=data["armor_effect"])
     embed.add_field(name="Shield Effect", value=data["shield_effect"])
-    embed.add_field(name="Character Level Required", value=data["clvl_required"])
+    embed.add_field(name="Character Level Required", \
+        value=data["clvl_required"])
     embed.add_field(name="Previous Rune", value=data["upgrade_from"])
     embed.add_field(name="Next Rune", value=data["upgrade_to"])
     return embed

@@ -27,7 +27,8 @@ runeword_data_raw = json.load(f) # this is a dict with 1 key-value pair
 f.close()
 
 # Save all unique item data in an object
-f = open("tools\\d2_uniques.json")
+
+f = open(os.path.join("tools", "d2_uniques.json"))
 unique_data_raw = json.load(f) # this is a dict of many keys
 # Each key is a different item category.
 f.close()

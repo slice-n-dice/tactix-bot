@@ -1,0 +1,2029 @@
+{
+    "Unique Rings": [
+        {
+            "Name": "Nagelring",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 7\nMagic Damage Reduced By 3\n+50-75 To Attack Rating (varies)\nAttacker Takes Damage of 3*\n15-30% Better Chance of Getting Magic Items (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Manald Heal",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 15\n4-7% Mana Stolen Per Hit (varies)\nReplenish Life +5-8 (varies)\nRegenerate Mana 20%\n+20 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stone of Jordan",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 29\n+1 To All Skills\nIncrease Maximum Mana 25%*\nAdds 1-12 Lightning Damage\n+20 To Mana\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Dwarf Star",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 45\n+40 To Life\n+40 Maximum Stamina\nHeal Stamina Plus 15%\nFire Absorb 15%\nMagic Damage Reduced By 12-15 (varies)\n100% Extra Gold From Monsters\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Raven Frost",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 45\n+150-250 To Attack Rating (varies)\nAdds 15-45 Cold Damage, 4 sec. Duration (Normal)\nCannot Be Frozen\n+15-20 To Dexterity (varies)\n+40 To Mana\nCold Absorb 20%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bul-Kathos' Wedding Band",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 58\n+1 To All Skills\n+ (0.5 Per Character Level) 0-49 To Life (Based On Character Level)\n3-5% Life Stolen Per Hit (varies)\n+50 Maximum Stamina\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Carrion Wind",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 60\n10% Chance To Cast Level 10 Poison Nova When Struck\n8% Chance To Cast Level 13 Twister On Striking\n6-9% Life Stolen Per Hit (varies)\n+100-160 Defense Vs. Missile (varies)\nPoison Resist +55%\n10% Damage Taken Goes To Mana\nLevel 21 Poison Creeper (15 Charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Nature's Peace",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 69\nSlain Monsters Rest In Peace*\nPrevent Monster Heal\nPoison Resist +20-30% (varies)\nDamage Reduced By 7-11 (varies)\nLevel 5 Oak Sage (27 charges)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Wisp Projector",
+            "Gear Type": "Ring",
+            "Attributes": "Required Level: 76\n10% Chance To Cast Level 16 Lightning On Striking\nLightning Absorb 10-20% (varies)\n10-20% Better Chance of Getting Magic Items (varies)\nLevel 7 Spirit of Barbs (11 charges)\nLevel 5 Heart of Wolverine (13 charges)\nLevel 2 Oak Sage (15 charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Amulets": [
+        {
+            "Name": "Nokozan Relic",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 10\n+20% Faster Hit Recovery\nFire Resist +50%\n+10% To Maximum Fire Resist\nAdds 3-6 Fire Damage\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Eye of Etlich",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 15\n+1-5 To Light Radius (varies)\n+1 To All Skills\n3-7% Life Stolen Per Hit (varies)\nAdds (1-2) to (3-5) Cold Damage (varies)\nCold Duration: 2-10 Seconds (varies)*\n+10-40 Defense vs. Missile (varies)*\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "The Mahim-Oak Curio",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 25\n+10 Defense\n+10% Enhanced Defense\n+10% Bonus To Attack Rating\nAll Resistances +10\n+10 To All Attributes\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Saracen's Chance",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 47\n10% Chance To Cast Level 2 Iron Maiden When Struck\nAll Resistances +15-25 (varies)\n+12 To All Attributes\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Cat's Eye",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 50\n+30% Faster Run/Walk\n+20% Increased Attack Speed\n+100 Defense Vs. Missile\n+100 Defense\n+25 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Crescent Moon",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 50\n10% Damage Taken Goes To Mana\n+45 To Mana\n3-6% Life Stolen Per Hit (varies)\n11-15% Mana Stolen Per Hit (varies)\nMagic Damage Reduced By 10\n-2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Atma's Scarab",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 60\n5% Chance To Cast Level 2 Amplify Damage On Striking\n20% Bonus To Attack Rating\n+40 Poison Damage over 4 seconds\nPoison Resist +75%\n+3 To Light Radius\nAttacker Takes Damage of 5\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Rising Sun",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 65\n+2 To Fire Skills\n2% Chance To Cast Level 13-19 Meteor When Struck (varies)\n+ (0.75 Per Character Level) 0-74 Fire Absorb (Based On Character Level)\nAdds 24-48 Fire Damage\nReplenish Life +10\n+4 To Light Radius\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Highlord's Wrath",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 65\n+1 To All Skills\n+20% Increased Attack Speed\n+ (0.375 Per Character Level) 0-37 % Deadly Strike (Based On Character Level)\nLightning Resist +35%\nAdds 1-30 Lightning Damage\nAttacker Takes Lightning Damage Of 15\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Mara's Kaleidoscope",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 67\n+2 To All Skills\nAll Resistances +20-30 (varies)\n+5 To All Attributes\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Seraph's Hymn",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 65\n+2 To All Skills\n+1-2 To Defensive Auras (Paladin Only) (varies)\n+25-50% Damage To Demons (varies)\n+150-250 To Attack Rating Against Demons (varies)\n+25-50% Damage To Undead (varies)\n+150-250 To Attack Rating Against Undead (varies)\n+2 To Light Radius\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Metalgrid",
+            "Gear Type": "Amulet",
+            "Attributes": "Required Level: 81\n+400-450 To Attack Rating (varies)\nLevel 22 Iron Golem (11 Charges)\nLevel 12 Iron Maiden (20 Charges)\nAll Resistances +25-35 (varies)\n+300-350 Defense (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Charms": [
+        {
+            "Name": "Annihilus",
+            "Gear Type": "Small Charm",
+            "Attributes": "Required Level: 70\n+1 To All Skills\n+10-20 To All Attributes (varies)\nAll Resistances +10-20 (varies)\n+5-10% To Experience Gained (varies)\r\n\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Gheed's Fortune",
+            "Gear Type": "Grand Charm",
+            "Attributes": "Required Level: 62\n80-160% Extra Gold From Monsters (varies)\nReduces All Vendor Prices 10-15% (varies)\n20-40% Better Chance of Getting Magic Items (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Hellfire Torch",
+            "Gear Type": "Large Charm",
+            "Attributes": "Required Level: 75\n5% Chance To Cast level 10 Firestorm* On Striking\n+3 to Random Character Class Skills (varies)\n+10-20 To All Attributes (varies)\nAll Resistances +10-20 (varies)\n+8 To Light Radius\nLevel 30 Hydra (10 charges)\r\n(Only Spawns In Patch 1.13 or later)"
+        }
+    ],
+    "Unique Jewels": [
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 29 Blaze When You Level-Up\nAdds 17-45 Fire Damage\n+3-5% To Fire Skill Damage (varies)\n-(3-5)% To Enemy Fire Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 43 Frost Nova When You Level-Up\nAdds 24-38 Cold Damage, 0.12 sec Duration (Normal)\n+3-5% To Cold Skill Damage (varies)\n-(3-5)% To Enemy Cold Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 41 Nova When You Level-Up\nAdds 1-74 Lightning Damage\n+3-5% To Lightning Skill Damage (varies)\n-(3-5)% To Enemy Lightning Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 23 Venom When You Level-Up\n+37 Poison Damage Over 2 Seconds\n+3-5% To Poison Skill Damage (varies)\n-(3-5)% To Enemy Poison Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 31 Meteor When You Die\nAdds 17-45 Fire Damage\n+3-5% To Fire Skill Damage (varies)\n-(3-5)% To Enemy Fire Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 37 Blizzard When You Die\nAdds 24-38 Cold Damage, 0.12 sec Duration (Normal)\n+3-5% To Cold Skill Damage (varies)\n-(3-5)% To Enemy Cold Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 47 Chain Lightning When You Die\nAdds 1-74 Lightning Damage\n+3-5% To Lightning Skill Damage (varies)\n-(3-5)% To Enemy Lightning Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rainbow Facet",
+            "Gear Type": "Jewel",
+            "Attributes": "Required Level: 49\n100% Chance To Cast Level 51 Poison Nova When You Die\n+37 Poison Damage Over 2 Seconds\n+3-5% To Poison Skill Damage (varies)\n-(3-5)% To Enemy Poison Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Circlets": [
+        {
+            "Name": "Kira's Guardian",
+            "Gear Type": "Tiara",
+            "Attributes": "Defense: 90-170 (varies)(Base Defense: 40-50)\r\nRequired Level: 77\r\nDurability: 25\n+50-120 Defense (varies)\n+20% Faster Hit Recovery\nCannot Be Frozen\nAll Resistances +50-70 (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Griffon's Eye",
+            "Gear Type": "Diadem",
+            "Attributes": "Defense: 150-260 (varies)(Base Defense: 50-60)\r\nRequired Level: 76\r\nDurability: 20\n+100-200 Defense (varies)\n+1 To All Skills\n+25% Faster Cast Rate\n-15-20% To Enemy Lightning Resistance (varies)\n+10-15% To Lightning Skill Damage (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Amazon Items": [
+        {
+            "Name": "Stoneraven",
+            "Gear Type": "Matriarchal Spear",
+            "Attributes": "Two-Hand Damage: (214-247) To (316-361) (263.5-304 Avg)\r\nRequired Level: 64\r\nRequired Strength: 114\r\nRequired Dexterity: 142\r\nDurability: 28\r\nBase Weapon Speed: [0]\r\n(Amazon Only)\n+230-280% Enhanced Damage (varies)\nAdds 101-187 Magic Damage\n+400-600 Defense (varies)\nAll Resistances +30-50 (varies)\n+1-3 To Javelin and Spear Skills (Amazon Only) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Lycander's Flank",
+            "Gear Type": "Ceremonial Pike",
+            "Attributes": "Two-Hand Damage: (130-151) To (305-353) (216-252 Avg)\r\nRequired Level: 42\r\nRequired Strength: 115\r\nRequired Dexterity: 98\r\nDurability: 25\r\nBase Weapon Speed: [20]\r\n(Amazon Only)\n+150-200% Enhanced Damage (varies)\nAdds 25-50 Damage\n+2 To Amazon Skill Levels\n+30% Increased Attack Speed\n5-9% Life Stolen Per Hit (varies)\n+20 To Strength\n+20 To Vitality\n+20% Enhanced Defense\n+2 To Javelin and Spear Skills (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Lycander's Aim",
+            "Gear Type": "Ceremonial Bow",
+            "Attributes": "Two-Hand Damage: (72-82) To (152-173) (112-127.5 Avg)\r\nRequired Level: 42\r\nRequired Strength: 73\r\nRequired Dexterity: 110\r\nBase Weapon Speed: [10]\r\n(Amazon Only)\n+150-200% Enhanced Damage (varies)\nAdds 25-50 Damage\n+20% Increased Attack Speed\n+2 To Amazon Skill Levels\n5-8% Mana Stolen Per Hit (varies)\n+20 To Energy\n+20 To Dexterity\n+20% Enhanced Defense\n+2 To Bow And Crossbow Skills (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Titan's Revenge",
+            "Gear Type": "Ceremonial Javelin",
+            "Attributes": "Throw Damage: (70-79) To (185-212) (127.5-145.5 Avg)\r\nOne-Hand Damage: (70-79) To (137-155) (103.5-117 Avg)\r\nRequired Level: 42\r\nRequired Strength: 25\r\nRequired Dexterity: 109\r\nMax Stack: 140\r\nBase Weapon Speed: [-10]\r\n(Amazon Only)\n+150-200% Enhanced Damage (varies)\nAdds 25-50 Damage\n+2 To Amazon Skill Levels\n5-9% Life Stolen Per Hit (varies)\n+30% Faster Run/Walk\n+20 To Strength\n+20 To Dexterity\nReplenishes Quantity [1 in 3 sec.]\nIncreased Stack Size [60]\n+2 To Javelin and Spear Skills (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Thunderstroke",
+            "Gear Type": "Matriarchal Javelin",
+            "Attributes": "Throw Damage: (87-105) To (165-198) (126-151.5 Avg)\r\nOne-Hand Damage: (75-90) To (135-162) (105-126 Avg)\r\nRequired Level: 69\r\nRequired Strength: 107\r\nRequired Dexterity: 151\r\nBase Weapon Speed: [-10]\r\nMax Stack (80)\r\n(Amazon Only)\n+150-200% Enhanced Damage (varies)\nAdds 1-511 Lightning Damage\n+15% Increased Attack Speed\n-15% To Enemy Lightning Resistance\n20% Chance To Cast Level 14 Lightning On Striking\n+2-4 To Javelin and Spear Skills (Amazon Only) (varies)\n+3 To Lightning Bolt (Amazon Only)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Blood Raven's Charge",
+            "Gear Type": "Matriarchal Bow",
+            "Attributes": "Two-Hand Damage: (56-66) To (131-155) (93.5-110.5 Avg)\r\nRequired Level: 71\r\nRequired Strength: 87\r\nRequired Dexterity: 187\r\nBase Weapon Speed: [-10]\r\n(Amazon Only)\n+180-230% Enhanced Damage (varies)\n200-300% Bonus To Attack Rating (varies)\nFires Explosive Arrows Or Bolts [Level 13]\nLevel 5 Revive (30 charges)\n+2-4 To Bow And Crossbow Skills (Amazon Only) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Assassin Items": [
+        {
+            "Name": "Shadow Killer",
+            "Gear Type": "Battle Cestus",
+            "Attributes": "Damage: (145-172) To (170-201) (157.5-186.5 Avg)\r\nRequired Level: 78\r\nRequired Strength: 100\r\nRequired Dexterity: 100\r\nWeapon Speed: [-10]\r\n(Assassin Only)\n+170-220% Enhanced Damage (varies)\n-25% Target Defense\nFreezes Target +2\n+10-15 To Mana After Each Kill (varies)\n33% Chance To Cast Level 8 Frost Nova On Striking\nIndestructible\nEthereal (Cannot Be Repaired)*\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Bartuc's Cut-Throat",
+            "Gear Type": "Greater Talons",
+            "Attributes": "Damage: (77-88) To (137-155) (107-121.5 Avg)\r\nRequired Level: 42\r\nRequired Strength: 79\r\nRequired Dexterity: 79\r\nDurability: 69\r\nWeapon Speed: [-30]\r\n(Assassin Only)\n+150-200% Enhanced Damage (varies)\nAdds 25-50 Damage\n30% Faster Hit Recovery\n20% Bonus To Attack Rating\n5-9% Life Stolen Per Hit (varies)\n+20 To Strength\n+20 To Dexterity\n+2 To Assassin Skill Levels\n+1 To Martial Arts Skills (Assassin Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Jade Talon",
+            "Gear Type": "Wrist Sword",
+            "Attributes": "Damage: (98-115) To (130-153) (114-134 Avg)\r\nRequired Level: 66\r\nRequired Strength: 105\r\nRequired Dexterity: 105\r\nDurability: 56\r\nWeapon Speed: [-10]\r\n(Assassin Only)\n+190-240% Enhanced Damage (varies)\n+1-2 To Martial Arts (Assassin Only) (varies)\n+1-2 To Shadow Disciplines (Assassin Only) (varies)\n+30% Faster Hit Recovery\n10-15% Mana Stolen Per Hit (varies)\nAll Resistances +40-50 (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Firelizard's Talons",
+            "Gear Type": "Feral Claws",
+            "Attributes": "Damage: (66-81) To (159-196) (112.5-138.5 Avg)\r\nRequired Level: 67\r\nRequired Strength: 113\r\nRequired Dexterity: 113\r\nDurability: 52\r\nWeapon Speed: [-20]\r\n(Assassin Only)\n+200-270% Enhanced Damage (varies)\nAdds 236-480 Fire Damage\n+15% Increased Attack Speed\n+1-3 To Martial Arts (Assassin Only) (varies)\n+1-2 To Wake of Inferno (Assassin Only) (varies)\n+1-2 To Wake of Fire (Assassin Only) (varies)\nFire Resist +40-70% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Necromancer Items": [
+        {
+            "Name": "Homunculus",
+            "Gear Type": "Hierophant Trophy",
+            "Attributes": "Defense: 177-213 (varies)(Base Defense: 58-70)\r\nDefense: 58-70\r\nRequired Level: 42\r\nRequired Strength: 58\r\nDurability: 20\r\nChance To Block: 72%\r\n(Necromancer Only)\n+150-200% Enhanced Defense (varies)\n+5 To Mana After Each Kill\n40% Increased Chance of Blocking\n30% Faster Block Rate\n+2 To Necromancer Skill Levels\n+20 To Energy\nRegenerate Mana 33%\nAll Resistances +40\n+2 To Curses Skills (Necromancer Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Darkforce Spawn",
+            "Gear Type": "Bloodlord Skull",
+            "Attributes": "Defense: 357-417 (varies)(Base Defense: 103-148)\r\nRequired Level: 65\r\nRequired Strength: 106\r\nDurability: 20\r\nChance To Block: 32%\r\n(Necromancer Only)\n+140-180% Enhanced Defense (varies)\n+1-3 To Summoning Skills (Necromancer Only) (varies)\n+1-3 To Poison And Bone Skills (Necromancer Only) (varies)\n+1-3 To Curses (Necromancer Only) (varies)\n+30% Faster Cast Rate\nIncrease Maximum Mana 10%\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Boneflame",
+            "Gear Type": "Succubus Skull",
+            "Attributes": "Defense: 323-367 (varies)(Base Defense: 100-146)\r\nRequired Level: 72\r\nRequired Strength: 95\r\nDurability: 20\r\nChance To Block: 30%\r\n(Necromancer Only)\n+120-150% Enhanced Defense (varies)\n+20% Faster Run/Walk\n+2-3 To Necromancer Skill Levels (varies)\nAll Resistances +20-30 (varies)\n15% Chance To Cast Level 3 Terror When Struck\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Barbarian Items": [
+        {
+            "Name": "Arreat's Face",
+            "Gear Type": "Slayer Guard",
+            "Attributes": "Defense: 302-363 (varies)(Base Defense: 121)\r\nRequired Level: 42\r\nRequired Strength: 118\r\nDurability: 55\r\n(Barbarian Only)\n+150-200% Enhanced Defense (varies)\n30% Faster Hit Recovery\n20% Bonus To Attack Rating\n+2 To Barbarian Skill Levels\n3-6% Life Stolen Per Hit (varies)\nAll Resistances +30\n+20 To Strength\n+20 To Dexterity\n+2 To Combat Skills (Barbarian Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Wolfhowl",
+            "Gear Type": "Fury Visor",
+            "Attributes": "Defense: 332-377 (varies)(Base Defense: 105-150)\r\nRequired Level: 79\r\nRequired Strength: 129\r\nDurability: 35\r\n(Barbarian Only)\n+120-150% Enhanced Defense (varies)\n+2-3 To Warcries (Barbarian Only) (varies)\n+3-6 To Feral Rage (varies)\n+3-6 To Lycanthropy (varies)\n+3-6 To Werewolf (varies)\n+8-15 To Strength (varies)\n+8-15 To Dexterity (varies)\n+8-15 To Vitality (varies)\nLevel 15 Summon Dire Wolf (18 Charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Demonhorn's Edge",
+            "Gear Type": "Destroyer Helm",
+            "Attributes": "Defense: 345-408 (varies)(Base Defense: 111-156)\r\nRequired Level: 61\r\nRequired Strength: 151\r\nDurability: 45\r\n(Barbarian Only)\n+120-160% Enhanced Defense (varies)\n10% Increased Attack Speed\n3-6% Life Stolen Per Hit (varies)\nAttacker Takes Damage of 55-77 (varies)\n+1-3 To Warcries (Barbarian Only) (varies)\n+1-3 To Masteries (Barbarian Only) (varies)\n+1-3 To Combat Skills (Barbarian Only) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Halaberd's Reign",
+            "Gear Type": "Conqueror Crown",
+            "Attributes": "Defense: 384-432 (varies)(Base Defense: 114-159)\r\nRequired Level: 77\r\nRequired Strength: 174\r\nDurability: 50\r\n(Barbarian Only)\n+140-170% Enhanced Defense (varies)\nReplenish Life +15-23 (varies)\n+20% Faster Hit Recovery\n+2 To Barbarian Skill Levels\n+1 To Masteries (Barbarian Only)\n+1-2 To Battle Command (Barbarian Only) (varies)\n+1-2 To Battle Orders (Barbarian Only) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Sorceress Items": [
+        {
+            "Name": "The Oculus",
+            "Gear Type": "Swirling Crystal",
+            "Attributes": "One-Hand Damage: 18 To 42 (30 Avg)\r\nRequired Level: 42\r\nDurability: 50\r\nBase Weapon Speed: [10]\r\n(Sorceress Only)\n+3 To Sorceress Skill Levels\n+5 To Mana After Each Kill\nAll Resistances +20\n25% Chance To Cast Level 1 Teleport When Struck\n+30% Faster Cast Rate\n+20 To Vitality\n+20 To Energy\n+20% Enhanced Defense\n50% Better Chance Of Getting Magic Items\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Eschuta's Temper",
+            "Gear Type": "Eldritch Orb",
+            "Attributes": "One-Hand Damage: 18 To 50 (34 Avg)\r\nRequired Level: 72\r\nDurability: 30\r\nBase Weapon Speed: [-10]\r\n(Sorceress Only)\n+1-3 To Sorceress Skill Levels (varies)\n+40% Faster Cast Rate\n+10-20% To Fire Skill Damage (varies)\n+10-20% To Lightning Skill Damage (varies)\n+20-30 To Energy (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Death's Fathom",
+            "Gear Type": "Dimensional Shard",
+            "Attributes": "One-Hand Damage: 30 To 53 (41.5 Avg)\r\nRequired Level: 73\r\nDurability: 50\r\nBase Weapon Speed: [10]\r\n(Sorceress Only)\n+3 To Sorceress Skill Levels\n+20% Faster Cast Rate\n+15-30% To Cold Skill Damage (varies)\nLightning Resist +25-40% (varies)\nFire Resist +25-40% (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Druid Items": [
+        {
+            "Name": "Jalal's Mane",
+            "Gear Type": "Totemic Mask",
+            "Attributes": "Defense: 247-297 (varies)(Base Defense: 73-98)\r\nRequired Level: 42\r\nRequired Strength: 65\r\nDurability: 20\r\n(Druid Only)\n+150-200% Enhanced Defense (varies)\n30% Faster Hit Recovery\n20% Bonus To Attack Rating\n+2 To Druid Skill Levels\nAll Resistances +30\n+5 To Mana After Each Kill\n+20 To Strength\n+20 To Energy\n+2 To Shape Shifting Skills (Druid Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Cerebus' Bite",
+            "Gear Type": "Blood Spirit",
+            "Attributes": "Defense: 335-350 (varies)(Base Defense: 101-145)\r\nRequired Level: 63\r\nRequired Strength: 86\r\nDurability: 20\r\n(Druid Only)\n+130-140% Enhanced Defense (varies)\n60-120% Bonus to Attack Rating (varies)\n7-10% Life Stolen Per Hit (varies)\n33% Chance of Open Wounds\n+2-4 To Shape Shifting Skills (Druid Only) (varies)\n+1-2 To Feral Rage (Druid Only) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Ravenlore",
+            "Gear Type": "Sky Spirit",
+            "Attributes": "Defense: 343-390 (varies)(Base Defense: 103-155)\r\nRequired Level: 74\r\nRequired Strength: 113\r\nDurability: 20\r\n(Druid Only)\n+120-150% Enhanced Defense (varies)\n+7 To Raven (Druid Only)\n+3 To Elemental Skills (Druid Only)\n+20-30 To Energy (varies)\n-10-20% To Enemy Fire Resistance (varies)\nAll Resistances +15-25 (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Spirit Keeper",
+            "Gear Type": "Earth Spirit",
+            "Attributes": "Defense: 413-443 (varies)(Base Defense: 107-152)\r\nRequired Level: 67\r\nRequired Strength: 104\r\nDurability: 20\r\n(Druid Only)\n+170-190% Enhanced Defense (varies)\n+1-2 To Druid Skill Levels (varies)\n+20% Faster Hit Recovery\n+10% To Maximum Poison Resist\nFire Resist +30-40% (varies)\n+9-14 Lightning Absorb (varies)\nCold Absorb 15-25% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Unique Paladin Items": [
+        {
+            "Name": "Alma Negra",
+            "Gear Type": "Sacred Rondache",
+            "Attributes": "Defense: 461-511 (varies)(Base Defense: 138-164)\r\nRequired Level: 77\r\nRequired Strength: 109\r\nChance To Block: 78%\r\nSmite Damage: 35 To 58\r\nDurability: 68\r\n(Paladin Only)\n+180-210% Enhanced Defense (varies)\n+1-2 To Paladin Skill Levels (varies)\n20% Increased Chance of Blocking\n30% Faster Block Rate\n+40-75% Enhanced Damage (varies)\n40-75% Bonus to Attack Rating (varies)\nMagic Damage Reduced By 5-9 (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Herald Of Zakarum",
+            "Gear Type": "Gilded Shield",
+            "Attributes": "Defense: 422-507 (varies)(Base Defense: 144-168)\r\nRequired Level: 42\r\nRequired Strength: 89\r\nDurability: 50\r\nChance To Block: 82%\r\nSmite Damage: 20 To 28\r\n(Paladin Only)\n+150-200% Enhanced Defense (varies)\n30% Increased Chance Of Blocking\n30% Faster Block Rate\n20% Bonus To Attack Rating\n+20 To Strength\n+20 To Vitality\nAll Resistances +50\n+2 To Paladin Skill Levels\n+2 To Combat Skills (Paladin Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Dragonscale",
+            "Gear Type": "Zakarum Shield",
+            "Attributes": "Defense: 523-582 (varies)(Base Defense: 169-193)\r\nRequired Level: 80\r\nRequired Strength: 142\r\nDurability: 65\r\nChance To Block: 52%\r\nSmite Damage: 46 To 46\r\n(Paladin Only)\n+170-200% Enhanced Defense (varies)\nAdds 211-371 Fire Damage\n+15% To Fire Skill Damage\n+10 To Hydra*\n+5% To Maximum Fire Resist\n+15-25 To Strength (varies)\nFire Absorb 10-20% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Normal Unique Helms": [
+        {
+            "Name": "Biggin's Bonnet",
+            "Gear Type": "Cap",
+            "Attributes": "Defense: 17-19 (varies)(Base Defense: 3-5)\r\nRequired Level: 3\r\nDurability: 12\n+30% Enhanced Damage\n+14 Defense\n+30 To Attack Rating\n+15 To Mana\n+15 To Life\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Tarnhelm",
+            "Gear Type": "Skull Cap",
+            "Attributes": "Defense: 8-11 (varies)\r\nRequired Level: 15\r\nRequired Strength: 15\r\nDurability: 18\n+1 To All Skill Levels\n25-50% Better Chance of Getting Magic Items (varies)\n75% Extra Gold From Monsters\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Coif of Glory",
+            "Gear Type": "Helm",
+            "Attributes": "Defense: 25-28 (varies)(Base Defense: 15-18)\r\nRequired Level: 14\r\nRequired Strength: 26\r\nDurability: 24\n+10 Defense\nAttacker Takes Lightning Damage of 7*\nHit Blinds Target*\nLightning Resist +15%\n+100 Defense vs. Missile*\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Duskdeep",
+            "Gear Type": "Full Helm",
+            "Attributes": "Defense: 45-60 (varies)(Base Defense: 23-26)\r\nRequired Level: 17\r\nRequired Strength: 41\r\nDurability: 30\n+30-50% Enhanced Defense (varies)\n+10-20 Defense (varies)\nDamage Reduced By 7\nAll Resistances +15\n+8 To Maximum Damage\n-2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Howltusk",
+            "Gear Type": "Great Helm",
+            "Attributes": "Defense: 64  (Base Defense: 30-35)\r\nRequired Level: 25\r\nRequired Strength: 63\r\nDurability: 40\n35% Damage Taken Goes to Mana\n+80% Enhanced Defense\nMagic Damage Reduced By 2\nAttacker Takes Damage of 3*\nKnockback\nHit Causes Monster To Flee 25%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Face of Horror",
+            "Gear Type": "Mask",
+            "Attributes": "Defense: 34-52 (varies)(Base Defense: 9-27)\r\nRequired Level: 20\r\nRequired Strength: 23\r\nDurability: 20\n+25 Defense\n+50% Damage To Undead\nHit Causes Monsters to Flee 50%\nAll Resistances +10\n+20 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Undead Crown",
+            "Gear Type": "Crown",
+            "Attributes": "Defense: 99-113 (varies)(Base Defense: 25-45)\r\nRequired Level: 29\r\nRequired Strength: 55\r\nDurability: 50\n+30-60% Enhanced Defense (varies)\n+50% Damage Vs. Undead\n+50-100 Attack Rating Vs. Undead (varies)\nHalf Freeze Duration\n5% Life Stolen Per Hit\nPoison Resist +50%\n+40 Defense\n+3 To Skeleton Mastery (Necromancer Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Wormskull",
+            "Gear Type": "Bone Helm",
+            "Attributes": "Defense: 33-36 (varies)\r\nRequired Level: 21\r\nRequired Strength: 25\r\nDurability: 40\n+1 To Necromancer Skill Levels\n+80 Poison Damage Over 8 Seconds\n5% Life Stolen Per Hit\nPoison Resist +25%\n+10 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Armor": [
+        {
+            "Name": "Greyform",
+            "Gear Type": "Quilted Armor",
+            "Attributes": "Defense: 28-31 (varies)(Base Defense: 8-11)\r\nRequired Level: 7\r\nRequired Strength: 12\r\nDurability: 20\n+20 Defense\n5% Life Stolen Per Hit\nMagic Damage Reduced By 3\nCold Resist 20%\nFire Resist 20%\n+10 To Dexterity\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Blinkbat's Form",
+            "Gear Type": "Leather Armor",
+            "Attributes": "Defense: 39-42 (varies)(Base Defense: 14-17)\r\nRequired Level: 12\r\nRequired Strength: 15\r\nDurability: 24\n+25 Defense\n+50 Defense VS. Missile*\n10% Faster Run/Walk*\n40% Faster Hit Recovery\nAdds 3-6 Fire Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Centurion",
+            "Gear Type": "Hard Leather Armor",
+            "Attributes": "Defense: 51-54 (varies)(Base Defense: 21-24)\r\nRequired Level: 14\r\nRequired Strength: 20\r\nDurability: 28\n+30 Defense\nReplenish Life +5\n+50 To Attack Rating\n+15 To Mana\n+15 To Max Stamina\n+15 To Life\n25% Slow Stamina Drain\nDamage Reduced By 2\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Twitchthroe",
+            "Gear Type": "Studded Leather",
+            "Attributes": "Defense: 57-60 (varies)(Base Defense: 32-35)\r\nRequired Level: 16\r\nRequired Strength: 27\r\nDurability: 32\n+25 Defense\n25% Increase chance of blocking*\n20% Faster Hit Recovery\n20% Increased Attack Speed\n+10 To Dexterity\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Darkglow",
+            "Gear Type": "Ring Mail",
+            "Attributes": "Defense: 83-98 (varies)(Base Defense: 45-48)\r\nRequired Level: 14\r\nRequired Strength: 36\r\nDurability: 26\n+70-100% Enhanced Defense (varies)\n5% To Max Poison Resist\n5% To Max Cold Resist\n5% To Max Lightning Resist\n5% To Max Fire Resist\n+50 Defense vs. Melee\n+20 To Attack Rating\nAll Resistances +10\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hawkmail",
+            "Gear Type": "Scale Mail",
+            "Attributes": "Defense: 109-122 (varies)(Base Defense: 57-60)\r\nRequired Level: 15\r\nRequired Strength: 44\r\nDurability: 36\n+80-100% Enhanced Defense (varies)\n10% Faster Run/Walk\n15% To Max Cold Resist\nCold Resist +15%\nCannot Be Frozen\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Venom Ward",
+            "Gear Type": "Breast Plate",
+            "Attributes": "Defense: 110-138 (varies)(Base Defense: 65-68)\r\nRequired Level: 20\r\nRequired Strength: 30\r\nDurability: 50\n+60-100% Enhanced Defense (varies)\n+2 To Light Radius\n15% To Max Poison Resist\nPoison Resist +90%\nPoison Length Reduced By 50%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Sparking Mail",
+            "Gear Type": "Chain Mail",
+            "Attributes": "Defense: 133-140 (varies)(Base Defense: 72-75)\r\nRequired Level: 17\r\nRequired Strength: 48\r\nDurability: 45\n+75-85% Enhanced Defense (varies)\nLightning Resist +30%\nAttacker Takes Lightning Damage of 10-14 (varies)*\nAdds 1-20 Lightning Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Iceblink",
+            "Gear Type": "Splint Mail",
+            "Attributes": "Defense: 163-172 (varies)(Base Defense: 90-95)\r\nRequired Level: 22\r\nRequired Strength: 51\r\nDurability: 30\n+70-80% Enhanced Defense (varies)\nFreezes Target*\nCold Resist +30%\nMagic Damage Reduced By 1\n+4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Heavenly Garb",
+            "Gear Type": "Light Plate",
+            "Attributes": "Defense: 216 (Base Defense: 90-107)\r\nRequired Level: 29\r\nRequired Strength: 41\r\nDurability: 60\n+100% Enhanced Defense\nRegenerate Mana 25%\nAll Resistances +10\n+15 To Energy\n+50% Damage To Undead\n+100 To Attack Rating Against Undead\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Rockfleece",
+            "Gear Type": "Field Plate",
+            "Attributes": "Defense: 212-243 (varies)(Base Defense: 101-105)\r\nRequired Level: 28\r\nRequired Strength: 50\r\nDurability: 48\n+100-130% Enhanced Defense (varies)\nRequirements -10%\nDamage Reduced By 10%\n+5 To Strength\nDamage Reduced By 5\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Boneflesh",
+            "Gear Type": "Plate Mail",
+            "Attributes": "Defense: 234-257 (varies)(Base Defense: 108-116)\r\nRequired Level: 26\r\nRequired Strength: 65\r\nDurability: 60\n+100-120% Enhanced Defense (varies)\n5% Life Stolen Per Hit\n25% Chance Of Open Wounds\n+35 To Attack Rating\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Rattlecage",
+            "Gear Type": "Gothic Plate",
+            "Attributes": "Defense: 328-335 (varies)(Base Defense: 128-135)\r\nRequired Level: 29\r\nRequired Strength: 70\r\nDurability: 55\n+200 Defense\n25% Chance of Crushing Blow\nHit Causes Monster To Flee 40%\n+45 To Attack Rating\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Goldskin",
+            "Gear Type": "Full Plate Mail",
+            "Attributes": "Defense: 356-405 (varies)(Base Defense: 150-161)\r\nRequired Level: 28\r\nRequired Strength: 80\r\nDurability: 70\n+120-150% Enhanced Defense\n+2 To Light Radius\nAll Resistances +35\nAttacker Takes Damage of 10*\n100% Extra Gold From Monsters\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Silks of the Victor",
+            "Gear Type": "Ancient Armor",
+            "Attributes": "Defense: 468-514 (varies)(Base Defense: 218-233)\r\nRequired Level: 28\r\nRequired Strength: 100\r\nDurability: 60\n+100-120% Enhanced Defense (varies)\n+1 To All Skills\n5% Mana Stolen Per Hit\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Shields": [
+        {
+            "Name": "Pelta Lunata",
+            "Gear Type": "Buckler",
+            "Attributes": "Defense: 39 (Base Defense: 4-6)\r\nRequired Level: 2\r\nRequired Strength: 12\r\nDurability: 20-24 (varies)\r\nChance to Block: Pal: 50%, Ama/Asn/Bar/: 45%, Dru/Nec/Sor: 40%\r\nPaladin Smite Damage: 1 To 3\n+30-40% Enhanced Defense (varies)\n+30 Defense\n20% Increased Chance Of Blocking\n40% Faster Block Rate\n+10 To Energy\n+10 To Vitality\n+2 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Umbral Disk",
+            "Gear Type": "Small Shield",
+            "Attributes": "Defense: 45-46 (varies)(Base Defense: 8-10)\r\nRequired Level: 9\r\nRequired Strength: 22\r\nDurability: 26-31 (varies)\r\nChance to Block: Pal: 65%, Ama/Asn/Bar: 60%, Dru/Nec/Sor: 55%\r\nPaladin Smite Damage: 2 To 3\n+40-50% Enhanced Defense (varies)\n+30 Defense\n30% Increased Chance Of Blocking\nHit Blinds Target*\n+20 To Life\n+10 To Dexterity\n-2 To Light Radius\n+10-15 Durability (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormguild",
+            "Gear Type": "Large Shield",
+            "Attributes": "Defense: 52-54 (varies)(Base Defense: 12-14)\r\nRequired Level: 13\r\nRequired Strength: 34\r\nDurability: 34-39 (varies)\r\nChance to Block: Pal: 72%, Ama/Asn/Bar: 67%, Dru/Nec/Sor: 62%\r\nPaladin Smite Damage: 2 To 4\n+50-60% Enhanced Defense (varies)\n+30 Defense\n+30% Increased Chance Of Blocking\nLightning Resist +25%\nAdds 1-6 Lightning Damage\nAttacker Takes Lightning Damage Of 3\nMagic Damage Reduced By 1\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Steelclash",
+            "Gear Type": "Kite Shield",
+            "Attributes": "Defense: 50-58 (varies)(Base Defense: 16-18)\r\nRequired Level: 17\r\nRequired Strength: 47\r\nDurability: 45-50 (varies)\r\nChance to Block: Pal: 63%, Ama/Asn/Bar: 58%, Dru/Nec/Sor: 53%\r\nPaladin Smite Damage: 2 To 5\n+60-100% Enhanced Defense (varies)\n+20 Defense\n25% Increased chance of blocking\n20% Faster Block Rate\nAll Resistances +15\n+1 To Paladin Skill Levels\n+3 To Light Radius\nDamage Reduced By 3\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Swordback Hold",
+            "Gear Type": "Spiked Shield",
+            "Attributes": "Defense: 43-51 (varies)(Base Defense: 15-25)\r\nRequired Level: 15\r\nRequired Strength: 30\r\nDurability: 40\r\nChance to Block: Pal: 60%, Ama/Asn/Bar: 55%, Dru/Nec/Sor: 50%\r\nPaladin Smite Damage: 5 To 9\n+30-60% Enhance Defense (varies)\n+10 Defense\n20% Increased Chance of Blocking\n50% Chance of Open Wounds*\nAttacker Takes Damage of 10\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bverrit Keep",
+            "Gear Type": "Tower Shield",
+            "Attributes": "Defense: 76-87 (varies)(Base Defense: 22-25)\r\nRequired Level: 19\r\nRequired Strength: 75\r\nDurability: 140-160 (varies)\r\nChance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%\r\nPaladin Smite Damage: 1 To 5\n+80-120% Defense (varies)\n+30 Defense\n10% Increased Chance Of Blocking\nFire Resist +75%\n+5 To Strength\nMagic Damage Reduced By 5\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Wall of the Eyeless",
+            "Gear Type": "Bone Shield",
+            "Attributes": "Defense: 50-53 (varies)(Base Defense: 10-30)\r\nRequired Level: 20\r\nRequired Strength: 25\r\nDurability: 40\r\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\r\nPaladin Smite Damage: 3 To 6\n+30-40% Enhanced Defense (varies)\n+10 Defense\n+5 to Mana after Each Kill*\n20% Faster Cast Rate\n3% Mana Stolen Per Hit\nPoison Resist +20%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Ward",
+            "Gear Type": "Gothic Shield",
+            "Attributes": "Defense: 112 (Base Defense: 30-35)\r\nRequired Level: 26\r\nRequired Strength: 60\r\nDurability: 40\r\nChance to Block: Pal: 56%, Ama/Asn/Bar: 51%, Dru/Nec/Sor: 46%\r\nPaladin Smite Damage: 2 To 6\n+100% Enhanced Defense\n+40 Defense\n10% Increased chance of blocking\nAll Resistances +30-50 (varies)\nMagic Damage Reduced By 2\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Gloves": [
+        {
+            "Name": "The Hand of Broc",
+            "Gear Type": "Leather Gloves",
+            "Attributes": "Defense: 14 (Base Defense: 2-3)\r\nRequired Level: 5\r\nDurability: 12\n+10-20% Enhanced Defense (varies)\n+10 Defense\n3% Life Stolen Per Hit\n3% Mana Stolen Per Hit\nPoison Resist +10%\n+20 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bloodfist",
+            "Gear Type": "Heavy Gloves",
+            "Attributes": "Defense: 17-18 (varies)(Base Defense: 5-6)\r\nRequired Level: 9\r\nDurability: 14\n+10-20% Enhanced Defense (varies)\n+10 Defense\n+10% Increased Attack Speed\n+30% Faster Hit Recovery\n+40 To Life\n+5 To Min Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Chance Guards",
+            "Gear Type": "Chain Gloves",
+            "Attributes": "Defense: 27-28 (varies)(Base Defense: 8-9)\r\nRequired Level: 15\r\nRequired Strength: 25\r\nDurability: 16\n+20-30% Enhanced Defense (varies)\n+15 Defense\n+25 To Attack Rating\n25-40% Better Chance of Getting Magic Item (varies)\n200% Extra Gold From Monsters\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Magefist",
+            "Gear Type": "Light Gauntlets",
+            "Attributes": "Defense: 24-25 (varies)(Base Defense: 9-11)\r\nRequired Level: 23\r\nRequired Strength: 45\r\nDurability: 18\n+20-30% Enhanced Defense (varies)\n+10 Defense\n+1 To Fire Skills\n+20% Faster Cast Rate\nRegenerate Mana 25%\nAdds 1-6 Fire Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Frostburn",
+            "Gear Type": "Gauntlets",
+            "Attributes": "Defense: 47-49 (varies)(Base Defense: 12-15)\r\nRequired Level: 29\r\nRequired Strength: 60\r\nDurability: 24\n+10-20% Enhanced Defense (varies)\n+30 Defense\n+5% Enhanced Damage\nIncrease Maximum Mana 40%*\nAdds 1-6 Cold Damage, Cold Duration: 2 Seconds\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Boots": [
+        {
+            "Name": "Hotspur",
+            "Gear Type": "Boots",
+            "Attributes": "Defense: 10 (Base Defense: 2-3)\r\nRequired Level: 5\r\nDurability: 12\r\nAssassin Kick Damage: 3-8\n+10-20% Enhanced Defense (varies)\n+6 Defense\nFire Resist +45%\n15% To Max Fire Resist\nAdds 3-6 Fire Damage\n+15 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gorefoot",
+            "Gear Type": "Heavy Boots",
+            "Attributes": "Defense: 20-21 (varies)(Base Defense: 5-6)\r\nRequired Level: 9\r\nRequired Strength: 18\r\nDurability: 14\r\nAssassin Kick Damage: 4-10\n+20-30% Enhanced Defense (varies)\n20% Faster Run/Walk\n2% Mana Stolen Per Hit\nAttacker Takes Damage of 2\n+12 Defense\n+2 To Leap (Barbarian Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Treads of Cthon",
+            "Gear Type": "Chain Boots",
+            "Attributes": "Defense: 25-26 (varies)(Base Defense: 8-9)\r\nRequired Level: 15\r\nRequired Strength: 30\r\nDurability: 16\r\nAssassin Kick Damage: 6-12\n+30-40% Enhanced Defense (varies)\n+12 Defense\n50% Slower Stamina Drain\n30% Faster Run/Walk\n+50 Defense VS. Missile*\n+10 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Goblin Toe",
+            "Gear Type": "Light Plated Boots",
+            "Attributes": "Defense: 33-34 (varies)(Base Defense: 9-11)\r\nRequired Level: 22\r\nRequired Strength: 50\r\nDurability: 18\r\nAssassin Kick Damage: 8-16\n+50-60% Enhanced Defense (varies)\n25% Chance of a Crushing Blow\n-1 To Light Radius\nDamage Reduced By 1\nMagic Damage Reduced By 1\n+15 Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Tearhaunch",
+            "Gear Type": "Greaves",
+            "Attributes": "Defense: 60-63 (varies)(Base Defense: 12-15)\r\nRequired Level: 29\r\nRequired Strength: 70\r\nDurability: 24\r\nAssassin Kick Damage: 10-20\n+60-80% Enhanced Defense (varies)\n20% Faster Run/Walk\nAll Resistances +10\n+35 Defense\n+5 To Dexterity\n+5 To Strength\n+2 To Vigor (Paladin Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Unique Normal Belts": [
+        {
+            "Name": "Lenymo",
+            "Gear Type": "Sash",
+            "Attributes": "Defense: 2\r\nRequired Level: 7\r\nDurability: 12\r\n8 Boxes\nRegenerate Mana 30%\nAll Resistances +5\n+15 To Mana\n+1 To Light Radius\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Snakecord",
+            "Gear Type": "Light Belt",
+            "Attributes": "Defense: 14-15 (varies)(Base Defense: 3) \r\nRequired Level: 12\r\nDurability: 14\r\n8 Boxes\n+20-30% Enhanced Defense (varies)\n+10 Defense\nReplenish Life +5\nPoison Resist +25%\nPoison Length Reduced By 50%\n+12 Poison Damage Over 3 Seconds\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Nightsmoke",
+            "Gear Type": "Belt",
+            "Attributes": "Defense: 22-24 (varies)(Base Defense: 5)\r\nRequired Level: 20\r\nRequired Strength: 25\r\nDurability: 16\r\n12 Boxes\n+30-50% Enhanced Defense (varies)\n+15 Defense\n50% Damage Taken Goes to Mana*\nDamage Reduced By 2\nAll Resistances +10\n+20 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Goldwrap",
+            "Gear Type": "Heavy Belt",
+            "Attributes": "Defense: 34-36 (varies)(Base Defense: 6)\r\nRequired Level: 27\r\nRequired Strength: 45\r\nDurability: 18\r\n12 Boxes\n+40-60% Enhanced Defense (varies)\n+25 Defense\n10% Increased Attack Speed\n30% Better Chance Of Getting Magic Items\n50-80% Extra Gold From Monsters (varies)\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bladebuckle",
+            "Gear Type": "Plated Belt",
+            "Attributes": "Defense: 51-54 (varies)(Base Defense: 8-11)\r\nRequired Level: 29\r\nRequired Strength: 60\r\nDurability: 24\r\n16 Boxes\n+80-100% Enhanced Defense (varies)\n+30 Defense\n+30% Faster Hit Recovery\n+10 To Dexterity\n+5 To Strength\nDamage Reduced By 3\nAttacker Takes Damage of 8*\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Axes": [
+        {
+            "Name": "The Gnasher",
+            "Gear Type": "Hand Axe",
+            "Attributes": "One-Hand Damage: (4-5) To (9-10) (6.5-7.5 Avg)\r\nRequired Level: 5\r\nDurability: 28\r\nBase Weapon Speed: [0]\n+60-70% Enhanced Damage (varies)\n20% Chance of Crushing Blow\n50% Chance of Open Wounds*\n+8 To Strength\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Deathspade",
+            "Gear Type": "Axe",
+            "Attributes": "One-Hand Damage: 14 To (17-18) (15.5-16 Avg)\r\nRequired Level: 9\r\nRequired Strength: 32\r\nDurability: 24\r\nBase Weapon Speed: [10]\n+60-70% Enhanced Damage (varies)\n+8 To Minimum Damage\n15% Bonus to Attack Rating\nHit Blinds Target*\n+4 points of Mana after each kill\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bladebone",
+            "Gear Type": "Double Axe",
+            "Attributes": "One-Hand Damage: (6-7) To (16-19) (11-13 Avg)\r\nRequired Level: 15\r\nRequired Strength: 43\r\nDurability: 24\r\nBase Weapon Speed: [10]\n+30-50% Enhanced Damage (varies)\n+100% Damage To Undead\nAdds 8-12 Fire Damage\n20% Increased Attack Speed\n+40 to Attack Rating Against Undead\n+20 Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skull Splitter",
+            "Gear Type": "Military Pick",
+            "Attributes": "One-Hand Damage: (11-14) To (17-22) (14-18 Avg)\r\nRequired Level: 21\r\nRequired Strength: 49\r\nRequired Dexterity: 33\r\nDurability: 26\r\nBase Weapon Speed: [-10]\n+60-100% Enhanced Damage (varies)\nAdds 1-(12-15) Lightning Damage (varies)\n+50-100 To Attack Rating (varies)\n15% Chance Of Open Wounds\nHit Blinds Target +2*\nRegenerate Mana 20%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Rakescar",
+            "Gear Type": "War Axe",
+            "Attributes": "One-Hand Damage: (17-25) To (31-45) (24-35 Avg)\r\nRequired Level: 27\r\nRequired Strength: 67\r\nDurability: 26\r\nBase Weapon Speed: [0]\n+75-150% Enhanced Damage (varies)\n+38 Poison Damage Over 3 Seconds\n30% Increased Attack Speed\n+50 To Attack Rating\nPoison resist +50%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Axe of Fechmar",
+            "Gear Type": "Large Axe",
+            "Attributes": "Two-Hand Damage: (10-11) To (22-24) (16-17.5 Avg)\r\nRequired Level: 8\r\nRequired Strength: 35\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+70-90% Enhanced Damage (varies)\nFreezes Target +3*\nCold Resist +50%\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Goreshovel",
+            "Gear Type": "Broad Axe",
+            "Attributes": "Two-Hand Damage: (14-15) To (34-36) (24-25.5 Avg)\r\nRequired Level: 14\r\nRequired Strength: 48\r\nDurability: 35\r\nBase Weapon Speed: [0]\n+40-50% Enhanced Damage (varies)\n+9 To Maximum Damage\n60% Chance of Open Wounds*\n30% Increased Attack Speed\n+25 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Chieftain",
+            "Gear Type": "Battle Axe",
+            "Attributes": "Two-Hand Damage: 24 To 64 (44 Avg)\r\nRequired Level: 19\r\nRequired Strength: 54\r\nDurability: 40\r\nBase Weapon Speed: [10]\n+100% Enhanced Damage\n20% Increased Attack Speed\nAdds 1-40 Lightning Damage\nAll Resistances +10-20 (varies)\n+6 To Mana After Each Kill\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Brainhew",
+            "Gear Type": "Great Axe",
+            "Attributes": "Two-Hand Damage: (27-30) To (45-54) (36-42 Avg)\r\nRequired Level: 25\r\nRequired Strength: 63\r\nRequired Dexterity: 39\r\nDurability: 50\r\nBase Weapon Speed: [-10]\n+50-80% Enhanced Damage (varies)\n+14 To Minimum Damage\nAdds 15-35 Fire Damage\n10-13% Mana Stolen Per Hit (varies)\n+25 To Mana\n+4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Humongous",
+            "Gear Type": "Giant Axe",
+            "Attributes": "Two-Hand Damage: (47-56) To (96-124) (71.5-90 Avg)\r\nRequired Level: 29\r\nRequired Strength: 84\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+80-120% Enhanced Damage (varies)\nAdds 8-(15-25) Damage (varies)\n33% chance of Crushing Blow\nRequirements 20%*\n+20-30 to Strength (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Bows": [
+        {
+            "Name": "Pluckeye",
+            "Gear Type": "Short Bow",
+            "Attributes": "Two-Hand Damage: 2 To 8 (5 Avg)\r\nRequired Level: 7\r\nRequired Dexterity: 15\r\nBase Weapon Speed: [5]\n+100% Enhanced Damage\n+28 to Attack Rating\n3% Mana Stolen Per Hit\n+10 to Life\n+2 To Mana After Each Kill\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Witherstring",
+            "Gear Type": "Hunter's Bow",
+            "Attributes": "Two-Hand Damage: (3-4) To (11-12) (7-8 Avg)\r\nRequired Level: 13\r\nRequired Dexterity: 28\r\nBase Weapon Speed: [-10]\n+40-50% Enhanced Damage (varies)\nFires Magic Arrows [Level 3]\nAdds 1-3 Damage\n30% Increased Attack Speed\n+50 To Attack Rating\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Raven Claw",
+            "Gear Type": "Long Bow",
+            "Attributes": "Two-Hand Damage: (4-5) To (16-17) (10-11 Avg)\r\nRequired Level: 15\r\nRequired Strength: 22\r\nRequired Dexterity: 19\r\nBase Weapon Speed: [0]\n+60-70% Enhanced Damage (varies)\nFires Explosive Arrows [Level 3]\n50% Bonus to Attack Rating\n+3 To Dexterity\n+3 To Strength\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rogue's Bow",
+            "Gear Type": "Composite Bow",
+            "Attributes": "Two-Hand Damage: (5-6) To (11-12) (8-9 Avg)\r\nRequired Level: 20\r\nRequired Strength: 25\r\nRequired Dexterity: 35\r\nBase Weapon Speed: [-10]\n+40-60% Enhanced Damage (varies)\n+100% Damage to Undead\n30% Deadly Strike\n50% Increased Attack Speed\n+60 to Attack Rating\nAll Resistances +10\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormstrike",
+            "Gear Type": "Short Battle Bow",
+            "Attributes": "Two-Hand Damage: (8-9) To (18-20) (13-14.5 Avg)\r\nRequired Level: 25\r\nRequired Strength: 30\r\nRequired Dexterity: 40\r\nBase Weapon Speed: [0]\n+70-90% Enhanced Damage (varies)\nAdds 1-30 lightning damage\nPiercing Attack (25)\n+28 to Attack Rating\nLightning Resist +25%\n+8 to Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Wizendraw",
+            "Gear Type": "Long Battle Bow",
+            "Attributes": "Two-Hand Damage: 5 To (30-32) (17.5-18.5 Avg)\r\nRequired Level: 26\r\nRequired Strength: 40\r\nRequired Dexterity: 50\r\nBase Weapon Speed: [10]\n+70-80% Enhanced Damage (varies)\n+50-100 To Attack Rating (varies)\nFires Magic Arrows [Level 5]\n20% Increased Attack Speed\nCold Resist 26%\n+15 to Energy\n+30 to Mana\n-(20-35)% To Enemy Cold Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Hellclap",
+            "Gear Type": "Short War Bow",
+            "Attributes": "Two-Hand Damage: (10-11) To (23-26) (16.5-18.5 Avg)\r\nRequired Level: 27\r\nRequired Strength: 35\r\nRequired Dexterity: 55\r\nBase Weapon Speed: [0]\n+70-90% Enhanced Damage (varies)\nAdds 15-(30-50) Fire Damage (varies)\n10% Increased Attack Speed\n+50-75 to Attack Rating (varies)\n+1 To Fire Skills*\nFire Resist +40%\n+12 to Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blastbark",
+            "Gear Type": "Long War Bow",
+            "Attributes": "Two-Hand Damage: (5-6) To (39-52) (22-29 Avg)\r\nRequired Level: 28\r\nRequired Strength: 50\r\nRequired Dexterity: 65\r\nBase Weapon Speed: [10]\n+70-130% Enhanced Damage (varies)\n+1 To Amazon Skill Levels\n3% Mana stolen per hit\n+5 to Strength\n+2 To Exploding Arrow (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Crossbows": [
+        {
+            "Name": "Leadcrow",
+            "Gear Type": "Light Crossbow",
+            "Attributes": "Two-Hand Damage: 10 To 15 (12.5 Avg)\r\nRequired Level: 9\r\nRequired Strength: 21\r\nRequired Dexterity: 27\r\nBase Weapon Speed: [-10]\n+70% Enhanced Damage\n25% Deadly Strike\n+40 to Attack Rating\nPoison Resist +30%\n+10 to Life\n+10 to Dexterity\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Ichorsting",
+            "Gear Type": "Crossbow",
+            "Attributes": "Two-Hand Damage: 13 To 24 (18.5 Avg)\r\nRequired Level: 18\r\nRequired Strength: 40\r\nRequired Dexterity: 33\r\nBase Weapon Speed: [0]\n+50% Enhanced Damage\nAdds 30 Poison Damage Over 3 Seconds\n20% Increased Attack Speed\nPiercing Attack (50)\n+50 to Attack Rating\n+20 to Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hellcast",
+            "Gear Type": "Heavy Crossbow",
+            "Attributes": "Two-Hand Damage: (23-25) To (44-46) (33.5-35.5 Avg)\r\nRequired Level: 27\r\nRequired Strength: 60\r\nRequired Dexterity: 40\r\nBase Weapon Speed: [10]\n+70-80% Enhanced Damage (varies)\nFires Explosive Arrows Or Bolts [Level 5]\nAdds 15-35 Fire Damage\n20% Increased Attack Speed\n+70 to Attack Rating\n15% To Max Fire Resist\nFire Resist +15%\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Doomslinger",
+            "Gear Type": "Repeating Crossbow",
+            "Attributes": "Two-Hand Damage: (9-12) To (19-24) (14-18 Avg)\r\nRequired Level: 28\r\nRequired Strength: 40\r\nRequired Dexterity: 50\r\nBase Weapon Speed: [-40]\n+60-100% Enhanced Damage (varies)\nPiercing Attack (35)\n30% Increased Attack Speed\n+1 To Amazon Skill Levels\n+15 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Daggers": [
+        {
+            "Name": "Gull",
+            "Gear Type": "Dagger",
+            "Attributes": "One-Hand Damage: 2 To 19 (10.5 Avg)\r\nRequired Level: 4\r\nDurability: 16\r\nBase Weapon Speed: [-20]\nAdds 1-15 damage\n100% Better Chance of Getting Magic Item\n-5 to Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Diggler",
+            "Gear Type": "Dirk",
+            "Attributes": "One-Hand Damage: 4 To 13 (8.5 Avg)\r\nRequired Level: 11\r\nRequired Dexterity: 25\r\nDurability: 20\r\nBase Weapon Speed: [0]\n+50% Enhanced Damage\nIgnore Target's Defense\n30% Increased Attack Speed\nCold Resist +25%\nFire Resist +25%\n+10 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Jade Tan Do",
+            "Gear Type": "Kris",
+            "Attributes": "One-Hand Damage: 2 To 11 (6.5 Avg)\r\nRequired Level: 19\r\nRequired Dexterity: 45\r\nDurability: 24\r\nBase Weapon Speed: [-20]\n+100-150 to Attack Rating (varies)\n+180 Poison Damage Over 4 Seconds\nPoison Resist +95%\n+20% To Maximum Poison Resist\nCannot Be Frozen\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spectral Shard",
+            "Gear Type": "Blade",
+            "Attributes": "One-Hand Damage: 4 To 15 (9.5 Avg)\r\nRequired Level: 25\r\nRequired Strength: 35\r\nRequired Dexterity: 51\r\nDurability: 24\r\nBase Weapon Speed: [-10]\n50% Faster Cast Rate\n+55 To Attack Rating\nAll Resistances +10\n+50 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Mace Classes: Maces and Mauls": [
+        {
+            "Name": "Felloak",
+            "Gear Type": "Club",
+            "Attributes": "One-Hand Damage: 1 To 10 (5.5 Avg)\r\nRequired Level: 3\r\nDurability: 24\r\nBase Weapon Speed: [-10]\n+70-80% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 6-8 Fire Damage\nKnockback\nLightning Resist +60%\nFire Resist +20%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stoutnail",
+            "Gear Type": "Spiked Club",
+            "Attributes": "One-Hand Damage: 10 To 16 (13 Avg)\r\nRequired Level: 5\r\nDurability: 36\r\nBase Weapon Speed: [0]\n+100% Enhanced Damage\n+50% Damage To Undead\n+7 To Vitality\nAttacker Takes Damage of 3-10 (varies)\nMagic Damage Reduced By 2\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Crushflange",
+            "Gear Type": "Mace",
+            "Attributes": "One-Hand Damage: 4 To (15-16) (9.5-10 Avg)\r\nRequired Level: 9\r\nRequired Strength: 27\r\nDurability: 60\r\nBase Weapon Speed: [0]\n+50-60% Enhanced Damage (varies)\n+50% Damage To Undead\n33% Chance Of Crushing Blow\nKnockback\nFire Resist +50%\n+15 To Strength\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bloodrise",
+            "Gear Type": "Morning Star",
+            "Attributes": "One-Hand Damage: 15 To 35 (25 Avg)\r\nRequired Level: 15\r\nRequired Strength: 36\r\nDurability: 72\r\nBase Weapon Speed: [10]\n+120% Enhanced Damage\n+50% Damage To Undead\n25% Chance Of Open Wounds\n10% Increased Attack Speed\n5% Life Stolen Per Hit\n50% bonus to Attack Rating\n+3 To Sacrifice (Paladin Only)\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The General's Tan Do Li Ga",
+            "Gear Type": "Flail",
+            "Attributes": "One-Hand Damage: 2 To (56-58) (29-30 Avg)\r\nRequired Level: 21\r\nRequired Strength: 41\r\nRequired Dexterity: 35\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+50-60% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 1-20 Damage\n20% Increased Attack Speed\n5% Mana Stolen Per Hit\nSlows Target By 50%\n+25 Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ironstone",
+            "Gear Type": "War Hammer",
+            "Attributes": "One-Hand Damage: (38-47) To (58-72) (48-59.5 Avg)\r\nRequired Level: 27\r\nRequired Strength: 53\r\nDurability: 55\r\nBase Weapon Speed: [20]\n+100-150% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 1-10 Lightning Damage\n+100-150 To Attack Rating (varies)\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bonesnap",
+            "Gear Type": "Maul",
+            "Attributes": "Two-Hand Damage: (90-120) To (129-172) (109.5-146 Avg)\r\nRequired Level: 24\r\nRequired Strength: 69\r\nDurability: 60\r\nBase Weapon Speed: [10]\n+200-300% Enhanced Damage (varies)\n+100% Damage To Undead\n40% chance of Crushing Blow\nCold Resist +30%\nFire Resist +30%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Steeldriver",
+            "Gear Type": "Great Maul",
+            "Attributes": "Two-Hand Damage: (95-133) To (145-203) (120-168 Avg)\r\nRequired Level: 29\r\nRequired Strength: 50\r\nDurability: 60\r\nBase Weapon Speed: [20]\n+150-250% Enhanced Damage (varies)\n+50% Damage To Undead\n40% Increased Attack Speed\nRequirements -50%\nHeal Stamina plus 25%\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Polearms": [
+        {
+            "Name": "Dimoak's Hew",
+            "Gear Type": "Bardiche",
+            "Attributes": "Two-Hand Damage: 2 To 54 (28 Avg)\r\nRequired Level: 8\r\nRequired Strength: 40\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+100% Enhanced Damage\n+20% Increased Attack Speed\n+15 Dexterity\n-8 Defense\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Steelgoad",
+            "Gear Type": "Voulge",
+            "Attributes": "Two-Hand Damage:  (9-10) To (33-37) (21-23.5 Avg)\r\nRequired Level: 14\r\nRequired Strength: 50\r\nDurability: 70-90 (varies)\r\nBase Weapon Speed: [0]\n+60-80% Enhanced Damage (varies)\n30% Deadly Strike\n+30 to Attack Rating\nAll resistances +5\nHit Causes monster to flee 75%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Soul Harvest",
+            "Gear Type": "Scythe",
+            "Attributes": "Two-Hand Damage: (12-15) To (30-38) (21-26.5 Avg)\r\nRequired Level: 19\r\nRequired Strength: 41\r\nRequired Dexterity: 41\r\nDurability: 65\r\nBase Weapon Speed: [-10]\n+50-90% Enhanced Damage (varies)\n30% chance of Open Wounds\n10% Mana Stolen Per Hit\n+45 To Attack Rating\n+5 To Energy\nAll Resistances +20\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Battlebranch",
+            "Gear Type": "Poleaxe",
+            "Attributes": "Two-Hand Damage: (27-30) To (58-66) (42.5-48 Avg)\r\nRequired Level: 25\r\nRequired Strength: 62\r\nDurability: 65\r\nBase Weapon Speed: [10]\n+50-70% Enhanced Damage (varies)\n+30% Increased Attack Speed\n+50-100 To Attack Rating (varies)\n7% Life Stolen Per Hit\n+10 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Woestave",
+            "Gear Type": "Halberd",
+            "Attributes": "Two-Hand Damage: (14-16) To (54-62) (34-39 Avg) \r\nRequired Level: 28\r\nRequired Strength: 75\r\nRequired Dexterity: 47\r\nDurability: 55\r\nBase Weapon Speed: [0]\n+20-40% Enhanced Damage (varies)\n50% Chance Of Open Wounds\nSlows Target By 50%\nHit Blinds Target +3\n-50 To Monster Defense Per Hit\nFreezes Target\nPrevent Monster Heal\n-3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Grim Reaper",
+            "Gear Type": "War Scythe",
+            "Attributes": "Two-Hand Damage: 33 To 43 (38 Avg)\r\nRequired Level: 29\r\nRequired Strength: 80\r\nRequired Dexterity: 80\r\nDurability: 55\r\nBase Weapon Speed: [-10]\n+20% Enhanced Damage\n+15 To Minimum Damage\n100% Deadly Strike\n5% Mana stolen per hit\nPrevent Monster Heal\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Scepters": [
+        {
+            "Name": "Knell Striker",
+            "Gear Type": "Scepter",
+            "Attributes": "One-Hand Damage: 10 To (18-19) (14-14.5 Avg)\r\nRequired Level: 5\r\nRequired Strength: 25\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+70-80% Enhanced Damage (varies)\n+50% Damage To Undead\n25% Chance Of Crushing Blow\n+35 To Attack Rating\nPoison Resist +20%\nFire Resist +20%\n+15 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Rusthandle",
+            "Gear Type": "Grand Scepter",
+            "Attributes": "One-Hand Damage: 15 To (34-35) (24.5-25 Avg)\r\nRequired Level: 18\r\nRequired Strength: 37\r\nDurability: 60\r\nBase Weapon Speed: [10]\n+50-60% Enhanced Damage (varies)\nAdds 3-7 damage\n+100-110% Damage To Undead (varies)\n8% Life stolen per hit\n+1 To Paladin Skill Levels\nMagic damage reduced by 1\n+3 To Thorns (Paladin Only)\n+1-3 To Vengeance (Paladin Only) (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormeye",
+            "Gear Type": "War Scepter",
+            "Attributes": "One-Hand Damage: (18-22) To (30-37) (24-29.5 Avg)\r\nRequired Level: 30\r\nRequired Strength: 55\r\nDurability: 70\r\nBase Weapon Speed: [-10]\n+80-120% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 3-5 Cold Damage, Cold Duration: 3 seconds\nAdds 1-6 Lightning Damage\nReplenish Life +10\n+1 To Fist Of The Heavens (Paladin Only)\n+3 To Holy Shock (Paladin Only)\n+3-5 To Resist Lightning (Paladin Only) (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Spears": [
+        {
+            "Name": "The Dragon Chang",
+            "Gear Type": "Spear",
+            "Attributes": "Two-Hand Damage: 13 To 15 (14 Avg)\r\nRequired Level: 8\r\nRequired  Dexterity: 20\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+100% Damage To Undead\n+10 to Minimum Damage\nAdds 3-6 Fire Damage\n+35 to Attack Rating\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Razortine",
+            "Gear Type": "Trident",
+            "Attributes": "Two-Hand Damage: (11-13) To (19-22) (15-17.5 Avg)\r\nRequired Level: 12\r\nRequired Strength: 38\r\nRequired Dexterity: 24\r\nDurability: 35\r\nBase Weapon Speed: [0]\n+30-50% Enhanced Damage (varies)\nSlows Target By 25%*\n30% Increased Attack Speed\n50% target defense*\n+8 To Dexterity\n+15 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bloodthief",
+            "Gear Type": "Brandistock",
+            "Attributes": "Two-Hand Damage: (10-11) To (25-28) (17.5-19.5 Avg)\r\nRequired Level: 17\r\nRequired Strength: 40\r\nRequired Dexterity: 50\r\nDurability: 28\r\nBase Weapon Speed: [-20]\n+50-70% Enhanced Damage (varies)\n35% Chance of Open Wounds*\n8-12% Life stolen per hit (varies)\n+26 to Life\n+10 to Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Lance of Yaggai",
+            "Gear Type": "Spetum",
+            "Attributes": "Two-Hand Damage: 15 To 23 (19 Avg)\r\nRequired Level: 22\r\nRequired Strength: 54\r\nRequired Dexterity: 35\r\nDurability: 28\r\nBase Weapon Speed: [0]\nAdds 1-60 Lightning Damage\nAll Resistances +15\n40% Increased Attack Speed\nAttacker takes damage of 8\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Tannr Gorerod",
+            "Gear Type": "Pike",
+            "Attributes": "Two-Hand Damage: (25-28) To (113-126) (69-77 Avg)\r\nRequired Level: 27\r\nRequired Strength: 60\r\nRequired Dexterity: 45\r\nDurability: 25\r\nBase Weapon Speed: [20]\n+80-100% Enhanced Damage (varies)\nAdds 23-54 Fire Damage\n+60 to Attack Rating\nFire Resist +15%\n15% To Maximum Fire Resist\n+30 to Life\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Staves": [
+        {
+            "Name": "Bane Ash",
+            "Gear Type": "Short Staff",
+            "Attributes": "Two-Hand Damage: 1 To (7-8) (4-4.5 Avg)\r\nRequired Level: 5\r\nDurability: 20\r\nBase Weapon Speed: [-10]\n+50-60% Enhanced Damage (varies)\n+50% Damage To Undead\n20% Increased Attack Speed\n+30 To Mana\nFire Resist +50%\nAdds 4-6 Fire Damage\n+5 To Fire Bolt (Sorceress Only)\n+2 To Warmth (Sorceress Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Serpent Lord",
+            "Gear Type": "Long Staff",
+            "Attributes": "Two-Hand Damage: 2 To (10-11) (6-6.5 Avg)\r\nRequired Level: 9\r\nDurability: 30\r\nBase Weapon Speed: [0]\n+30-40% Enhanced Damage (varies)\n+50% Damage To Undead\n+12 Poison Damage Over 3 Seconds\n100% Mana Stolen Per Hit (Yes that's correct!)\n-50% Target Defense\n+10 to Mana\nPoison Resist +50%\n-1 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spire of Lazarus",
+            "Gear Type": "Gnarled Staff",
+            "Attributes": "Two-Hand Damage: 4 To 12 (8 Avg)\r\nRequired Level: 18\r\nDurability: 35\r\nBase Weapon Speed: [10]\n+50% Damage To Undead\nAdds 1-28 Lightning Damage\n+1 To Sorceress Skill Levels\n+2 To Lightning (Sorceress Only)\n+1 To Chain Lightning (Sorceress Only)\n+3 To Static Field (Sorceress Only)\nmRegenerate Mana 43%\n+15 To Energy\nDamage Reduced By 5\nLightning Resist +75%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Salamander",
+            "Gear Type": "Battle Staff",
+            "Attributes": "Two-Hand Damage: 6 To 13 (9.5 Avg)\r\nRequired Level: 21\r\nDurability: 40\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\nAdds 15-32 Fire Damage\nFire Resist +30%\n+2 To Fire Skills*\n+3 To Warmth (Sorceress Only)\n+2 To Fire Ball (Sorceress Only)\n+1 To Fire Wall (Sorceress Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Iron Jang Bong",
+            "Gear Type": "War Staff",
+            "Attributes": "Two-Hand Damage: 24 To 56 (40 Avg)\r\nRequired Level: 28\r\nDurability: 50\r\nBase Weapon Speed: [20]\n+100% Enhanced Damage\n+50% Damage To Undead\n50% bonus to Attack Rating\n20% Faster Cast Rate\n+2 to Sorceress Skill Levels\n+3 To Frost Nova (Sorceress Only)\n+2 To Blaze (Sorceress Only)\n+2 To Nova (Sorceress Only)\n+30 Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Swords": [
+        {
+            "Name": "Rixot's Keen",
+            "Gear Type": "Short Sword",
+            "Attributes": "One-Hand Damage: 9 To 14 (11.5 Avg)\r\nRequired Level: 2\r\nDurability: 24\r\nBase Weapon Speed: [0]\n+100% Enhanced Damage\n+5 To Minimum Damage\n25% Chance of Crushing Blow\n20% Bonus to Attack Rating\n+25 Defense\n+2 To Light Radius\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Blood Crescent",
+            "Gear Type": "Scimitar",
+            "Attributes": "One-Hand Damage: 3 To (9-10) (6-6.5 Avg)\r\nRequired Level: 7\r\nRequired Dexterity: 21\r\nDurability: 22\r\nBase Weapon Speed: [-20]\n+60-80% Enhanced Damage (varies)\n33% Chance Of Open Wounds\n15% Increased Attack Speed\n15% Life Stolen Per Hit\nAll Resistances +15\n+15 To Life\n+4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skewer of Krintiz",
+            "Gear Type": "Sabre",
+            "Attributes": "One-Hand Damage: 7 To 19 (13 Avg)\r\nRequired Level: 10\r\nRequired Strength: 25\r\nRequired Dexterity: 25\r\nDurability: 32\r\nBase Weapon Speed: [-10]\n+50% Enhanced Damage\nAdds 3-7 Damage\nIgnore Target's Defense\n7% Mana Stolen Per Hit\n+10 To Dexterity\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gleamscythe",
+            "Gear Type": "Falchion",
+            "Attributes": "One-Hand Damage: (14-18) To (27-34) (20.5-26 Avg)\r\nRequired Level: 13\r\nRequired Strength: 33\r\nDurability: 32\r\nBase Weapon Speed: [20]\n+60-100% Enhanced Damage (varies)\nAdds 3-5 Cold Damage - 2 Second Duration\n20% Increased Attack Speed\n+20 Defense\n+30 To Mana\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Griswold's Edge",
+            "Gear Type": "Broad Sword",
+            "Attributes": "One-Hand Damage: (12-15) To (25-30) (18.5-22.5 Avg)\r\nRequired Level: 17\r\nRequired Strength: 48\r\nDurability: 32\r\nBase Weapon Speed: [0]\n+80-120% Enhanced Damage (varies)\nAdds (10-12) to (15-25) Fire Damage (varies)\n10% Increased Attack Speed\n+100 to Attack Rating\n+12 To Strength\nKnockback\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hellplague",
+            "Gear Type": "Long Sword",
+            "Attributes": "One-Hand Damage: 5 To (32-34) (18.5-19.5 Avg)\r\nRequired Level: 22\r\nRequired Strength: 55\r\nRequired Dexterity: 39\r\nDurability: 44\r\nBase Weapon Speed: [-10]\n+70-80% Enhanced Damage (varies)\n+2 To Fire Skills\nAdds 25-75 Fire Damage\nAdds 28-56 Poison Damage Over 6 Seconds\n5% Life Stolen Per Hit\n5% Mana Stolen Per Hit\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Culwen's Point",
+            "Gear Type": "War Sword",
+            "Attributes": "One-Hand Damage: (13-14) To (34-36) (23.5-25 Avg)\r\nRequired Level: 29\r\nRequired Strength: 71\r\nRequired Dexterity: 45\r\nDurability: 44\r\nBase Weapon Speed: [0]\n+70-80% Enhanced Damage (varies)\n+1 to All skills\nPoison Length Reduced By 50%\n20% Increased Attack Speed\n20% Faster Hit Recovery\n+60 to Attack Rating\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Shadowfang",
+            "Gear Type": "Two-Handed Sword",
+            "Attributes": "One-Hand Damage: 4 To 18 (11 Avg)\r\nTwo-Hand Damage: 16 To 34 (25 Avg)\r\nRequired Level: 12\r\nRequired Strength: 35\r\nRequired Dexterity: 27\r\nDurability: 44\r\nBase Weapon Speed: [0]\n+100% Enhanced Damage\nAdds 10-30 Cold Damage, Cold Duration: 6 seconds\n9% Mana Stolen Per Hit\n9% Life Stolen Per Hit\nCold Resist 20%\n-2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Soulflay",
+            "Gear Type": "Claymore",
+            "Attributes": "One-Hand Damage: (8-10) To (20-24) (14-17 Avg)\r\nTwo-Hand Damage: (22-26) To (51-60) (36-43 Avg)\r\nRequired Level: 19\r\nRequired Strength: 47\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+70-100% Enhanced Damage (varies)\n+10% Increased Attack Speed\n4% Life stolen per hit\n4-10% Mana stolen per hit (varies)\nAll Resistances +5\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Kinemil's Awl",
+            "Gear Type": "Giant Sword",
+            "Attributes": "One-Hand Damage: (5-6) To (28-32) (16.5-19 Avg)\r\nTwo-Hand Damage: (16-18) To (50-56) (33-37 Avg)\r\nRequired Level: 23\r\nRequired Strength: 56\r\nRequired Dexterity: 34\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+80-100% Enhanced Damage (varies)\n+100-150 To Attack Rating (varies)\nAdds 6-(20-40) Fire Damage (varies)\n+20 To Mana\n+6 To Holy Fire (Paladin Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blacktongue",
+            "Gear Type": "Bastard Sword",
+            "Attributes": "One-Hand Damage: (10-11) To (28-30) (19-20.5 Avg)\r\nTwo-Hand Damage: (30-32) To (42-44) (36-38 Avg)\r\nRequired Level: 26\r\nRequired Strength: 62\r\nDurability: 40\r\nBase Weapon Speed: [10]\n+50-60% Enhanced Damage (varies)\n+113 Poison Damage Over 6 Seconds\nPrevent Monster Heal\n+50 To Attack Rating\nPoison Resist +50%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ripsaw",
+            "Gear Type": "Flamberge",
+            "Attributes": "One-Hand Damage: (16-18) To (42-45) (29-31.5 Avg)\r\nTwo-Hand Damage: (23-26) To (61-67) (42-46.5 Avg)\r\nRequired Level: 26\r\nRequired Strength: 70\r\nRequired Dexterity: 49\r\nDurability: 50\r\nBase Weapon Speed: [-10]\n+80-100% Enhanced Damage  (varies)\n+15 To Maximum Damage\n80% Chance of Open Wounds\n6% Mana stolen per hit\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Patriarch",
+            "Gear Type": "Great Sword",
+            "Attributes": "One-Hand Damage: (24-26) To (40-44) (32-35 Avg)\r\nTwo-Hand Damage: (50-55) To (84-92) (67-73.5 Avg)\r\nRequired Level: 29\r\nRequired Strength: 100\r\nRequired Dexterity: 60\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+100-120% Enhanced Damage (varies)\nHit Blinds Target\n+10 To Strength\n100% Extra Gold From Monsters\nMagic Damage Reduced By 3\nDamage Reduced By 3\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Normal Unique Wands": [
+        {
+            "Name": "Torch of Iro",
+            "Gear Type": "Wand",
+            "Attributes": "One-Hand Damage: 2 To 4 (3 Avg)\r\nRequired Level: 5\r\nDurability: 15\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\nAdds 5-9 Fire Damage\n+1 To Necromancer Skill Levels\n+10 To Energy\nRegenerate Mana 5%\n6% Life Stolen Per Hit\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Maelstrom",
+            "Gear Type": "Yew Wand",
+            "Attributes": "One-Hand Damage: 2 To 8 (5 Avg)\r\nRequired Level: 14\r\nDurability: 15\r\nBase Weapon Speed: [10]\n+50% Damage To Undead\nAdds 1-9 Lightning Damage\n+13 To Mana\n30% Faster Cast Rate\nLightning Resist +40%\n+1-3 to Iron Maiden (Necromancer Only) (varies)\n+1-3 to Amplify Damage (Necromancer Only) (varies)\n+1-3 to Terror (Necromancer Only) (varies)\n+1-3 to Corpse Explosion (Necromancer Only) (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gravenspine",
+            "Gear Type": "Bone Wand",
+            "Attributes": "One-Hand Damage: 3 To 7 (5 Avg)\r\nRequired Level: 20\r\nDurability: 15\r\nBase Weapon Speed: [-20]\n+50% Damage To Undead\n+2 To Necromancer Skill Levels\nAdds 4-8 Cold Damage, Cold Duration: 3 seconds\n5% Mana Stolen Per Hit\n+25-50 Mana (varies)\n+10 To Dexterity\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ume's Lament",
+            "Gear Type": "Grim Wand",
+            "Attributes": "One-Hand Damage: 5 To 11 (8 Avg)\r\nRequired Level: 28\r\nDurability: 15\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\n+2 To Necromancer Skill Levels\n20% Faster Cast Rate\n+40 To Mana\nHit Causes Monster To Flee 50%\n+2 To Decrepify (Necromancer Only)\n+3 To Terror (Necromancer Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Helms": [
+        {
+            "Name": "Peasant Crown",
+            "Gear Type": "War Hat",
+            "Attributes": "Defense: 108 (Base Defense: 45-53)\r\nRequired Level: 28\r\nRequired Strength: 20\r\nDurability: 12\n+100% Enhanced Defense\n+1 To All Skills\n15% Faster Run/Walk\nReplenish Life +6-12 (varies)\n+20 To Energy\n+20 To Vitality\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Rockstopper",
+            "Gear Type": "Sallet",
+            "Attributes": "Defense: 163-201 (varies)(Base Defense: 52-62)\r\nRequired Level: 31\r\nRequired Strength: 43\r\nDurability: 18\n+160-220% Enhanced Defense (varies)\nDamage Reduced By 10%\n30% Faster Hit Recovery\nCold Resist +20-40% (varies)\nFire Resist +20-50% (varies)\nLightning Resist +20-40% (varies)\n+15 To Vitality\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stealskull",
+            "Gear Type": "Casque",
+            "Attributes": "Defense: 219-248 (varies)(Base Defense 63-72)\r\nRequired Level: 35\r\nRequired Strength: 59\r\nDurability: 24\n+200-240% Enhanced Defense (varies)\n10% Increased Attack speed\n10% Faster Hit Recovery\n5% Life Stolen Per Hit\n5% Mana Stolen Per Hit\n30-50% Better Chance of Getting Magic Items (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Darksight Helm",
+            "Gear Type": "Basinet",
+            "Attributes": "Defense: (77-273) - (86-282) (varies)(Base Defense: 75-84)\r\nRequired Level: 38\r\nRequired Strength: 82\r\nDurability: 30\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n6% Chance To Cast Level 3 Dim Vision When Struck\nLevel 5 Cloak of Shadows (30 Charges)\nCannot Be Frozen\nFire Resist +20-40% (varies)\n5% Mana Stolen Per Hit\n-4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Valkyrie Wing",
+            "Gear Type": "Winged Helm",
+            "Attributes": "Defense: 247-297 (varies)(Base Defense: 85-98)\r\nRequired Level: 44\r\nRequired Strength: 115\r\nDurability: 40\n+150-200% Defense (varies)\n+1-2 To Amazon Skill Levels (varies)\n20% Faster Run/Walk\n20% Faster Hit Recovery\n+2-4 To Mana After Each Kill (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blackhorn's Face",
+            "Gear Type": "Death Mask",
+            "Attributes": "Defense: 243-278 (varies)(Base Defense: 54-86)\r\nRequired Level: 41\r\nRequired Strength: 55\r\nDurability: 20\n+180-220% Enhanced Defense (varies)\nSlows Target By 20%\nAttacker Takes Lightning Damage of 25\nPrevent Monster Heal\n+20 Lightning Absorb\nLightning Resist +15%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Crown of Thieves",
+            "Gear Type": "Grand Crown",
+            "Attributes": "Defense: 296-342 (varies)(Base Defense: 78-113)\r\nRequired Level: 49\r\nRequired Strength: 103\r\nDurability: 50\n+160-200% Enhanced Defense (varies)\n9-12% Life Stolen Per Hit (varies)\nFire Resist +33%\n+35 To Mana\n+50 To Life\n+25 To Dexterity\n80-100% Extra Gold From Monsters (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Vampire Gaze",
+            "Gear Type": "Grim Helm",
+            "Attributes": "Defense: 252 (Base Defense: 60-125)\r\nRequired Level: 41\r\nRequired Strength: 58\r\nDurability: 40\n+100% Enhanced Defense\nAdds 6-22 Cold Damage - 4 Second Duration\n15% Slower Stamina Drain\n6-8% Life Stolen Per Hit (varies)\n6-8% Mana Stolen Per Hit (varies)\nDamage Reduced By 15-20% (varies)\nMagic Damage Reduced By 10-15 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Armor": [
+        {
+            "Name": "The Spirit Shroud",
+            "Gear Type": "Ghost Armor",
+            "Attributes": "Defense: 295 (Base Defense: 102-117)\r\nRequired Level: 28\r\nRequired Strength: 38\r\nDurability: 20\n+150% Enhanced Defense\nCannot Be Frozen\n+1 To All Skills\nReplenish Life +10\nMagic Damage Reduced By 7-11 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skin of the Vipermagi",
+            "Gear Type": "Serpentskin Armor",
+            "Attributes": "Defense: 279 (Base Defense: 111-126)\r\nRequired Level: 29\r\nRequired Strength: 43\r\nDurability: 24\n+120% Enhanced Defense\n+1 To All Skills\n30% Faster Cast Rate\nMagic Damage Reduced By 9-13 (varies)\nAll Resistances +20-35 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skin of the Flayed One",
+            "Gear Type": "Demonhide Armor",
+            "Attributes": "Defense: 342-397 (varies)(Base Defense: 122-136)\r\nRequired Level: 31\r\nRequired Strength: 50\r\nDurability: 58\n+150-190% Enhanced Defense (varies)\nRepairs 1 Durability In 10 Seconds\n5-7% Life Stolen Per Hit (varies)\nReplenish Life +15-25 (varies)\nAttacker Takes Damage of 15\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Iron Pelt",
+            "Gear Type": "Trellised Armor",
+            "Attributes": "Defense: (234-528) - (311-605) (varies)(Base Defense: 138-153)\r\nRequired Level: 33\r\nRequired Strength: 61\r\nDurability: 157\n+50-100% Enhanced Defense (varies)\n+ (3 Per Character Level) 3-297 Defense (Based On Character Level)\nDamage Reduced by 15-20 (varies)\nMagic Damage Reduced by 10-16 (varies)\n+25 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Crow Caw",
+            "Gear Type": "Tigulated Mail",
+            "Attributes": "Defense: 477-534 (varies)(Base Defense: 176-190)\r\nRequired Level: 37\r\nRequired Strength: 86\r\nDurability: 36\n+150-180% Enhanced Defense (varies)\n15% Increased Attack Speed\n15% Faster Hit Recovery\n35% Chance of Open Wounds\n+15 Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spirit Forge",
+            "Gear Type": "Linked Mail",
+            "Attributes": "Defense: 380-449 (varies)(Base Defense: 158-172)\r\nRequired Level: 35\r\nRequired Strength: 74\r\nDurability: 26\n+120-160% Enhanced Defense (varies)\n+ (1.25 Per Character Level) 1-123 Life (Based On Character Level)\nFire Resist +5%\nAdds 20-65 Fire Damage\n+15 To Strength\nGem Sockets (2)\n+4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Duriel's Shell",
+            "Gear Type": "Cuirass",
+            "Attributes": "Defense:  (528-650) - (610-732) (varies)(Base Defense: 188-202)\r\nRequired Level: 41\r\nRequired Strength: 65\r\nDurability: 150\n+160-200% Enhanced Defense (varies)\n+ (1.25 Per Character Level)  1-123 Defense (Based On Character Level)\n+ (1 Per Character Level) 1-99 To Life (Based On Character Level)\nResist Fire +20%\nResist Lightning +20%\nResist Poison +20%\nResist Cold +50%\nCannot Be Frozen\n+15 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Shaftstop",
+            "Gear Type": "Mesh Armor",
+            "Attributes": "Defense: 599-684 (varies)(Base Defense: 198-213)\r\nRequired Level: 38\r\nRequired Strength: 92\r\nDurability: 45\n+180-220% Enhanced Defense (varies)\nDamage Reduced By 30%\n+250 Defense Vs. Missile\n+60 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skullder's Ire",
+            "Gear Type": "Russet Armor",
+            "Attributes": "Defense: 634-732 (varies)(Base Defense: 225-243)\r\nRequired Level: 42\r\nRequired Strength: 97\r\nDurability: 90\n+160-200% Enhanced Defense (varies)\nRepairs 1 Durability In 5 Seconds\n+ (1.25 Per Character Level)  1-123 % Better Chance Of Getting Magic Items (Based On Character Level)\n+1 To All Skill Levels\nMagic Damage Reduced By 10\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Que-Hegan's Wisdom",
+            "Gear Type": "Mage Plate",
+            "Attributes": "Defense: 628-681 (varies)(Base Defense: 225-261)\r\nRequired Level: 51\r\nRequired Strength: 55\r\nDurability: 60\n+140-160% Enhanced Defense (varies)\n+1 To All Skill Levels\n+3 To Mana After Each Kill\n20% Faster Cast Rate\n20% Faster Hit Recovery\nMagic Damage Reduced By 6-10 (varies)\n+15 To Energy\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Toothrow",
+            "Gear Type": "Sharktooth Armor",
+            "Attributes": "Defense: 713-888 (varies)(Base Defense: 242-258)\r\nRequired Level: 48\r\nRequired Strength: 103\r\nDurability: 63\n+160-220% Enhanced Defense (varies)\n+40-60 Defense(varies)\n40% Chance of Open Wounds\nFire Resist +15%\n+10 Strength\nAttacker Takes Damage of 20-40 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Guardian Angel",
+            "Gear Type": "Templar Coat",
+            "Attributes": "Defense: 770-825 (varies)(Base Defense: 252-274)\r\nRequired Level: 45\r\nRequired Strength: 118\r\nDurability: 60\n+180-200% Enhanced Defense (varies)\n+20% Increased Chance Of Blocking\n+30% Faster Block Rate\n+ (2.5 Per Character Level) 2-247 To Attack Rating Against Demons (Based On Character Level)\n+1 To Paladin Skill Levels\n+4 To Light Radius\n15% To Maximum Poison Resist\n15% To Maximum Cold Resist\n15% To Maximum Lightning Resist\n15% To Maximum Fire Resist\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Atma's Wail",
+            "Gear Type": "Embossed Plate",
+            "Attributes": "Defense: (670-866) - (792-988) (varies)(Base Defense: 282-303)\r\nRequired Level: 51\r\nRequired Strength: 125\r\nDurability: 105\n+120-160% Enhanced Defense (varies)\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n30% Faster Hit Recovery\nReplenish Life +10\nIncrease Maximum Mana 15%\n+15 To Dexterity\n+20% Better Chance Of Getting Magic Items\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Black Hades",
+            "Gear Type": "Chaos Armor",
+            "Attributes": "Defense: 823-1029 (varies)(Base Defense: 315-342)\r\nRequired Level: 53\r\nRequired Strength: 140\r\nDurability: 70\n+140-200% Enhanced Defense (varies)\n+30-60% Damage To Demons (varies)\n+200-250 To Attack Rating Against Demons (varies)\nHalf Freeze Duration\nGem Socket (3)\n-2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Corpsemourn",
+            "Gear Type": "Ornate Plate",
+            "Attributes": "Defense: 1127-1262 (varies)(Base Defense: 417-450)\r\nRequired Level: 55\r\nRequired Strength: 170\r\nDurability: 60\n+150-180% Enhanced Defense (varies)\nLevel 5 Corpse Explosion (40 Charges)\nAdds 12-36 Fire Damage\n6% Chance To Cast Level 2 Iron Maiden When Struck\nCold Resist +35%\n+10 To Vitality\n+8 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Shields": [
+        {
+            "Name": "Visceratuant",
+            "Gear Type": "Defender",
+            "Attributes": "Defense: 100-125 (varies)(Base Defense: 41-49)\r\nRequired Level: 28\r\nRequired Strength: 38\r\nChance to Block: Pal: 70%, Ama/Asn/Bar: 65%, Dru/Nec/Sor: 60%\r\nDurability: 68\r\nPaladin Smite Damage: 8 To 12\n+100-150% Enhanced Defense (varies)\n30% Increased Chance of Blocking\n30% Faster Block Rate\n+1 To Sorceress Skill Levels\nAttacker Takes Lightning Damage of 10\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Moser's Blessed Circle",
+            "Gear Type": "Round Shield",
+            "Attributes": "Defense: 156-179 (varies)(Base Defense: 47-55)\r\nRequired Level: 31\r\nRequired Strength: 53\r\nChance to Block: Pal: 67%, Ama/Asn/Bar: 62%, Dru/Nec/Sor: 57%\r\nDurability: 64\r\nPaladin Smite Damage: 7 To 14\n+180-220% Enhanced Defense (varies)\n+25% Increased Chance of Blocking\n30% Faster Block Rate\nAll Resistances +25\nSocketed (2)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormchaser",
+            "Gear Type": "Scutum",
+            "Attributes": "Defense: 161-198 (varies)(Base Defense: 53-61)\r\nRequired Level: 35\r\nRequired Strength: 71\r\nChance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%\r\nDurability: 62\r\nPaladin Smite Damage: 11 To 15\n+160-220% Enhanced Defense (varies)\n+20% Increased Chance of Blocking\n4% Chance To Cast Level 5 Tornado When Struck\n4% Chance To Cast Level 6 Blizzard When Struck\n10% Faster Block Rate\n+150 To Attack Rating\nLightning Resist +50%\nHalf Freeze Duration\nAdds 1-60 Lightning Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Tiamat's Rebuke",
+            "Gear Type": "Dragon Shield",
+            "Attributes": "Defense: 163-204 (varies)(Base Defense: 59-67)\r\nRequired Level: 38\r\nRequired Strength: 91\r\nChance to Block: Pal: 48%, Ama/Asn/Bar: 43%, Dru/Nec/Sor: 38%\r\nDurability: 116\r\nPaladin Smite Damage: 15 To 24\n+140-200% Enhanced Defense (varies)\nAdds 27-53 Cold Damage - 6 Second Duration\nAdds 35-95 Fire Damage\nAdds 1-120 Lightning Damage\n3% Chance To Cast Level 6 Hydra When Struck\n5% Chance To Cast Level 7 Nova When Struck\n5% Chance To Cast Level 9 Frost Nova When Struck\nAll Resistances +25-35% (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Lance Guard",
+            "Gear Type": "Barbed Shield",
+            "Attributes": "Defense: 134-173 (varies)(Base Defense: 58-78)\r\nRequired Level: 35\r\nRequired Strength: 65\r\nChance to Block: Pal: 47%, Ama/Asn/Bar: 42%, Dru/Nec/Sor: 37%\r\nDurability: 55\r\nPaladin Smite Damage: 18 To 35\n+70-120% Enhanced Defense (varies)\n15% Damage Taken Goes To Mana\n30% Faster Hit Recovery\n20% Deadly Strike\n+50 To Life\nAttacker Takes Damage of 47\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gerke's Sanctuary",
+            "Gear Type": "Pavise",
+            "Attributes": "Defense: 221-268 (varies)(Base Defense: 68-78)\r\nRequired Level: 44\r\nRequired Strength: 133\r\nChance to Block: Pal: 84%, Ama/Asn/Bar: 79%, Dru/Nec/Sor: 74%\r\nDurability: 172\r\nPaladin Smite Damage: 10 To 17\n+180-240% Enhanced Defense (varies)\n+30% Increased Chance of Blocking\nAll Resistances +20-30 (varies)\nReplenish Life +15\nDamage Reduced By 11-16 (varies)\nMagic Damage Reduced By 14-18 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Lidless Wall",
+            "Gear Type": "Grim Shield",
+            "Attributes": "Defense: 271-347 (varies)(Base Defense: 50-150)\r\nRequired Level: 41\r\nRequired Strength: 58\r\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\r\nDurability: 70\r\nPaladin Smite Damage: 14 To 20\n+80-130% Enhanced Defense (varies)\n+1 To All Skills\nIncrease Maximum Mana 10%\n20% Faster Cast Rate\n+3-5 To Mana After Each Kill (varies)\n+10 To Energy\n+1 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Radament's Sphere",
+            "Gear Type": "Ancient Shield",
+            "Attributes": "Defense: 244-282 (varies)(Base Defense: 80-93)\r\nRequired Level: 50\r\nRequired Strength: 110\r\nChance to Block: Pal: 66%, Ama/Asn/Bar: 61%, Dru/Nec/Sor: 56%\r\nDurability: 100\r\nPaladin Smite Damage: 12 To 16\n+160-200% Enhanced Defense (varies)\n+20% Increased Chance Of Blocking\n+20% Faster Block Rate\n5% Chance To Cast Level 5 Poison Nova When Struck\nLevel 6 Poison Explosion (40 Charges)\nPoison Resist +75%\n+80 Poison Damage Over 4 Seconds\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Gloves": [
+        {
+            "Name": "Venom Grip",
+            "Gear Type": "Demonhide Gloves",
+            "Attributes": "Defense: 97-118 (varies)(Base Defense: 28-35)\r\nRequired Level: 29\r\nRequired Strength: 20\r\nDurability: 12\n+130-160% Enhanced Defense (varies)\n+15-25 Defense (varies)\n5% Chance of Crushing Blow\n+60 Poison Damage Over 4 Seconds\n5% Life Stolen Per Hit\n5% To Maximum Poison Resist\nPoison Resist +30%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gravepalm",
+            "Gear Type": "Sharkskin Gloves",
+            "Attributes": "Defense: 96-112 (varies) (Base Defense: 33-39)\r\nRequired Level: 32\r\nRequired Strength: 20\r\nDurability: 14\n+140-180% Enhanced Defense (varies)\n+100-200% Damage To Undead (varies)\n+100-200 To Attack Rating Against Undead(varies)\n+10 To Energy\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ghoulhide",
+            "Gear Type": "Heavy Bracers",
+            "Attributes": "Defense: 112-130 (varies)(Base Defense: 37-44)\r\nRequired Level: 36\r\nRequired Strength: 58\r\nDurability: 16\n+150-190% Enhanced Defense (varies)\n+ (8 Per Character Level) 8-792  To Attack Rating Against Undead (Based On Character Level)\n+ (2 Per Character Level) 2-198 % Damage To Undead (Based On Character Level)\n4-5% Mana Stolen Per Hit (varies)\n+20 To Life\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Lava Gout",
+            "Gear Type": "Battle Gauntlets",
+            "Attributes": "Defense: 120-144 (varies)(Base Defense: 39-47)\r\nRequired Level: 42\r\nRequired Strength: 88\r\nDurability: 38\n+150-200% Enhanced Defense (varies)\n2% Chance To Cast Level 10 Enchant On Striking\nHalf Freeze Duration\nAdds 13-46 Fire Damage\n+20% Increased Attack Speed\nFire Resist +24%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hellmouth",
+            "Gear Type": "War Gauntlets",
+            "Attributes": "Defense: 135-162 (varies)(Base Defense: 43-53)\r\nRequired Level: 47\r\nRequired Strength: 110\r\nDurability: 39\n+150-200% Enhanced Defense (varies)\n4% Chance To Cast Level 12 Firestorm On Striking\n2% Chance To Cast Level 4 Meteor On Striking\n+15 Fire Absorb\nAdds 15-72 Fire Damage\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Boots": [
+        {
+            "Name": "Infernostride",
+            "Gear Type": "Demonhide Boots",
+            "Attributes": "Defense: 94-105 (varies)(Base Defense: 28-35)\r\nRequired Level: 29\r\nRequired Strength: 20\r\nDurability: 12\r\nAssassin Kick Damage: 26-46\n5% Chance To Cast Level 8 Blaze When Struck\n20% Faster Run/Walk\nAdds 12-33 Fire Damage\n+120-150% Enhanced Defense (varies)\n+15 Defense\n10% To Maximum Fire Resist\nFire Resist +30%\n40-70% Extra Gold From Monsters (varies)\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Waterwalk",
+            "Gear Type": "Sharkskin Boots",
+            "Attributes": "Defense: 112-124 (varies)(Base Defense: 33-39)\r\nRequired Level: 32\r\nRequired Strength: 47\r\nDurability: 14\r\nAssassin Kick Damage: 28-50\n+180-210% Enhanced Defense (varies)\n20% Faster Run/Walk\n+100 Defense Vs. Missile\n+15 To Dexterity\n+5% Maximum Fire Resist\nHeal Stamina Plus 50%\n+40 Max Stamina\n+45-65 To Life (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Silkweave",
+            "Gear Type": "Mesh Boots",
+            "Attributes": "Defense: 112-130 (varies)(Base Defense: 37-44)\r\nRequired Level: 36\r\nRequired Strength: 65\r\nDurability: 16\r\nAssassin Kick Damage: 23-52\n+150-190% Enhanced Defense (varies)\n30% Faster Run/Walk\n+5 To Mana After Each Kill\nIncrease Maximum Mana 10%\n+200 Defense VS. Missile\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "War Traveler",
+            "Gear Type": "Battle Boots",
+            "Attributes": "Defense: 120-139 (varies)(Base Defense: 39-47)\r\nRequired Level: 42\r\nRequired Strength: 95\r\nDurability: 48\r\nAssassin Kick Damage: 37-64\n+150-190% Enhanced Defense (varies)\n25% Faster Run/Walk\n+10 To Vitality\n+10 To Strength\nAdds 15-25 Damage\n40% Slower Stamina Drain\nAttacker Takes Damage Of 5-10 (varies)\n30-50% Better Chance of Getting Magic Items (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gore Rider",
+            "Gear Type": "War Boots",
+            "Attributes": "Defense: 140-162 (varies)(Base Defense: 43-53)\r\nRequired Level: 47\r\nRequired Strength: 94\r\nDurability: 34\r\nAssassin Kick Damage: 39-80\n+160-200% Enhanced Defense (varies)\n30% Faster Run/Walk\n10% Chance Of Open Wounds\n15% Chance Of Crushing Blow\n15% Deadly Strike\nRequirements -25%\n+20 Maximum Stamina\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Belts": [
+        {
+            "Name": "String of Ears",
+            "Gear Type": "Demonhide Sash",
+            "Attributes": "Defense: 102-113 (varies)(Base Defense: 29-34)\r\nRequired Level: 29\r\nRequired Strength: 20\r\nDurability: 22\r\n16 Boxes\n+150-180% Enhanced Defense (varies)\n+15 Defense\n6-8% Life Stolen Per Hit (varies)\nDamage Reduced By 10-15% (varies)\nMagic Damage Reduced 10-15 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Razortail",
+            "Gear Type": "Sharkskin Belt",
+            "Attributes": "Defense: 96-107 (varies)(Base Defense: 31-36)\r\nRequired Level: 32\r\nRequired Strength: 20\r\nDurability: 14\r\n16 Boxes\n+120-150% Enhanced Defense (varies)\n+15 Defense\n+10 To Maximum Damage\nPiercing Attack (33)\n+15 To Dexterity\nAttacker Takes Damage of (1 Per Character Level) 1-99 (Based On Character Level)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Gloom's Trap",
+            "Gear Type": "Mesh Belt",
+            "Attributes": "Defense:  90-102 (varies)(Base Defense: 35-40)\r\nRequired Level: 36\r\nRequired Strength: 58\r\nDurability: 16\r\n16 Boxes\n+120-150% Enhanced Defense (varies)\n5% Mana Stolen Per Hit\nIncrease Maximum Mana 15%\nRegenerate Mana 15%\n+15 To Vitality\n-3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Snowclash",
+            "Gear Type": "Battle Belt",
+            "Attributes": "Defense: 98-116 (varies)(Base Defense: 37-42)\r\nRequired Level: 42\r\nRequired Strength: 88\r\nDurability: 18\r\n16 Boxes\n+130-170% Enhanced Defense (varies)\n5% Chance To Cast Level 7-19 Blizzard When Struck (varies)\n+15 Cold Absorb\n15% To Maximum Cold Resist\nAdds 13-21 Cold Damage @ 3 sec. duration (Normal)\n+2 To Chilling Armor (Sorceress Only)\n+2 To Blizzard (Sorceress Only)\n+3 To Glacial Spike (Sorceress Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Thundergod's Vigor",
+            "Gear Type": "War Belt",
+            "Attributes": "Defense: 137-159 (varies)(Base Defense: 41-52)\r\nRequired Level: 47\r\nRequired Strength: 110\r\nDurability: 24\r\n16 Boxes\n+160-200% Enhanced Defense (varies)\nAdds 1-50 Lightning Damage\n5% Chance To Cast Level 7 Fist Of The Heavens When Struck\n+20 Lightning Absorb\n10% To Maximum Lightning Resist\n+20 To Strength\n+20 To Vitality\n+3 To Lightning Fury (Amazon Only)\n+3 To Lightning Strike (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Axes": [
+        {
+            "Name": "Coldkill",
+            "Gear Type": "Hatchet",
+            "Attributes": "One-Hand Damage: (25-29) To (52-60) (38.5-44.5 Avg)\r\nRequired Level: 36\r\nRequired Strength: 25\r\nRequired Dexterity: 25\r\nRange: 1\r\nDurability: 28\r\nBase Weapon Speed: [0]\r\n\n+150-190% Enhanced Damage (varies)\n30% Increased Attack Speed\n10% Chance To Cast Level 10 Ice Blast On Striking\n10% Chance To Cast Level 5 Frost Nova When Struck\n+40 Cold Damage - 2 Second Duration\n15% To Maximum Cold Resist\nCold Resist +15%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Butcher's Pupil",
+            "Gear Type": "Cleaver",
+            "Attributes": "One-Hand Damage: (55-60) To (132-149) (93.5-104.5 Avg)\r\nRequired Level: 39\r\nRequired Strength: 68\r\nRange: 2\r\nBase Weapon Speed: [10]\n+150-200% Enhanced Damage (varies)\nAdds 30-50 Damage\n35% Deadly Strike\n25% Chance of Open Wounds\n30% Increased Attack Speed\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Islestrike",
+            "Gear Type": "Twin Axe",
+            "Attributes": "One-Hand Damage: (35-37) To (102-110) (68.5-73.5 Avg)\r\nRequired Level: 43\r\nRequired Strength: 85\r\nRange: 2\r\nDurability: 24\r\nBase Weapon Speed: [10]\n+170-190% Enhanced Damage (varies)\n25% Chance of Crushing Blow\n+2 To Druid Skill Levels\n+50 Defense VS. Missile\n+10 To All Attributes\n+1 Fury (Druid Only)\n+1 Maul (Druid Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Pompeii's Wrath",
+            "Gear Type": "Crowbill",
+            "Attributes": "One-Hand Damage: (33-37) To (81-91) (57-64 Avg)\r\nRequired Level: 45\r\nRequired Strength: 94\r\nRequired Dexterity: 70\r\nRange: 2\r\nDurability: 26\r\nBase Weapon Speed: [-10]\n+140-170% Enhanced Damage (varies)\nAdds 35-150 Fire Damage\nSlows Target By 50%\n4% Chance To Cast Level 8 Volcano On Striking\nKnockback\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Guardian Naga",
+            "Gear Type": "Naga",
+            "Attributes": "One-Hand Damage: (40-44) To (132-146) (86-95 Avg)\r\nRequired Level: 48\r\nRequired Strength: 121\r\nRange: 3\r\nDurability: 26\r\nBase Weapon Speed: [0]\n+150-180% Enhanced Damage (varies)\n+20 To Maximum Damage\n+250 Poison Damage Over 10 Seconds\n5% Chance To Cast Level 8 Poison Nova On Striking\nPoison Resist +30%\nAttacker Takes Damage of 15\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Warlord's Trust",
+            "Gear Type": "Military Axe",
+            "Attributes": "Two-Hand Damage: 38 To 93 (65.5 Avg)\r\nRequired Level: 35\r\nRequired Strength: 73\r\nRange: 2\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+175% Enhanced Damage\nRepairs 1 Durability In 4 Seconds\n+ (0.5 Per Character Level) 0-49 To Vitality (Based On Character Level)\nReplenish Life +20\nAll Resistances +10\n+75 Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spellsteel",
+            "Gear Type": "Bearded Axe",
+            "Attributes": "Two-Hand Damage: 55 To 129 (92 Avg)\r\nRequired Level: 39\r\nRequired Strength: 37\r\nRange: 2\r\nDurability: 35\r\nBase Weapon Speed: [0]\n+165% Enhanced Damage\n10% Faster Cast Rate\nRequirements -60%\nRegenerate Mana 25%\n+100 To Mana\nLevel 12 Firestorm (60 Charges)\nLevel 10 Holy Bolt (100 Charges)\nLevel 3 Decrepify (30 Charges)\nLevel l Teleport (20 Charges)\nMagic Damage Reduced By 12-15 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormrider",
+            "Gear Type": "Tabar",
+            "Attributes": "Two-Hand Damage: 83 To 229 (156 Avg)\r\nRequired Level: 41\r\nRequired Strength: 101\r\nRange: 2\r\nDurability: 90\r\nBase Weapon Speed: [10]\n+100% Enhanced Damage\nAdds 35-75 Damage\nAdds 1-200 Lightning Damage\n15% Chance To Cast Level 5 Charged Bolt When Struck\n10% Chance To Cast Level 13-20 Charged Bolt On Striking (varies)\n5% Chance To Cast Level 10 Chain Lightning On Striking\nAttacker Takes Lightning Damage Of 15\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Boneslayer Blade",
+            "Gear Type": "Gothic Axe",
+            "Attributes": "Two-Hand Damage: (50-57) To (196-224) (123-140.5 Avg)\r\nRequired Level: 42\r\nRequired Strength: 115\r\nRequired Dexterity: 79\r\nRange: 3\r\nDurability: 50\r\nBase Weapon Speed: [-10]\n+180-220% Enhanced Damage(varies)\n+ (5 Per Character Level) 5-495 To Attack Rating Against Undead (Based On Character Level)\n+ (2.5 Per Character Level)  2-247 % Damage To Undead (Based On Character Level)\n50% Chance To Cast Level 12-20 Holy Bolt When Struck (varies)\nLevel 20 Holy Bolt (200 Charges)\n20% Increased Attack Speed\n35% Bonus To Attack Rating\n+8 To Strength\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Minotaur",
+            "Gear Type": "Ancient Axe",
+            "Attributes": "Two-Hand Damage: (123-149) To (234-285) (178.5-217 Avg)\r\nRequired Level: 45\r\nRequired Strength: 125\r\nRange: 4\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+140-200% Enhanced Damage (varies)\nAdds 20-30 Damage\nSlows Target By 50%\n30% Chance of Crushing Blow\nHit Blinds Target +2\nHalf Freeze Duration\n+15-20 To Strength (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Bows": [
+        {
+            "Name": "Skystrike",
+            "Gear Type": "Edge Bow",
+            "Attributes": "Two-Hand Damage: (15-18) to (47-57)  (31-37.5 Avg)\r\nRequired Level: 28\r\nRequired Strength: 25\r\nRequired Dexterity: 43\r\nBase Weapon Speed: [5]\n+150-200% Enhanced Damage (varies)\nAdds 1-250 Lightning Damage\n2% Chance To Cast Level 6 Meteor On Striking\n30% Increased Attack Speed\n+100 To Attack Rating\n+1 To Amazon Skill Levels\n+10 to Energy\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Riphook",
+            "Gear Type": "Razor Bow",
+            "Attributes": "Two-Hand Damage: (22-25) To (61-70) (41.5-47.5 Avg)\r\nRequired Level: 31\r\nRequired Strength: 25\r\nRequired Dexterity: 62\r\nBase Weapon Speed: [-10]\n180-220% Enhanced Damage (varies)\nSlows Target By 30%\n30% Chance of Open Wounds\n30% Increased Attack Speed\n7-10% Life Stolen Per Hit (varies)\n+35 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Kuko Shakaku",
+            "Gear Type": "Cedar Bow",
+            "Attributes": "Two-Hand Damage: (25-28) To (72-81) (48.5-54.5 Avg)\r\nRequired Level: 33\r\nRequired Strength: 53\r\nRequired Dexterity: 49\r\nBase Weapon Speed: [0]\n+150-180% Enhanced Damage (varies)\nFires Explosive Arrows Or Bolts [Level 7]\nPiercing Attack (50)\nAdds 40-180 Fire Damage\n+3 To Immolation Arrow (Amazon Only)\n+3 To Bow And Crossbow Skills (Amazon Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Endlesshail",
+            "Gear Type": "Double Bow",
+            "Attributes": "Two-Hand Damage: (30-35) To (72-83) (51-59 Avg)\r\nRequired Level: 36\r\nRequired Strength: 58\r\nRequired Dexterity: 73\r\nBase Weapon Speed: [-10]\n+180-220% Enhanced Damage (varies)\nAdds 15-30 Cold Damage - 3 Second Duration\nCold Resist +35%\n+50 Defense VS. Missile\n+40 To Mana\n+3-5 To Strafe (Amazon Only) (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Witchwild String",
+            "Gear Type": "Short Siege Bow",
+            "Attributes": "Two-Hand Damage: (32-35) To (75-81) (53.5-58 Avg)\r\nRequired Level: 39\r\nRequired Strength: 65\r\nRequired Dexterity: 80\r\nBase Weapon Speed: [0]\n+150-170% Enhanced Damage (varies)\nFires Magic Arrows [Level 20]\n2% Chance To Cast Level 5 Amplify Damage On Striking\n+ (1 Per Character Level) 1-99 % Deadly Strike (Based On Character Level)\nAll Resistances +40\nSockets (2)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Cliffkiller",
+            "Gear Type": "Large Siege Bow",
+            "Attributes": "Two-Hand Damage: (34-43) To (141-168) (87.5-105.5 Avg)\r\nRequired Level: 41\r\nRequired Strength: 80\r\nRequired Dexterity: 95\r\nBase Weapon Speed: [10]\n+190-230% Enhanced Damage (varies)\nAdds (5-10)-(20-30) Damage (varies)\n+2 To Amazon Skill Levels\n+80 Defense VS. Missile\n+50 To Life\nKnockback\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Magewrath",
+            "Gear Type": "Rune Bow",
+            "Attributes": "Two-Hand Damage: (55-60) To (127-137) (91-98.5 Avg)\r\nRequired Level: 43\r\nRequired Strength: 73\r\nRequired Dexterity: 103 \r\nBase Weapon Speed: [0]\n+120-150% Enhanced Damage (varies)\nAdds 25-50 Damage\n+200-250 To Attack Rating (varies)\n+1 To Amazon Skill Levels\nHit Blinds Target\n15% Mana Stolen Per Hit\nMagic Damage Reduced By 9-13 (varies)\n+10 To Dexterity\n+3 Guided Arrow (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Goldstrike Arch",
+            "Gear Type": "Gothic Bow",
+            "Attributes": "Two-Hand Damage: (30-35) To (150-175) (90-105 Avg)\r\nRequired Level: 46\r\nRequired Strength: 95\r\nRequired Dexterity: 118\r\nBase Weapon Speed: [10]\n+200-250% Enhanced Damage (varies)\n+100-200% Damage To Demons (varies)\n+100-200% Damage To Undead (varies)\n50% Increased Attack Speed\n5% Chance To Cast Level 7 Fist Of Heavens On Striking\nReplenish Life +12\n+100-150% Bonus To Attack Rating (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Crossbows": [
+        {
+            "Name": "Langer Briser",
+            "Gear Type": "Arbalest",
+            "Attributes": "Two-Hand Damage: (37-42) To (82-111) (59.5-76.5 Avg)\r\nRequired Level: 32\r\nRequired Strength: 52\r\nRequired Dexterity: 61\r\nBase Weapon Speed: [-10]\n+170-200% Enhanced Damage (varies)\n+10-30 To Maximum Damage (varies)\n33% Chance Of Open Wounds\nAdds 1-212 Lightning Damage\n+30 To Life\nKnockback\n30-60% Better Chance Of Getting Magic Items (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Pus Spitter",
+            "Gear Type": "Siege Crossbow",
+            "Attributes": "Two-Hand Damage: (50-64) To (105-134) (77.5-99 Avg)\r\nRequired Level: 36\r\nRequired Strength: 32\r\nRequired Dexterity: 28\r\nBase Weapon Speed: [0]\n+150-220% Enhanced Damage (varies)\n+150 Poison Damage Over 8 Seconds\nRequirements -60%\n9% Chance To Cast Level 6 Poison Nova When Struck\n4% Chance To Cast Level 1 Lower Resist On Striking\n+ (5 Per Character Level) 5-495 To Attack Rating (Based On Character Level)\n10% Increased Attack Speed\n+2 To Necromancer Skill Levels\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Buriza-Do Kyanon",
+            "Gear Type": "Ballista",
+            "Attributes": "Two-Hand Damage: (82-99) To (139-412) (110.5-255.5 Avg)\r\nRequired Level: 41\r\nRequired Strength: 110\r\nRequired Dexterity: 80\r\nBase Weapon Speed: [10]\n+150-200% Enhanced Damage (varies)\n+ (2.5 Per Character Level) 2-247 To Maximum Damage (Based On Character Level)\nAdds 32-196 Cold Damage - 8 Second Duration\nPiercing Attack (100)\nFreezes Target +3\n+75-150 Defense(varies)\n+35 to Dexterity\n80% Increased Attack Speed\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Demon Machine",
+            "Gear Type": "Chu-Ko-Nu",
+            "Attributes": "Two-Hand Damage: 31 To 137 (84 Avg)\r\nRequired Level: 49\r\nRequired Strength: 80\r\nRequired Dexterity: 95\r\nBase Weapon Speed: [-60]\n+123% Enhanced Damage\n+66 To Maximum Damage\nFires Explosive Bolts [Level 6]\n+632 To Attack Rating\nPiercing Attack (66)\n+321 Defense\n+36 To Mana\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Exceptional Unique Daggers": [
+        {
+            "Name": "Spineripper",
+            "Gear Type": "Poignard",
+            "Attributes": "One-Hand Damage: (33-35) To (81-88) (57-61.5 Avg)\r\nRequired Level: 32\r\nRequired Strength:  25\r\nDurability: 16\r\nBase Weapon Speed: [-20]\n+200-240% Enhanced Damage (varies)\nAdds 15-27 Damage\n15% Increased Attack Speed\n+1 To Necromancer Skill Levels\nPrevent Monster Heal\nIgnore Target's Defense\n8% Life Stolen Per Hit\n+10 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Heart Carver",
+            "Gear Type": "Rondel",
+            "Attributes": "One-Hand Damage: (44-49) To (110-123) (77-86 Avg)\r\nRequired Level: 36\r\nRequired Strength: 25\r\nRequired Dexterity: 58\r\nDurability: 20\r\nBase Weapon Speed: [0]\n+190-240% Enhanced Damage (varies)\nAdds 15-35 Damage\n35% Deadly Strike\nIgnore Target's Defense\n+4 To Grim Ward (Barbarian Only)\n+4 To Find Item (Barbarian Only)\n+4 To Find Potion (Barbarian Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blackbog's Sharp",
+            "Gear Type": "Cinquedeas",
+            "Attributes": "One-Hand Damage: 30 To 76 (53 Avg)\r\nRequired Level 38\r\nRequired Strength: 25\r\nRequired Dexterity: 88\r\nDurability: 24\r\nBase Weapon Speed: [-20]\n+488 Poison Damage Over 10 Seconds\nAdds 15-45 Damage\n30% Increased Attack Speed\nSlows Target By 50%\n+50 Defense\n+4 To Poison Nova (Necromancer Only)\n+4 To Poison Explosion (Necromancer Only)\n+5 To Poison Dagger (Necromancer Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Stormspike",
+            "Gear Type": "Stiletto",
+            "Attributes": "One-Hand Damage: 47 To 90 (68.5 Avg)\r\nRequired Level 41\r\nRequired Strength: 47\r\nRequired Dexterity: 97\r\nDurability: 24\r\nBase Weapon Speeds: [-10]\n+150% Enhanced Damage\nAdds 1-120 Lightning Damage\n25% Chance To Cast Level 3 Charged Bolt When Struck\nLightning Resist + (1 Per Character Level) 1-99 % (Based On Character Level)\nAttacker Takes Lightning Damage of 20\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Mace Classes: Maces and Mauls": [
+        {
+            "Name": "Dark Clan Crusher",
+            "Gear Type": "Cudgel",
+            "Attributes": "One-Hand Damage: 17 To 61 (39 Avg)\r\nRequired Level: 34\r\nRequired Strength: 25\r\nDurability: 24\r\nBase Weapon Speed: [-10]\n+195% Enhanced Damage\n+200% Damage To Demons\n+50% Damage To Undead\n+200 To Attack Rating Against Demons\n+20-25% Bonus To Attack Rating (varies)\n+15 Life After Each Demon Kill\n+2 To Druid Skill Levels\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Fleshrender",
+            "Gear Type": "Barbed Club",
+            "Attributes": "One-Hand Damage: (64-74) To (107-125) (85.5-99.5 Avg)\r\nRequired Level: 38\r\nRequired Strength: 30\r\nDurability: 56\r\nBase Weapon Speed: [0]\n+130-200% Enhanced Damage (varies)\nAdds 35-50 Damage\n+50% Damage To Undead\n20% Deadly Strike\n20% Chance of Crushing Blow\n25% Chance of Open Wounds\n+1 To Druid Skills\n+2 To Shape Shifting Skills (Druid Only)\nPrevent Monster Heal\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Sureshrill Frost",
+            "Gear Type": "Flanged Mace",
+            "Attributes": "One-Hand Damage: (42-47) To (67-74) (54.5-60.5 Avg)\r\nRequired Level: 39\r\nRequired Strength: 61\r\nDurability: 60\r\nBase Weapon Speed: [0]\n+150-180% Enhanced Damage (varies)\nAdds 5-10 Damage\n+50% Damage To Undead\nAdds 63-112 Cold Damage, 5 sec. Cold Duration (Normal)\nFreezes Target +3\nLevel 9 Frozen Orb (50 Charges)\nCannot Be Frozen\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Moonfall",
+            "Gear Type": "Jagged Star",
+            "Attributes": "One-Hand Damage: (54-60) To (83-92) (68.5-76 Avg)\r\nRequired Level: 42\r\nRequired Strength: 74\r\nDurability: 72\r\nBase Weapon Speeds: [10]\n+120-150% Enhanced Damage (varies)\nAdds 10-15 Damage\n+50% Damage To Undead\nAdds 55-115 Fire Damage\n5% Chance To Cast Level 6 Meteor On Striking\nLevel 11 Meteor (60 Charges)\nMagic Damage Reduced By 9-12 (varies)\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Baezil's Vortex",
+            "Gear Type": "Knout",
+            "Attributes": "One-Hand Damage: (33-39) To (91-105) (62-72 Avg)\r\nRequired Level: 45\r\nRequired Strength: 82\r\nRequired Dexterity: 73\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+160-200% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 1-150 Lightning Damage\n20% Increased Attack Speed\n5% Chance To Cast Level 8 Nova On Striking\nLevel 15 Nova (80 Charges)\nLightning Resist +25%\n+100 To Mana\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Earthshaker",
+            "Gear Type": "Battle Hammer",
+            "Attributes": "One-Hand Damage: 98 To 162 (130 Avg)\r\nRequired Level: 43\r\nRequired Strength: 100\r\nDurability: 105\r\nBase Weapon Speed: [20]\n+180% Enhanced Damage\n+50% Damage To Undead\n5% Chance To Cast Level 7 Fissure On Striking\n+30% Increased Attack Speed\nHit Blinds Target\nKnockback\n+3 To Elemental Skills (Druid Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bloodtree Stump",
+            "Gear Type": "War Club",
+            "Attributes": "Two-Hand Damage: (148-169) To (218-249) (183-209 Avg)\r\nRequired Level: 48\r\nRequired Strength: 124\r\nDurability: 100\r\nBase Weapon Speed: [10]\n+180-220% Enhanced Damage (varies)\n+50% Damage To Undead\n50% Chance Of Crushing Blow\nAll Resistances +20\n+25 To Strength\n+2 To Masteries (Barbarian Only)\n+3 To Mace Masteries (Barbarian Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Gavel Of Pain",
+            "Gear Type": "Martel de Fer",
+            "Attributes": "Two-Hand Damage: (152-170) To (257-287) (204.5-228 Avg)\r\nRequired Level: 45\r\nRequired Strength: 169\r\nBase Weapon Speed: [20]\n+130-160% Enhanced Damage (varies)\nAdds 12-30 Damage\n+50% Damage To Undead\n5% Chance To Cast Level 1 Iron Maiden When Struck\n5% Chance To Cast Level 1 Amplify Damage On Striking\nLevel 8 Amplify Damage (3 Charges)\nAttacker Takes Damage of 26\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Polearms": [
+        {
+            "Name": "The Meat Scraper",
+            "Gear Type": "Lochaber Axe",
+            "Attributes": "Two-Hand Damage: (15-18) To (145-174) (80-96 Avg)\r\nRequired Level: 41\r\nRequired Strength: 80\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+150-200% Enhanced Damage (varies)\n50% Chance Of Open Wounds\n30% Increased Attack Speed\n10% Life Stolen Per Hit\n25% Better Chance Of Getting Magic Items\n+3 To Masteries (Barbarian Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blackleach Blade",
+            "Gear Type": "Bill",
+            "Attributes": "Two-Hand Damage: (28-33) To (107-250) (67.5-141.5 Avg)\r\nRequired Level: 42\r\nRequired Strength: 72\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+100-140% Enhanced Damage (varies)\n+ (1.25 Per Character Level) 1-123 To Maximum Damage (Based On Character Level)\n5% Chance To Cast Level 5 Weaken On Striking\nRequirements -25%\n-2 To Light Radius\n8% Life Stolen Per Hit\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Athena's Wrath",
+            "Gear Type": "Battle Scythe",
+            "Attributes": "Two-Hand Damage: (45-50) To (113-224) (79-137 Avg)\r\nRequired Level: 42\r\nRequired Strength: 82\r\nRequired Dexterity: 82\r\nDurability: 65\r\nBase Weapon Speed: [-10]\n+150-180% Enhanced Damage (varies)\n+ (1 Per Character Level) 1-99 To Maximum Damage (Based On Character Level)\n+ (1 Per Character Level) 1-99 To Life (Based On Character Level)\n30% Increased Attack Speed\n+1-3 To Druid Skill Levels (varies)\n+15 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Pierre Tombale Couant",
+            "Gear Type": "Partizan",
+            "Attributes": "Two-Hand Damage: (100-120) To (215-260) (157.5-190 Avg)\r\nRequired Level: 43\r\nRequired Strength: 113\r\nRequired Dexterity: 67\r\nDurability: 65\r\nBase Weapon Speed: [10]\n+160-220% Enhanced Damage (varies)\nAdds 12-20 Damage\n55% Deadly Strike\n+100-200 To Attack Rating (varies)\n+3 To Barbarian Skill Levels\n6% Mana Stolen Per Hit\n30% Faster Hit Recovery\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Husoldal Evo",
+            "Gear Type": "Bec-De-Corbin",
+            "Attributes": "Two-Hand Damage: (53-59) To (253-287) (153-173 Avg)\r\nRequired Level: 44\r\nRequired Strength: 133\r\nRequired Dexterity: 91\r\nDurability: 55\r\nBase Weapon Speed: [0]\n+160-200% Enhanced Damage (varies)\nAdds 20-32 Damage\n20% Increased Attack Speed\n+200-250 To Attack Rating (varies)\nPrevent Monster Heal\nReplenish Life +20\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Grim's Burning Dead",
+            "Gear Type": "Grim Scythe",
+            "Attributes": "Two-Hand Damage: (72-84) To (168-196) (120-140 Avg)\r\nRequired Level: 45\r\nRequired Strength: 70\r\nRequired Dexterity: 70\r\nDurability: 55\r\nBase Weapon Speed: [-10]\n+140-180% Enhanced Damage (varies)\nAdds 131-232 Fire Damage\n+3 To Necromancer Skill Levels\n-50% Target Defense\n+20% Enhanced Defense\n+200-250 To Attack Rating (varies)\nFire Resist +45%\nRequirements -50%\nAttacker Takes Damage of 8\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Scepters": [
+        {
+            "Name": "Zakarum's Hand",
+            "Gear Type": "Rune Scepter",
+            "Attributes": "One-Hand Damage: (36-41) To (67-76) (51.5-58.5 Avg)\r\nRequired Level: 37\r\nRequired Strength: 58\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+180-220% Enhanced Damage (varies)\n+50% Damage To Undead\n30% Increased Attack Speed\n6% Chance To Cast Level 5 Blizzard On Striking\n8% Mana Stolen Per Hit\nIgnore Target's Defense\nRegenerate Mana 10%\nHeal Stamina Plus 15%\n+2 To Holy Shock (Paladin Only)\n+2 To Holy Freeze (Paladin Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Fetid Sprinkler",
+            "Gear Type": "Holy Water Sprinkler",
+            "Attributes": "One-Hand Damage: (51-55) To (118-129) (84.5-92 Avg)\r\nRequired Level: 38\r\nRequired Strength: 76\r\nDurability: 60\r\nBase Weapon Speed: [10]\n+160-190% Enhanced Damage (varies)\nAdds 15-25 Damage\n+50% Damage To Undead\n+2 To Paladin Skill Levels\n10% Chance To Cast Level 1 Confuse On Striking\n5% Chance To Cast Level 1 Decrepify On Striking\n+160 Poison Damage Over 4 Seconds\n+150-200 To Attack Rating (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hand of Blessed Light",
+            "Gear Type": "Divine Scepter",
+            "Attributes": "One-Hand Damage: (56-61) To (132-143) (94-102 Avg)\r\nRequired Level: 42\r\nRequired Strength: 103\r\nDurability: 70\r\nBase Weapon Speed: [-10]\n+130-160% Enhanced Damage (varies)\nAdds 20-45 Damage\n+50% Damage To Undead\n+2 To Paladin Skill Levels\n100% Bonus To Attack Rating\nRegenerate Mana 15%\n+50 Defense\n5% Chance To Cast Level 4 Fist Of Heavens On Striking\n+2 To Fist Of The Heavens (Paladin Only)\n+4 Holy Bolt (Paladin Only)\n+4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Spears": [
+        {
+            "Name": "The Impaler",
+            "Gear Type": "War Spear",
+            "Attributes": "Two-Hand Damage: (24-27) To (88-99) (56-63 Avg)\r\nRequired Level: 31\r\nRequired Strength: 25\r\nRequired Dexterity: 25\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+140-170% Enhanced Damage (varies)\n40% Chance Of Open Wounds\n+20% Increased Attack Speed\nIgnore Target's Defense\n+150 To Attack Rating\nPrevent Monster Heal\n+5 To Impale (Amazon Only)\n+3 To Power Strike (Amazon Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Kelpie Snare",
+            "Gear Type": "Fuscina",
+            "Attributes": "Two-Hand Damage: (75-83) To (138-153) (106.5-118 Avg)\r\nRequired Level: 33\r\nRequired Strength: 77\r\nRequired Dexterity: 25\r\nDurability: 35\r\nBase Weapon Speed: [0]\n+140-180% Enhanced Damage (varies)\nAdds 30-50 Damage\nSlows Target By 75%\n+ (1.25 Per Character Level) 1-123 To Life (Based On Character Level)\nFire Resist +50%\n+10 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Soulfeast Tine",
+            "Gear Type": "War Fork",
+            "Attributes": "Two-Hand Damage: (40-46) To (100-116) (70-81 Avg)\r\nRequired Level: 35\r\nRequired Strength: 64\r\nRequired Dexterity: 76\r\nDurability: 43\r\nBase Weapon Speed: [-20]\n+150-190% Enhanced Damage (varies)\n+150-250 To Attack Rating (varies)\nRequirements -20%\n7% Life Stolen Per Hit\n7% Mana Stolen Per Hit\n20% Slower Stamina Drain\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hone Sundan",
+            "Gear Type": "Yari",
+            "Attributes": "Two-Hand Damage: (95-107) To (193-217) (144-162 Avg)\r\nRequired Level: 37\r\nRequired Strength: 101\r\nBase Weapon Speed: [0]\r\nDurability: 28\n+160-200% Enhanced Damage (varies)\nAdds 20-40 Damage\n45% Chance of Crushing Blow\nRepairs 1 Durability In 10 Seconds\nSocketed (3)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spire of Honor",
+            "Gear Type": "Lance",
+            "Attributes": "Two-Hand Damage: (87-101) To (325-382) (206-241.5 Avg)\r\nRequired Level: 39\r\nRequired Strength: 110\r\nRequired Dexterity: 88\r\nDurability: 25\r\nBase Weapon Speed: [20]\n+150-200% Enhanced Damage (varies)\nAdds 20-40 Damage\n+ (1.5 Per Character Level) 1-148 % Damage To Demons (Based On Character Level)\n20% Faster Hit Recovery\nReplenish Life +20\n+25% Bonus To Attack Rating\n+25% Enhanced Defense\n+3 To Combat Skills (Paladin Only)\n+3 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Staves": [
+        {
+            "Name": "Razorswitch",
+            "Gear Type": "Jo Staff",
+            "Attributes": "Two-Hand Damage: 6 To 21 (13.5 Avg)\r\nRequired Level: 28\r\nRequired Strength: 25\r\nDurability: 20\r\nBase Weapon Speed:  [-10] \n+50% Damage To Undead\n+1 To All Skills\n30% Faster Cast Rate\nMagic Damage Reduced By 15\nAll Resistances +50\n+175 To Mana\n+80 To Life\nAttacker Takes Damage Of 15\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ribcracker",
+            "Gear Type": "Quarterstaff",
+            "Attributes": "Two-Hand Damage: (54-62) To (143-169) (98.5-115.5 Avg)\r\nRequired Level: 31\r\nRequired Strength: 25\r\nDurability: 130\r\nBase Weapon Speed: [0]\n+200-300% Enhanced Damage (varies)\nAdds 30-65 Damage\n+50% Damage To Undead\n50% Chance Of Crushing Blow\n50% Increased Attack Speed\n50% Faster Hit Recovery\n+100% Enhanced Defense\n+100 Defense\n+15 To Dexterity\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Chromatic Ire",
+            "Gear Type": "Cedar Staff",
+            "Attributes": "Two-Hand Damage: 11 To 32 (21.5 Avg)\r\nRequired Level: 35\r\nRequired Strength: 25\r\nDurability: 35\r\nBase Weapon Speed: [10]\n+50% Damage To Undead\n20% Faster Cast Rate\n+3 To Sorceress Skill Levels\nIncrease Maximum Life 20-25% (varies)\nAll Resistances +20-40(varies)\nAttacker Takes Lightning Damage Of 20\n+1 To Cold Mastery (Sorceress Only)\n+1 To Lightning Mastery (Sorceress Only)\n+1 To Fire Mastery (Sorceress Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Warpspear",
+            "Gear Type": "Gothic Staff",
+            "Attributes": "Two-Hand Damage: 14 To 34 (24 Avg)\r\nRequired Level: 39\r\nRequired Strength: 25\r\nDurability: 40\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\nIgnore Target's Defense\n+250 Defense Vs. Missiles\n+3 To Sorceress Skill Levels\n+3 To Energy Shield (Sorceress Only)\n+3 To Telekinesis (Sorceress Only)\n+3 To Teleport (Sorceress Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Skull Collector",
+            "Gear Type": "Rune Staff",
+            "Attributes": "Two-Hand Damage: 24 To 58 (41 Avg)\nRequired Level: 41\nRequired Strength: 25\nDurability: 50\r\nBase Weapon Speed: [20]\n+50% Damage To Undead\n+20 To Mana After Each Kill\nIncrease Maximum Mana 20%\n+ (1 Per Character Level) 1-99% Better Chance Of Getting Magic Items (Based On Character Level)\n+2 To All Skills\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Swords": [
+        {
+            "Name": "Bloodletter",
+            "Gear Type": "Gladius",
+            "Attributes": "One-Hand Damage: 31 To 97 (64 Avg)\r\nRequired Level: 30\r\nRequired Strength: 25\r\nDurability: 54\r\nBase Weapon Speed: [0]\n+140% Enhanced Damage\nAdds 12-45 Damage\n+90 To Attack Rating\n20% Increased Attack Speed\n10% Slower Stamina Drain\n8% Life Stolen Per Hit\n+1-3 To Whirlwind (Barbarian Only) (varies)\n+2-4 To Sword Mastery (Barbarian Only) (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Coldsteel Eye",
+            "Gear Type": "Cutlass",
+            "Attributes": "One-Hand Damage: (24-28) To (63-73) (43.5-50.5 Avg)\r\nRequired Level: 31\r\nRequired Strength: 25\r\nRequired Dexterity: 52\r\nDurability: 72\r\nBase Weapon Speed: [-30]\n+200-250% Enhanced Damage (varies)\n50% Chance Of Deadly Strike\n20% Increased Attack Speed\n6% Mana Stolen Per Hit\nSlows Target By 30%\nHit Blinds Target\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Hexfire",
+            "Gear Type": "Shamshir",
+            "Attributes": "One-Hand Damage: (59-61) To (97-102) (78-81.5 Avg)\r\nRequired Level: 33\r\nRequired Strength: 58\r\nRequired Dexterity: 58\r\nDurability: 32\r\nBase Weapon Speed: [-10]\n+140-160% Enhanced Damage (varies)\nAdds 35-40 Damage\n+3 To Fire Skills\nLevel 6 Hydra (36 Charges)\nIgnore Target's Defense\nFire Resist +25%\n10% To Maximum Fire Resist\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blade Of Ali Baba",
+            "Gear Type": "Tulwar",
+            "Attributes": "One-Hand Damage: (25-35) To (56-77) (40.5-56 Avg)\r\nRequired Level: 35\r\nRequired Strength: 70\r\nRequired Dexterity: 42\r\nDurability: 32\r\nBase Weapon Speed: [20]\n+60-120% Enhanced Damage (varies)\n+ (2.5 Per Character Level) 2-247 % Extra Gold From Monsters (Based On Character Level)\n+ (1 Per Character Level) 1-99 % Better Chance of Getting Magic Items (Based On Character Level)\n+15 To Mana\n+5-15 To Dexterity (varies)\nSocketed (2)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Ginther's Rift",
+            "Gear Type": "Dimensional Blade",
+            "Attributes": "One-Hand Damage:  (26-32) To (70-87) (48-59.5 Avg)\r\nRequired Level: 37\r\nRequired Strength: 85\r\nRequired Dexterity: 60\r\nDurability: 60\r\nBase Weapon Speed: [0]\n+100-150% Enhanced Damage (varies)\nAdds 50-120 Magic Damage\n30% Increased Attack Speed\nMagic Damage Reduced By 7-12 (varies)\nRepairs 1 Durability in 5 Seconds\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Headstriker",
+            "Gear Type": "Battle Sword",
+            "Attributes": "One-Hand Damage: 40 To (86-184) (63-112 Avg)\r\nRequired Level: 39\r\nRequired Strength: 92\r\nRequired Dexterity: 43\r\nDurability: 32\r\nBase Weapon Speed: [0]\n150% Enhanced Damage\n+ (1 Per Character Level) 1-99 To Maximum Damage (Based On Character Level)\n (1.5 Per Character Level) 1-148 % Deadly Strike (Based On Character Level)\nPrevent Monster Heal\n+15 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Plague Bearer",
+            "Gear Type": "Rune Sword",
+            "Attributes": "One-Hand Damage: 35 To 150 (92.5 Avg)\r\nRequired Level: 41\r\nRequired Strength: 103\r\nRequired Dexterity: 79\r\nDurability: 44\r\nBase Weapon Speed: [-10]\n150% Enhanced Damage\nAdds 10-45 Damage\n+300 Poison Damage Over 8 Seconds\n5% Chance To Cast Level 4 Poison Nova On Striking\nPoison Resist +45%\n+5 To Rabies (Druid Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Atlantean",
+            "Gear Type": "Ancient Sword",
+            "Attributes": "One-Hand Damage: (54-63) To (129-150) (91.5-106.5 Avg)\r\nRequired Level: 42\r\nRequired Strength: 127\r\nRequired Dexterity: 88\r\nDurability: 144\r\nBase Weapon Speed: [0]\n+200-250% Enhanced Damage (varies)\n+2 To Paladin Skill Levels\n50% Bonus To Attack Rating\n+75 Defense\n+8 To Vitality\n+12 To Dexterity\n+16 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Crainte Vomir",
+            "Gear Type": "Espandon",
+            "Attributes": "One-Hand Damage: (20-24) To (67-78) (43.5-51 Avg)\r\nTwo-Hand Damage: (46-54) To (104-120) (75-87 Avg)\r\nRequired Level: 42\r\nRequired Strength: 73\r\nRequired Dexterity: 61\r\nDurability: 44\r\nBase Weapon Speed: [0]\n+160-200% Enhanced Damage (varies)\n50% Increased Attack Speed\nSlows Target By 35%\n-70 To Monster Defense Per Hit\n20% Faster Run/Walk\nDamage Reduced By 10%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Bing Sz Wang",
+            "Gear Type": "Dacian Falx",
+            "Attributes": "One-Hand Damage: (29-33) To (69-78) (49-55.5 Avg)\r\nTwo-Hand Damage: (59-67) To (140-158) (99.5-112.5 Avg)\r\nRequired Level: 43\r\nRequired Strength: 64\r\nRequired Dexterity: 14\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+130-160% Enhanced Damage (varies)\nAdds 50-140 Cold Damage - 3 Second Duration\n5% Chance To Cast Level 3 Frozen Orb On Striking\nFreezes Target +2\nRequirements -30%\n+20 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Vile Husk",
+            "Gear Type": "Tusk Sword",
+            "Attributes": "One-Hand Damage: (25-30) To (92-111) (58.5-70.5 Avg)\r\nTwo-Hand Damage: (47-57) To (145-174) (96-115.5 Avg)\r\nRequired Level: 44\r\nRequired Strength: 104\r\nRequired Dexterity: 71\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+150-200% Enhanced Damage (varies)\n+ (7.5 Per Character Level) 7-742% Damage To Undead (Based On Character Level)\n+ (10 Per Character Level) 10-990 To Attack Rating against Undead (Based On Character Level)\r\n\n+250 Poison Damage Over 6 Seconds\n6% Chance To Cast Level 1 Amplify Damage On Striking\nPoison Resist +50%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Cloudcrack",
+            "Gear Type": "Gothic Sword",
+            "Attributes": "One-Hand Damage: (35-42) To (100-120) (67.5-81 Avg)\r\nTwo-Hand Damage: (97-117) To (150-180) (123.5-148.5 Avg)\r\nRequired Level: 45\r\nRequired Strength: 113\r\nRequired Dexterity: 20\r\nDurability: 40\r\nBase Weapon Speed: [10]\n+150-200% Enhanced Damage (varies)\n6% Chance To Cast Level 7 Fist Of The Heavens On Striking\nAdds 1-240 Lightning Damage\n10% To Maximum Lightning Resist\n+30 Defense\nAttacker Takes Lightning Damage Of 15\n+2 To Defensive Auras (Paladin Only)\n+2 To Offensive Auras (Paladin Only)\n+2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Todesfaelle Flamme",
+            "Gear Type": "Zweihander",
+            "Attributes": "One-Hand Damage: (41-49) To (77-91) (59-70 Avg)\r\nTwo-Hand Damage: (63-75) To (118-140) (90.5-107.5 Avg)\r\nDurability: 50\r\nRequired Level: 46\r\nRequired Strength: 125\r\nRequired Dexterity: 94\r\nBase Weapon Speed: [-10]\n+120-160% Enhanced Damage (varies)\nAdds 50-200 Fire Damage\n10% Chance To Cast Level 6 Fire Ball On Attack\nLevel 10 Fire Wall (20 Charges)\nLevel 10 Enchant (45 Charges)\n+10 Fire Absorb\nFire Resist +40%\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Swordguard",
+            "Gear Type": "Executioner Sword",
+            "Attributes": "One-Hand Damage: (64-67) To (108-112) (86-89.5 Avg)\r\nTwo-Hand Damage: (126-131) To (216-224) (171-177.5 Avg)\r\nRequired Level: 48\r\nRequired Strength: 85\r\nRequired Dexterity: 55\r\nDurability: 50\r\nBase Weapon Speed: [10]\n+170-180% Enhanced Damage (varies)\n+ (5 Per Character Level) 5-495 Defense (Based On Character Level)\n30% Damage Taken Goes To Mana\nRequirements -50%\nAll Resistances +10-20 (varies)\n20% Faster Hit Recovery\n20% Increased Chance Of Blocking\n+100 Defense vs. Missile\n+200 Defense vs. Melee\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Exceptional Unique Throwing Weapons": [
+        {
+            "Name": "Deathbit",
+            "Gear Type": "Battle Dart",
+            "Attributes": "Throw Damage: (25-30) To (55-67) (40-48.5 Avg)\r\nOne-Hand Damage: (18-22) To (36-44) (27-33 Avg)\r\nRequired Level: 44\r\nRequired Strength:  25\r\nRequired Dexterity:  52\r\nBase Weapon Speed: [0]\r\nMax Stack (160)\n+130-180% Enhanced Damage (varies)\n40% Deadly Strike\n+200-450 To Attack Rating (varies)\n7-9% Life Stolen Per Hit (varies)\n4-6% Mana Stolen Per Hit (varies)\nReplenishes Quantity [1 in 4 sec.]\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Scalper",
+            "Gear Type": "Francisca",
+            "Attributes": "Throw Damage: (45-54) To (82-99) (63.5-76.5 Avg)\r\nOne-Hand Damage: (27-33) To (55-66) (41-49.5 Avg)\r\nRequired Level: 57\r\nRequired Strength:  25\r\nRequired Dexterity:  80\r\nBase Weapon Speed: [10]\r\nMax Stack (130)\n+150-200% Enhanced Damage (varies)\n33% Chance Of Open Wounds\n+4 To Mana After Each Kill\n20% Increased Attack Speed\n25% Bonus To Attack Rating\n4-6% Life Stolen Per Hit (varies)\nReplenishes Quantity [1 in 3 sec.]\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Exceptional Unique Wands": [
+        {
+            "Name": "Suicide Branch",
+            "Gear Type": "Burnt Wand",
+            "Attributes": "One-Hand Damage: 8 To 18 (13 Avg)\r\nRequired Level: 33\r\nRequired Strength: 25\r\nDurability: 15\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\n+1 To All Skills\n50% Faster Cast Rate\nIncrease Maximum Mana 10%\nAll Resistances +10\n+40 To Life\nAttacker Takes Damage of 25\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Carin Shard",
+            "Gear Type": "Petrified Wand",
+            "Attributes": "One-Hand Damage: 8 To 24 (16 Avg)\r\nRequired Level: 35\r\nRequired Strength: 25\r\nDurability: 15\r\nBase Weapon Speed: [10]\n+50% Damage To Undead\n+ (1.25 Per Character Level) 1-123 To Mana (Based On Character Level)\n+ (1.25 Per Character Level) 1-123 To Life (Based On Character Level)\n+1 To Necromancer Skill Levels\n+2 To Summoning Skills (Necromancer Only)\n10% Faster Cast Rate\n30% Faster Hit Recovery\nReplenish Life +5\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Arm of King Leoric",
+            "Gear Type": "Tomb Wand",
+            "Attributes": "One-Hand Damage: 10 To 22 (16 Avg)\r\nRequired Level: 36\r\nRequired Strength: 25\r\nDurability: 15\r\nBase Weapon Speed: [-20]\n+50% Damage To Undead\n10% Chance To Cast Level 2 Bone Prison When Struck\n5% Chance To Cast Level 10 Bone Spirit When Struck\n+ (1.25 Per Character Level) 1-123 To Mana (Based On Character Level)\n10% Faster Cast Rate\n+2 To Terror (Necromancer Only)\n+2 To Raise Skeletal Mage (Necromancer Only)\n+3 To Skeleton Mastery (Necromancer Only)\n+3 To Raise Skeleton (Necromancer Only)\n+2 To Summoning Skills (Necromancer Only)\n+2 To Poison And Bone Skills (Necromancer Only)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Blackhand Key",
+            "Gear Type": "Grave Wand",
+            "Attributes": "One-Hand Damage: 13 To 29 (21 Avg)\r\nRequired Level: 41\r\nRequired Strength: 25\r\nDurability: 15\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\n+2 To Necromancer Skill Levels\n+1 To Curses (Necromancer Only)\n20% Damage Taken Goes To Mana\n30% Faster Cast Rate\nFire Resist +37%\n+50 To Life\nLevel 13 Grim Ward (30 Charges)\n-2 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Elite Unique Helms": [
+        {
+            "Name": "Harlequin Crest",
+            "Gear Type": "Shako",
+            "Attributes": "Defense: 98-141 (varies)\r\nRequired Level: 62\r\nRequired Strength: 50\r\nDurability: 12\n+2 To All Skills\n+ (1.5 Per Character Level) 1-148 To Life (Based On Character Level)\n+ (1.5 Per Character Level) 1-148 To Mana (Based On Character Level)\nDamage Reduced By 10%\n50% Better Chance of Getting Magic Items\n+2 To All Attributes\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Steel Shade",
+            "Gear Type": "Armet",
+            "Attributes": "Defense: 300-345 (varies)(Base Defense: 105-149)\r\nRequired Level: 62\r\nRequired Strength: 109\r\nDurability: 24\n+100-130% Enhanced Defense (varies)\nReplenish Life +10-18 (varies)\n4-8% Mana Stolen Per Hit (varies)\n+5-11 Fire Absorb (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Veil of Steel",
+            "Gear Type": "Spired Helm",
+            "Attributes": "Defense: 396 (Base Defense: 114-159)\r\nRequired Level: 73\r\nRequired Strength: 192\r\nDurability: 60\n+60% Enhanced Defense\n+140 To Defense\nAll Resistances +50\n+15 To Strength\n+15 To Vitality\n-4 To Light Radius\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Nightwing's Veil",
+            "Gear Type": "Spired Helm",
+            "Attributes": "Defense: 304-352 (varies)(Base Defense: 114-159)\r\nRequired Level: 67\r\nRequired Strength: 96\r\nDurability: 40\n+90-120% Enhanced Defense (varies)\n+2 To All Skills\n+8-15% To Cold Skill Damage (varies)\n+10-20 To Dexterity (varies)\n+5-9 Cold Absorb (varies)\nHalf Freeze Duration\nRequirements -50%\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Andariel's Visage",
+            "Gear Type": "Demonhead",
+            "Attributes": "Defense: 310-387 (varies)(Base Defense: 101-154)\r\nRequired Level: 83\r\nRequired Strength: 102\r\nDurability: 20\n+100-150% Enhanced Defense (varies)\n+2 To All Skills\n20% Increased Attack Speed\n8-10% Life Stolen Per Hit (varies)\n+25-30 To Strength (varies)\n+10% To Maximum Poison Resist\nFire Resist -30%\nPoison Resist +70%\n15% Chance To Cast Level 15 Poison Nova When Struck\nLevel 3 Venom (20 charges)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Crown of Ages",
+            "Gear Type": "Corona",
+            "Attributes": "Defense: 349-399 (varies)(Base Defense: 111-165)\r\nRequired Level: 82\r\nRequired Strength: 174\n+50% Enhanced Defense\n+100-150 Defense (varies)\n+1 To All Skills\nDamage Reduced By 10-15% (varies)\nAll Resistances +20-30 (varies)\n+30% Faster Hit Recovery\nSocketed (1-2) (varies)\nIndestructible\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Giant Skull",
+            "Gear Type": "Bone Visage",
+            "Attributes": "Defense: 350-477 (varies)(Base Defense: 100-157)\r\nRequired Level: 65\r\nRequired Strength: 106\r\nDurability: 40\n+250-320 Defense (varies)\n10% Chance Of Crushing Blow\nKnockback\n+25-35 to Strength (varies)\nSocketed (1-2) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Armor": [
+        {
+            "Name": "Ormus' Robes",
+            "Gear Type": "Dusk Shroud",
+            "Attributes": "Defense: 371-487 (varies)(Base Defense: 361-467)\r\nRequired Level: 75\r\nRequired Strength: 77\r\nDurability: 20\n+10-20 Defense (varies)\n+20% Faster Cast Rate\n+10-15% To Cold Skill Damage (varies)\n+10-15% To Fire Skill Damage (varies)\n+10-15% To Lightning Skill Damage (varies)\n+3 bonus to a random Sorceress skill (Sorceress Only)*\nRegenerate Mana 10-15% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Gladiator's Bane",
+            "Gear Type": "Wire Fleece",
+            "Attributes": "Defense: 1255-1496 (varies)(Base Defense: 375-481)\r\nRequired Level: 85\r\nRequired Strength: 111\r\nDurability: 135\n+150-200% Enhanced Defense (varies)\n+50 Defense\nCannot Be Frozen\n30% Faster Hit Recovery\nPoison Length Reduced By 50%\nAttacker Takes Damage Of 20\nDamage Reduced By 15-20 (varies)\nMagic Damage Reduced By 15-20 (varies)\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Arkaine's Valor",
+            "Gear Type": "Balrog Skin",
+            "Attributes": "Defense: 1295-1450 (varies)(Base Defense: 410-517)\r\nRequired Level: 85\r\nRequired Strength: 165\r\nDurability: 30\n+150-180% Enhanced Defense (varies)\n+1-2 To All Skills* (varies)\n+ (0.5 Per Character Level) 0-49 To Vitality (Based On Character Level)\n30% Faster Hit Recovery\nDamage Reduced By 10-15 (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Leviathan",
+            "Gear Type": "Kraken Shell",
+            "Attributes": "Defense: 1514-1722 (varies)(Base Defense: 417-523)\r\nRequired Level: 65\r\nRequired Strength: 174\n+170-200% Enhanced Defense (varies)\n+100-150 Defense (varies)\n+40-50 To Strength (varies)\nDamage Reduced By 15-25% (varies)\nIndestructible\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Steel Carapace",
+            "Gear Type": "Shadow Plate",
+            "Attributes": "Defense: 1618-1785 (varies)(Base Defense: 446-557)\r\nRequired Level: 66\r\nRequired Strength: 230\r\nDurability: 70\n+190-220% Enhanced Defense (varies)\nRegenerate Mana 10-15% (varies)\n+20% Faster Hit Recovery\nCold Resist +40-60% (varies)\nDamage Reduced by 9-14 (varies)\nRepairs 1 Durability in 20 Seconds\n8% Chance To Cast Level 6 Iron Maiden When Struck\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Templar's Might",
+            "Gear Type": "Sacred Armor",
+            "Attributes": "Defense: 1622-1923 (varies)(Base Defense: 487-600)\r\nRequired Level: 74\r\nRequired Strength: 232\r\nDurability: 60\n+170-220% Enhanced Defense (varies)\n+250-300 Defense vs. Missile (varies)\n+10-15 To Strength (varies)\n+10-15 To Vitality (varies)\n+20% Faster Hit Recovery\n+40-50 Maximum Stamina (varies)\n+1-2 To Offensive Auras (Paladin Only) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Tyrael's Might",
+            "Gear Type": "Sacred Armor",
+            "Attributes": "Defense: 1322-1502 (varies)(Base Defense: 487-600)\r\nRequired Level: 84\r\nRequired Strength: None\n+120-150% Enhanced Defense (varies)\n+50-100% Damage To Demons (varies)\n+20% Faster Run/Walk\n+20-30 To Strength (varies)\nAll Resistances +20-30 (varies)\nCannot Be Frozen\nRequirements -100%\nSlain Monsters Rest in Peace\nIndestructible\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Shields": [
+        {
+            "Name": "Blackoak Shield",
+            "Gear Type": "Luna",
+            "Attributes": "Defense: 322-372 (varies)(Base Defense: 108-123)\r\nRequired Level: 61\r\nRequired Strength: 100\r\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\r\nPaladin Smite Damage: 17 To 29\r\nDurability: 129\n+160-200% Enhanced Defense (varies)\n+ (0.625 Per Character Level) +0-61 Absorb Cold Damage (Based On Character Level)\n+ (1.25 Per Character Level) +1-123 To Life (Based On Character Level)\n+ (0.5 Per Character Level) +0-49 To Dexterity (Based On Character Level)\n+50% Faster Block Rate\n+4% Chance To Cast Level 5 Weaken When Struck\nHalf Freeze Duration\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Stormshield",
+            "Gear Type": "Monarch",
+            "Attributes": "Defense: (136-504) - (151-519) (varies)(Base Defense: 133-148)\r\nRequired Level: 73\r\nRequired Strength: 156\r\nChance to Block: Pal: 77%, Ama/Asn/Bar: 72%, Dru/Nec/Sor: 67%\r\nPaladin Smite Damage: 12 To 34\n+ (3.75 Per Character Level) 3-371 Defense (Based On Character Level)\n+25% Increased Chance Of Blocking\n35% Faster Block Rate\nDamage Reduced By 35%\nCold Resist +60%\nLightning Resist +25%\n+30 To Strength\nAttacker Takes Lightning Damage of 10\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Spike Thorn",
+            "Gear Type": "Blade Barrier",
+            "Attributes": "Defense: 360-410 (varies)(Base Defense: 147-163)\r\nRequired Level: 70\r\nRequired Strength: 118\r\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\r\nDurability: 333\r\nPaladin Smite Damage: 26 To 40\n+120-150% Enhanced Defense (varies)\n+30% Faster Hit Recovery\nDamage Reduced By 15-20% (varies)\n+ (1.375 Per Character Level) Attacker Takes Damage of 1-136 (Based On Character Level)\nSocketed (1)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Medusa's Gaze",
+            "Gear Type": "Aegis",
+            "Attributes": "Defense: 405-453 (varies)(Base Defense: 145-161)\r\nRequired Level: 76\r\nRequired Strength: 219\r\nChance to Block: Pal: 54%, Ama/Asn/Bar: 49%, Dru/Nec/Sor: 44%\r\nDurability: 92\r\nPaladin Smite Damage: 18 To 28\n+150-180% Enhanced Defense (varies)\n5-9% Life Stolen Per Hit (varies)\nSlows Target By 20%\nCold Resist +40-80% (varies)\n10% Chance To Cast Level 7 Lower Resist When Struck\n100% Chance To Cast Level 44 Nova When You Die\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Head Hunter's Glory",
+            "Gear Type": "Troll Nest",
+            "Attributes": "Defense: 478-593 (varies)(Base Defense: 158-173)\r\nRequired Level: 75\r\nRequired Strength: 106\r\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\r\nDurability: 74\r\nPaladin Smite Damage: 24 To 38\n+320-420 Defense (varies)\n+300-350 Defense vs. Missile (varies)\nFire Resist +20-30% (varies)\nPoison Resist +30-40% (varies)\n+5-7 Life After Each Kill (varies)\nSocketed (1-3) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Spirit Ward",
+            "Gear Type": "Ward",
+            "Attributes": "Defense: 393-478 (varies)(Base Defense: 153-170)\r\nRequired Level: 68\r\nRequired Strength: 185\r\nChance to Block: Pal: 74-84%, Ama/Asn/Bar: 69-79%, Dru/Nec/Sor: 64-74%\r\nPaladin Smite Damage: 11 To 35\n+130-180% Enhanced Defense (varies)\n+25% Faster Block Rate\n20-30% Increased Chance of Blocking (varies)\nAll Resistances +30-40 (varies)\n+6-11 Cold Absorb (varies)\n5% Chance To Cast Level 8 Fade When Struck\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Gloves": [
+        {
+            "Name": "Dracul's Grasp",
+            "Gear Type": "Vampirebone Gloves",
+            "Attributes": "Defense: 125-145 (varies)(Base Defense: 56-65)\r\nRequired Level: 76\r\nRequired Strength: 50\r\nDurability: 14\n+90-120% Enhanced Defense (varies)\n+10-15 To Strength (varies)\n+5-10 Life After Each Kill (varies)\n25% Chance of Open Wounds\n7-10% Life Stolen Per Hit (varies)\n5% Chance To Cast Level 10 Life Tap On Striking\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Soul Drainer",
+            "Gear Type": "Vambraces",
+            "Attributes": "Defense: 129-149 (varies)(Base Defense: 59-67)\r\nRequired Level: 74\r\nRequired Strength: 106\r\nDurability: 16\n+90-120% Enhanced Defense (varies)\n4-7% Mana Stolen Per Hit (varies)\n4-7% Life Stolen Per Hit (varies)\n-50 To Monster Defense Per Hit\n8% Chance To Cast Level 3 Weaken On Striking\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Steelrend",
+            "Gear Type": "Ogre Gauntlets",
+            "Attributes": "Defense: 232-281 (varies)(Base Defense: 62-71)\r\nRequired Level: 70\r\nRequired Strength: 185\r\nDurability: 24\n+170-210 Defense (varies)\n+30-60% Enhanced Damage (varies)\n10% Chance of Crushing Blow\n+15-20 To Strength (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Boots": [
+        {
+            "Name": "Sandstorm Trek",
+            "Gear Type": "Scarabshell Boots",
+            "Attributes": "Sandstorm Trek\nScarabshell Boots"
+        },
+        {
+            "Name": "Marrowwalk",
+            "Gear Type": "Boneweave Boots",
+            "Attributes": "Marrowwalk\nBoneweave Boots"
+        },
+        {
+            "Name": "Shadow Dancer",
+            "Gear Type": "Myrmidon Greaves",
+            "Attributes": "Shadow Dancer\nMyrmidon Greaves"
+        }
+    ],
+    "Elite Unique Belts": [
+        {
+            "Name": "Arachnid Mesh",
+            "Gear Type": "Spiderweb Sash",
+            "Attributes": "Defense: 119-138 (varies)(Base Defense: 55-62)\r\nRequired Level: 80\r\nRequired Strength: 50\r\nDurability: 12\r\n16 Boxes\n+90-120% Enhanced Defense (varies)\nSlows Target By 10%\n+1 To All Skills\n+20% Faster Cast Rate\nIncreases Maximum Mana 5%\nLevel 3 Venom (11 Charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Nosferatu's Coil*",
+            "Gear Type": "Vampirefang Belt",
+            "Attributes": "Defense: 56-63 (varies)\r\nRequired Level: 51\r\nRequired Strength: 50\r\nDurability: 14\r\n16 Boxes\nSlows Target By 10%\n+2 To Mana After Each Kill\n5-7% Life Stolen Per Hit (varies)\n+15 To Strength\n10% Increased Attack Speed\n-3 To Light Radius\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Verdungo's Hearty Cord",
+            "Gear Type": "Mithril Coil",
+            "Attributes": "Defense: 125-158 (varies)(Defense: 58-65)\r\nRequired Level: 63\r\nRequired Strength: 106\r\nDurability: 16\r\n16 Boxes\n+90-140% Enhanced Defense (varies)\n10% Faster Hit Recovery\n+30-40 To Vitality (varies)\nReplenish Life +10-13 (varies)\n+100-120 Maximum Stamina (varies)\nDamage Reduced By 10-15% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Axes": [
+        {
+            "Name": "Razor's Edge",
+            "Gear Type": "Tomahawk",
+            "Attributes": "One-Hand Damage: (90-107) To (159-188) (124.5-147.5 Avg)\r\nRequired Level: 67\r\nRequired Strength: 125\r\nRequired Dexterity: 67\r\nDurability: 28\r\nWeapon Speed: [0]\n+175-225% Enhanced Damage (varies)\n+40% Increased Attack Speed\n-33% Target Defense\n50% Deadly Strike\n50% Chance of Open Wounds\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Rune Master",
+            "Gear Type": "Ettin Axe",
+            "Attributes": "One-Hand Damage: (105-122) To (211-244) (158-183 Avg)\r\nRequired Level: 72\r\nRequired Strength: 145\r\nRequired Dexterity: 45\r\nDurability: 24\r\nWeapon Speed: [10]\n+220-270% Enhanced Damage (varies)\n+5% To Maximum Cold Resist\nCannot Be Frozen\nSocketed (3-5) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Cranebeak",
+            "Gear Type": "War Spike",
+            "Attributes": "One-Hand Damage: (102-120) To (163-192) (132.5-156 Avg)\r\nRequired Level: 63\r\nRequired Strength: 133\r\nRequired Dexterity: 54\r\nDurability: 26\r\nWeapon Speed: [-10]\n+240-300% Enhanced Damage (varies)\n+40% Increased Attack Speed\n-25% Target Defense\nAdds 1-305 Lightning Damage\n20-50% Better Chance of Getting Magic Items (varies)\nLevel 8 Raven (15 charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Death Cleaver",
+            "Gear Type": "Berserker Axe",
+            "Attributes": "One-Hand Damage: (79-91) To (234-269) (156.5-180 Avg)\r\nRequired Level: 70\r\nRequired Strength: 138\r\nRequired Dexterity: 59\r\nDurability: 26\r\nWeapon Speed: [0]\n+230-280% Enhanced Damage (varies)\n+40% Increased Attack Speed\n-33% Target Defense\n66% Deadly Strike\n+6-9 Life After Each Kill (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Ethereal Edge",
+            "Gear Type": "Silver-Edged Axe",
+            "Attributes": "Two-Hand Damage: (232-260) To (412-462) (322-361 Avg)\r\nRequired Level: 74\r\nRequired Strength: 156\r\nRequired Dexterity: 55\r\nWeapon Speed: [0]\n+150-180% Enhanced Damage (varies)\n+150-200% Damage To Demons (varies)\n+270-350 To Attack Rating (varies)\n+25% Increased Attack Speed\n+10-12 Fire Absorb (varies)\n+5-10 Life After Each Demon Kill (varies)\nIndestructible\nEthereal (Cannot Be Repaired)*\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Hellslayer",
+            "Gear Type": "Decapitator",
+            "Attributes": "Two-Hand Damage: 98 To (278-680) (188-389 Avg)\r\nRequired Level: 66\r\nRequired Strength: 189\r\nRequired Dexterity: 33\r\nDurability: 40\r\nWeapon Speed: [10]\n+100% Enhanced Damage\n+ (3 Per Character Level) 3-297% Enhanced Maximum Damage (Based On Character Level)\nAdds 150-250 Fire Damage\n+ (0.5 Per Character Level) 0-49 To Strength (Based On Character Level)\n+ (0.5 Per Character Level) 0-49 To Vitality (Based On Character Level)\n+25 To Life\n10% Chance To Cast Level 16-20 Fireball On Attack (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Messerschmidt's Reaver",
+            "Gear Type": "Champion Axe",
+            "Attributes": "Two-Hand Damage: 177 To (283-514) (230-345.5 Avg)\r\nRequired Level: 70\r\nRequired Strength: 167\r\nRequired Dexterity: 59\r\nDurability: 75\r\nWeapon Speed: [-10]\n+200% Enhanced Damage\n+ (2.5 Per Character Level) 2-247% Enhanced Maximum Damage (Based On Character Level)\nAdds 20-240 Fire Damage\n100% Bonus To Attack Rating\n+15 To All Attributes\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Executioner's Justice",
+            "Gear Type": "Glorious Axe",
+            "Attributes": "Two-Hand Damage: (204-234) To (421-483) (312.5-358.5 Avg)\r\nRequired Level: 75\r\nRequired Strength: 164\r\nRequired Dexterity: 55\r\nDurability: 50\r\nWeapon Speed: [10]\n+240-290% Enhanced Damage (varies)\n25% Chance Of Crushing Blow\n30% Increased Attack Speed\n-33% Target Defense\n50% Chance To Cast Level 6 Decrepify When You Kill An Enemy\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Bows": [
+        {
+            "Name": "Eaglehorn",
+            "Gear Type": "Crusader Bow",
+            "Attributes": "Two-Hand Damage: 45 To (190-313) (117.5-179 Avg)\r\nRequired Level: 69\r\nRequired Strength: 97\r\nRequired Dexterity: 121\r\nBase Weapon Speed: [10]\n+200% Enhanced Damage\n+ (2 Per Character Level) 2-198% Enhanced Maximum Damage (Based On Character Level)\n+1 To Amazon Skill Levels\n+ (6 Per Character Level) 6-594 To Attack Rating (Based On Character Level)\n+25 To Dexterity\nIgnores Target's Defense\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Widowmaker",
+            "Gear Type": "Ward Bow",
+            "Attributes": "Two-Hand Damage: (50-60) To (132-159) (91-109.5 Avg)\r\nRequired Level: 65\r\nRequired Strength: 72\r\nRequired Dexterity: 146\r\nBase Weapon Speed: [0]\n+150-200% Enhanced Damage (varies)\nIgnore Target's Defense\n33% Deadly Strike\n+3-5 To Guided Arrow* (varies)\nFires Magic Arrows [Level 11]\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Windforce",
+            "Gear Type": "Hydra Bow",
+            "Attributes": "Two-Hand Damage: 35 To (241-547) (138-291 Avg)\r\nRequired Level: 73\r\nRequired Strength: 134\r\nRequired Dexterity: 167\r\nBase Weapon Speed: [10]\n+250% Enhanced Damage\n+ (3.125 Per Character Level) 3-309 To Maximum Damage (Based On Character Level)\n20% Increased Attack Speed\n6-8% Mana Stolen Per Hit (varies)\nHeal Stamina Plus 30%\n+10 To Strength\n+5 To Dexterity\nKnockback\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Elite Unique Crossbows": [
+        {
+            "Name": "Hellrack",
+            "Gear Type": "Colossus Crossbow",
+            "Attributes": "Two-Hand Damage: (89-105) To (254-300) (171.5-202.5 Avg)\r\nRequired Level: 76\r\nRequired Strength: 163\r\nRequired Dexterity: 77\r\nBase Weapon Speed: [10]\n+180-230% Enhanced Damage (varies)\n100-150% Bonus To Attack Rating (varies)\nAdds 63-324 Fire Damage\nAdds 63-324 Lightning Damage\nAdds 63-324 Cold Damage\n+20% Increased Attack Speed\nLevel 18 Immolation Arrow (150 charges)\nSocketed (2)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Gut Siphon",
+            "Gear Type": "Demon Crossbow",
+            "Attributes": "Two-Hand Damage: (67-83) To (104-128) (85.5-105.5 Avg)\r\nRequired Level: 71\r\nRequired Strength: 141\r\nRequired Dexterity: 98\r\nBase Weapon Speed: [-60]\n+160-220% Enhanced Damage (varies)\nPiercing Attack [33]\n12-18% Life Stolen Per Hit (varies)\n33% Chance of Open Wounds\nSlows Target by 25%\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Daggers": [
+        {
+            "Name": "Wizardspike",
+            "Gear Type": "Bone Knife",
+            "Attributes": "One-Hand Damage: 23 To 49 (36 Avg)\r\nRequired Level: 61\r\nRequired Strength:  38\r\nRequired Dexterity:  75\r\nBase Weapon Speed: [-20]\n+ (2 Per Character Level) 2-198 To Mana (Based On Character Level)\n50% Faster Cast Rate\nRegenerate Mana 15%\nIncrease Maximum Mana 15%\nAll Resistances +75\nIndestructible\r\n(Spawns In Any Patch)"
+        },
+        {
+            "Name": "Fleshripper",
+            "Gear Type": "Fanged Knife",
+            "Attributes": "One-Hand Damage: (45-60) To (174-228) (108-144 Avg)\r\nRequired Level: 68\r\nRequired Strength:  42\r\nRequired Dexterity:  86\r\nDurability:  36\r\nBase Weapon Speed: [-20]\n+200-300% Enhanced Damage (varies)\n-50% Target Defense\n25% Chance of Crushing Blow\n33% Deadly Strike\n50% Chance of Open Wounds\nPrevent Monster Heal\nSlows Target By 20%\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Ghostflame",
+            "Gear Type": "Legend Spike",
+            "Attributes": "One-Hand Damage: (133-156) To (203-238) (168-197 Avg)\r\nRequired Level: 66\r\nRequired Strength:  55\r\nRequired Dexterity:  57\r\nBase Weapon Speed: [-10]\n+190-240% Enhanced Damage (varies)\nIgnore Target's Defense\n+108 Magic Damage\n10-15% Mana Stolen Per Hit (varies)\n+2 To Light Radius\nIndestructible\nEthereal (Cannot Be Repaired)*\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Javelins": [
+        {
+            "Name": "Demon's Arch",
+            "Gear Type": "Balrog Spear",
+            "Attributes": "Throw Damage: (104-124) To (161-192) (132.5-158 Avg)\r\nOne-Hand Damage: (85-102) To (163-195) (124-148.5 Avg)\r\nRequired Level: 68\r\nRequired Strength: 127\r\nRequired Dexterity: 95\r\nBase Weapon Speed: [10]\r\nMax Stack (80)\n+160-210% Enhanced Damage (varies)\nAdds 232-323 Fire Damage\nAdds 23-333 Lightning Damage\n+30% Increased Attack Speed\n6-12% Life Stolen Per Hit (varies)\nReplenishes Quantity [1 in 3 sec.]\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Wraith Flight",
+            "Gear Type": "Ghost Glaive",
+            "Attributes": "Throw Damage: (112-130) To (317-368) (214.5-249 Avg)\r\nOne-Hand Damage: (70-81) To (225-261) (147.5-171 Avg)\r\nRequired Level: 76\r\nRequired Strength: 79\r\nRequired Dexterity: 127\r\nBase Weapon Speed: [20]\r\nMax Stack (75)\n+150-190% Enhanced Damage (varies)\n9-13% Life Stolen Per Hit (varies)\n+15 To Mana After Each Kill\nReplenishes Quantity [1 in 2 sec.]\nEthereal (Cannot Be Repaired)*\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Gargoyle's Bite",
+            "Gear Type": "Winged Harpoon",
+            "Attributes": "Throw Damage:  (30-36) To (215-254) (122.5-145 Avg)\r\nOne-Hand Damage:  (75-89) To (98-115) (86.5-102 Avg)\r\nRequired Level: 70\r\nRequired Strength: 76\r\nRequired Dexterity: 145\r\nBase Weapon Speed: [-10]\r\nMax Stack (80)\n+180-230% Enhanced Damage (varies)\n+293 Poison Damage Over 10 Seconds\nLevel 11 Plague Javelin (60 charges)\n9-15% Life Stolen Per Hit (varies)\nReplenishes Quantity [1 in 3 sec.]\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Maces": [
+        {
+            "Name": "Nord's Tenderizer",
+            "Gear Type": "Truncheon",
+            "Attributes": "One-Hand Damage: (129-150) To (159-184) (144-167 Avg)\r\nRequired Level: 68\r\nRequired Strength: 88\r\nRequired Dexterity: 43\r\nDurability: 55\r\nBase Weapon Speed: [-10]\n+270-330% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 205-455 Cold Damage, 5 sec. Duration (Normal)\nFreezes Target +2-4 (varies)\nCold Absorb 5-15% (varies)\n+25% Increased Attack Speed\nLevel 16 Blizzard (12 charges)\n+150-180% Bonus To Attack Rating (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Demon Limb",
+            "Gear Type": "Tyrant Club",
+            "Attributes": "One-Hand Damage: (89-105) To (162-191) (125.5-148 Avg)\r\nRequired Level: 63\r\nRequired Strength: 133\r\nDurability: 65\r\nBase Weapon Speed: [0]\n+180-230% Enhanced Damage (varies)\n+50% Damage To Undead\n+123% Damage To Demons\nAdds 222-333 Fire Damage\n7-13% Life Stolen Per Hit (varies)\nFire Resist +15-20% (varies)\nLevel 23 Enchant (20 Charges)\nRepairs 1 Durability in 20 Seconds\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Baranar's Star",
+            "Gear Type": "Devil Star",
+            "Attributes": "One-Hand Damage: 129 To 159 (144 Avg)\r\nRequired Level: 65\r\nRequired Strength: 153\r\nRequired Dexterity: 44\r\nDurability: 172\r\nBase Weapon Speed: [10]\n+200% Enhanced Damage\n+50% Damage To Undead\nAdds 1-200 Fire Damage\nAdds 1-200 Lightning Damage\nAdds 1-200 Cold Damage, Duration 0-7 sec.\n50% Increased Attack Speed\n200% Bonus To Attack Rating\n+15 To Dexterity\n+15 To Strength\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Horizon's Tornado",
+            "Gear Type": "Scourge",
+            "Attributes": "One-Hand Damage: (9-11) To (264-304) (136.5-157.5 Avg)\r\nRequired Level: 64\r\nRequired Strength: 100\r\nRequired Dexterity: 62\r\nDurability: 65\r\nBase Weapon Speed: [-10]\n+230-280% Enhanced Damage (varies)\n+50% Damage To Undead\n+50% Increased Attack Speed\nSlows Target By 20%\n20% Chance To Cast Level 15 Tornado On Striking\nRequirements -20%\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Stormlash",
+            "Gear Type": "Scourge",
+            "Attributes": "One-Hand Damage: (10-12) To (272-320) (141-166 Avg)\r\nRequired Level: 82\r\nRequired Strength: 125\r\nRequired Dexterity: 77\r\nDurability: 65\r\nBase Weapon Speed: [-10]\n+240-300% Enhanced Damage (varies)\n+50% Damage To Undead\nAdds 1-473 Lightning Damage\n+30% Increased Attack Speed\n+33% Chance of Crushing Blow\n20% Chance To Cast Level 18 Tornado On Striking\n15% Chance To Cast Level 10 Static Field On Striking\n+3-9 Lightning Absorb (varies)\nAttacker Takes Lightning Damage of 30\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Stone Crusher",
+            "Gear Type": "Legendary Mallet",
+            "Attributes": "One-Hand Damage: (190-210) To (231-256) (210.5-233 Avg)\r\nRequired Level: 68\r\nRequired Strength: 189\r\nDurability: 65\r\nBase Weapon Speed: [20]\n+280-320% Enhanced Damage (varies)\nDamage +10-30 (varies)\n+50% Damage To Undead\n-25% Target Defense\n40% Chance of Crushing Blow\n-100 To Monster Defense Per Hit\n+20-30 To Strength (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Schaefer's Hammer",
+            "Gear Type": "Legendary Mallet",
+            "Attributes": "One-Hand Damage: (100-114) To (124-338) (112-226 Avg)\r\nRequired Level: 79\r\nRequired Strength: 189\r\nBase Weapon Speed: [20]\n+100-130% Enhanced Damage (varies)\n+ (2 Per Character Level) 2-198 To Maximum Damage (Based On Character Level)\nAdds 50-200 Lightning Damage\n+50% Damage To Undead\n20% Chance To Cast Level 10 Static Field On Striking\n20% Increased Attack Speed\n+ (8 Per Character Level) 8-792 To Attack Rating (Based On Character Level)\nLightning Resist +75%\n+50 To Life\n+1 To Light Radius\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "Windhammer",
+            "Gear Type": "Ogre Maul",
+            "Attributes": "Two-Hand Damage: (215-254) To (296-349) (255.5-301.5 Avg)\r\nRequired Level: 68\r\nRequired Strength: 225\r\nDurability: 60\r\nBase Weapon Speed: [10]\n+180-230% Enhanced Damage (varies)\n50% Chance of Crushing Blow\n60% Increased Attack Speed\n33% Chance To Cast Level 22 Twister On Striking\n+50% Damage To Undead\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Earth Shifter",
+            "Gear Type": "Thunder Maul",
+            "Attributes": "Two-Hand Damage: (115-132) To (630-720) (372.5-426 Avg)\r\nRequired Level: 69\r\nRequired Strength: 253\r\nDurability: 60\r\nBase Weapon Speed: [20]\n+250-300% Enhanced Damage (varies)\n+50% Damage To Undead\n+7 To Elemental Skills (Druid Only)\n25% Chance To Cast Level 14 Fissure On Striking\n10% Increased Attack Speed\n33% Chance of Crushing Blow\n10% Faster Cast Rate\nLevel 14 Volcano (30 charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Cranium Basher",
+            "Gear Type": "Thunder Maul",
+            "Attributes": "Two-Hand Damage: (119-132) To (560-632) (339.5-382 Avg)\r\nRequired Level: 87\r\nRequired Strength: 253\r\nBase Weapon Speed: [20]\n+200-240% Enhanced Damage (varies)\n+20 To Minimum Damage\n+50% Damage To Undead\n75% Chance Of Crushing Blow\n4% Chance To Cast Level 1 Amplify Damage On Striking\n20% Increased Attack Speed\nAll Resistances +25\n+25 To Strength\n+20 To Maximum Damage (not shown)\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Elite Unique Polearms": [
+        {
+            "Name": "Bonehew",
+            "Gear Type": "Ogre Axe",
+            "Attributes": "Two-Hand Damage: (103-117) To (536-609) (319.5-363 Avg)\r\nRequired Level: 64\r\nRequired Strength: 195\r\nRequired Dexterity: 75\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+270-320% Enhanced Damage (varies)\nLevel 14 Corpse Explosion (30 charges)\nPrevent Monster Heal\n30% Increased Attack Speed\n50% Chance To Cast Level 16 Bone Spear On Striking\nSocketed (2)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Reaper's Toll",
+            "Gear Type": "Thresher",
+            "Attributes": "Two-Hand Damage: (34-40) To (408-479) (221-259.5 Avg)\r\nRequired Level: 75\r\nRequired Strength: 114\r\nRequired Dexterity: 89\r\nDurability: 65\r\nBase Weapon Speed: [-10]\n+190-240% Enhanced Damage (varies)\nIgnore Target's Defense\nAdds 4-44 Cold Damage, Duration 0-2 Sec.\n11-15% Life Stolen Per Hit (varies)\n33% Deadly Strike\n33% Chance To Cast Level 1 Decrepify On Striking\nRequirements -25%\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Tomb Reaver",
+            "Gear Type": "Cryptic Axe",
+            "Attributes": "Two-Hand Damage: (99-125) To (450-570) (274.5-347.5 Avg)\r\nRequired Level: 84\r\nRequired Strength: 165\r\nRequired Dexterity: 103\r\nDurability: 65\r\nBase Weapon Speed: [10]\n+200-280% Enhanced Damage (varies)\n+150-230% Damage To Undead (varies)\n+60% Increased Attack Speed\n+250-350 To Attack Rating Against Undead (varies)\nAll Resistances +30-50 (varies)\n10% Reanimate As: Returned*\n+10-14 Life After Each Kill (varies)\n+50-80% Better Chance of Getting Magic Items (varies)\n+4 To Light Radius\nSocketed (1-3) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Stormspire",
+            "Gear Type": "Giant Thresher",
+            "Attributes": "Two-Hand Damage: (100-140) To (285-399) (192.5-269.5 Avg)\r\nRequired Level: 70\r\nRequired Strength: 188\r\nRequired Dexterity: 140\r\nBase Weapon Speed: [-10]\n150-250% Enhanced Damage (varies)\nAdds 1-237 Lightning Damage\n2% Chance To Cast Level 20 Charged Bolt When Struck\n5% Chance To Cast Level 5 Chain Lightning When Struck\n30% Increased Attack Speed\nLightning Resist +50%\n+10 To Strength\nAttacker Takes Lightning Damage of 27\nIndestructible\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Scepters": [
+        {
+            "Name": "Heaven's Light",
+            "Gear Type": "Mighty Scepter",
+            "Attributes": "One-Hand Damage: (140-160) To (182-208) (161-184 Avg)*\r\nRequired Level: 61\r\nRequired Strength: 125\r\nRequired Dexterity: 65\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+250-300% Enhanced Damage (varies)\n+50% Damage To Undead\n-33% Target Defense\n+20% Increased Attack Speed\n33% Chance of Crushing Blow\n+15-20 Life After Each Demon Kill (varies)\n+2-3 To Paladin Skill Levels (varies)\n+3 To Light Radius\nSocketed (1-2) (varies)*\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "The Redeemer",
+            "Gear Type": "Mighty Scepter",
+            "Attributes": "One-Hand Damage: (140-160) To (182-208) (161-184 Avg)*\r\nRequired Level: 72\r\nRequired Strength: 50\r\nRequired Dexterity: 26\r\nDurability: 50\r\nBase Weapon Speed: [0]\n+250-300% Enhanced Damage (varies)\nDamage +60-120 (varies)\n+50% Damage To Undead\n+200-250% Damage To Demons (varies)\n+2 To Paladin Skill Levels\n-33% Target Defense\n+2-4 To Redemption (Paladin Only) (varies)\n+2-4 To Holy Bolt (Paladin Only) (varies)\n+3 To Light Radius\nRequirements -60%\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Astreon's Iron Ward",
+            "Gear Type": "Caduceus",
+            "Attributes": "One-Hand Damage: (125-144) To (146-167) (135.5-155.5 Avg)\r\nRequired Level: 66\r\nRequired Strength: 97\r\nRequired Dexterity: 70\r\nDurability: 70\r\nBase Weapon Speed: [-10]\n+240-290% Enhanced Damage (varies)\nDamage +40-85 (varies)\n+50% Damage To Undead\nAdds 80-240 Magic Damage\n33% Chance of Crushing Blow\nSlows Target By 25%\nDamage Reduced By 4-7 (varies)\n+2-4 To Combat Skills (Paladin Only) (varies)\n+10% Increased Attack Speed\n150-200% Bonus To Attack Rating (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Spears": [
+        {
+            "Name": "Arioc's Needle",
+            "Gear Type": "Hyperion Spear",
+            "Attributes": "Two-Hand Damage: (98-115) To (333-392) (215.5-253.5 Avg)\r\nRequired Level: 81\r\nRequired Strength: 155\r\nRequired Dexterity: 120\r\nDurability: 30\r\nBase Weapon Speed: [-10]\n+180-230% Enhanced Damage (varies)\n50% Deadly Strike\n+394 Poison Damage Over 10 Seconds\n+30% Increased Attack Speed\n+2-4 To All Skills (varies)\nIgnore Target's Defense\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Viperfork",
+            "Gear Type": "Mancatcher",
+            "Attributes": "Two-Hand Damage: (121-142) To (266-312) (193.5-227 Avg)\r\nRequired Level: 71\r\nRequired Strength: 132\r\nRequired Dexterity: 134\r\nDurability: 28\r\nBase Weapon Speed: [-20]\n+190-240% Enhanced Damage (varies)\n+200-250 To Attack Rating (varies)\n+50% Increased Attack Speed\n+325 Poison Damage Over 10 Seconds\nPoison Resist +30-50% (varies)\n15% Chance To Cast Level 9 Poison Explosion On Striking\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Steel Pillar",
+            "Gear Type": "War Pike",
+            "Attributes": "Two-Hand Damage: (102-118) To (551-640) (326.5-379 Avg)\r\nRequired Level: 69\r\nRequired Strength: 165\r\nRequired Dexterity: 106\r\nBase Weapon Speed: [20]\n+210-260% Enhanced Damage (varies)\n25% Chance of Crushing Blow\n-20% Target Defense\n+25% Increased Attack Speed\n+50-80% Enhanced Defense (varies)\nIndestructible\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Staves": [
+        {
+            "Name": "Ondal's Wisdom",
+            "Gear Type": "Elder Staff",
+            "Attributes": "Two-Hand Damage: 80 To 93 (86.5 Avg)\r\nRequired Level: 66\r\nRequired Strength: 44\r\nRequired Dexterity: 37\r\nDurability: 35\r\nBase Weapon Speed: [0]\n+2-4 To All Skills (varies)\n+45% Faster Cast Rate\n+450-550 Defense (varies)\n+40-50 To Energy (varies)\nMagic Damage Reduced by 5-8 (varies)\n+5% To Experience Gained\n+50% Damage To Undead\r\n\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Mang Song's Lesson",
+            "Gear Type": "Archon Staff",
+            "Attributes": "Two-Hand Damage: 83 To 99 (91 Avg)\r\nRequired Level: 82\r\nRequired Strength: 34\r\nDurability: 26\r\nBase Weapon Speed: [10]\n+5 To All Skills\n+30% Faster Cast Rate\n-(7-15)% To Enemy Lightning Resistances (varies)\n-(7-15)% To Enemy Cold Resistances (varies)\n-(7-15)% To Enemy Fire Resistances (varies)\nRegenerate Mana 10%\n+50% Damage To Undead\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Swords": [
+        {
+            "Name": "Djinn Slayer",
+            "Gear Type": "Ataghan",
+            "Attributes": "One-Hand Damage: (75-88) To (133-156) (104-122 Avg)\r\nRequired Level: 65\r\nRequired Strength: 138\r\nRequired Dexterity: 95\r\nDurability: 22\r\nBase Weapon Speed: [-20]\n+190-240% Enhanced Damage (varies)\n+100-150% Damage To Demons (varies)\nAdds 250-500 Fire Damage\n3-6% Mana Stolen Per Hit (varies)\n+3-7 Lightning Absorb (varies)\n+200-300 To Attack Rating Against Demons (varies)\nSocketed (1-2) (varies)\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Bloodmoon",
+            "Gear Type": "Elegant Blade",
+            "Attributes": "One-Hand Damage: (102-118) To (139-162) (120.5-140 Avg)\r\nRequired Level: 61\r\nRequired Strength: 109\r\nRequired Dexterity: 122\r\nDurability: 32\r\nBase Weapon Speed: [-10]\n+210-260% Enhanced Damage (varies)\n10-15% Life Stolen Per Hit (varies)\n50% Chance of Open Wounds\n+7-13 Life After Each Kill (varies)\nLevel 15 Blood Golem (9 charges)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Lightsabre",
+            "Gear Type": "Phase Blade",
+            "Attributes": "One-Hand Damage: (87-103) To (117-135) (102-119 Avg)\r\nRequired Level: 58\r\nRequired Strength: 25\r\nRequired Dexterity: 136\r\nBase Weapon Speed: [-30]\n+150-200% Enhanced Damage (varies)\nAdds 10-30 Damage\nAdds 60-120 Magic Damage\nAdds 1-200 Lightning Damage\n5-7% Mana Stolen Per Hit (varies)\n5% Chance To Cast Level 14-20 Chain Lightning On Attack (varies)\n20% Increased Attack Speed\nIgnore Target's Defense\nLightning Absorb 25%\n+7 To Light Radius\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Azurewrath",
+            "Gear Type": "Phase Blade",
+            "Attributes": "One-Hand Damage: (102-114) To (115-129) (108.5-121.5 Avg)\r\nRequired Level: 85\r\nRequired Strength: 25\r\nRequired Dexterity: 136\r\nBase Weapon Speed: [-30]\n+230-270% Enhanced Damage (varies)\n+30% Increased Attack Speed\nAdds 250-500 Magic Damage\nAdds 250-500 Cold Damage, 10 sec. Duration (Normal)\n+1 To All Skills\n+5-10 To All Attributes (varies)\nLevel 10-13 Sanctuary Aura When Equipped (varies)\n+3 To Light Radius\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Frostwind",
+            "Gear Type": "Cryptic Sword",
+            "Attributes": "One-Hand Damage: (14-16) To (215-254) (114.5-135 Avg)\r\nRequired Level: 70\r\nRequired Strength: 99\r\nRequired Dexterity: 109\r\nBase Weapon Speed: [-10]\n+180-230% Enhanced Damage (varies)\nAdds 237-486 Cold Damage, 6 sec. Duration (Normal)\n+7-14 To Arctic Blast* (varies)\nFreezes Target +4\nCold Absorb 7-15% (varies)\nHalf Freeze Duration\n+25% Increased Attack Speed\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Flamebellow",
+            "Gear Type": "Balrog Blade",
+            "Attributes": "One-Hand Damage: (40-51) To (202-255) (121-153 Avg)\r\nTwo-Hand Damage: (148-187) To (318-401) (233-294 Avg)\r\nRequired Level: 71\r\nRequired Strength: 185\r\nRequired Dexterity: 87\r\nBase Weapon Speed: [0]\n+170-240% Enhanced Damage (varies)\nAdds 233-482 Fire Damage\n+3 To Fire Skills\n+12-18 To Inferno* (varies)\n+10-20 To Strength (varies)\n+5-10 To Vitality (varies)\n12% Chance To Cast Level 16 Firestorm On Striking\nFire Absorb 20-30% (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Doombringer",
+            "Gear Type": "Champion Sword",
+            "Attributes": "One-Hand Damage: (97-114) To (251-289) (174-201.5 Avg)\r\nTwo-Hand Damage: (228-278) To (332-390) (280-334 Avg)\r\nRequired Level: 69\r\nRequired Strength: 163\r\nRequired Dexterity: 103\r\nBase Weapon Speed: [-10]\n+180-250% Enhanced Damage (varies)\nAdds 30-100 Damage\n8% Chance To Cast Level 3 Weaken On Striking\n40% Bonus To Attack Rating\nIncrease Maximum Life 20%\n5-7% Life Stolen Per Hit (varies)\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        },
+        {
+            "Name": "The Grandfather",
+            "Gear Type": "Colossus Blade",
+            "Attributes": "One-Hand Damage: (62-87) To (164-474) (113-280.5 Avg)\r\nTwo-Hand Damage: (145-203) To (289-649) (217-426 Avg)\r\nRequired Level: 81\r\nRequired Strength: 189\r\nRequired Dexterity: 110\r\nBase Weapon Speed: [5]\n+150-250% Enhanced Damage (varies)\n+ (2.5 Per Character Level) 2-247 To Maximum Damage (Based On Character Level)\n+50% Bonus To Attack Rating\n+80 To Life\n+20 To All Attributes\nIndestructible\r\n(Only Spawns In Patch 1.09 or later)"
+        }
+    ],
+    "Elite Unique Throwing Weapons": [
+        {
+            "Name": "Warshrike",
+            "Gear Type": "Winged Knife",
+            "Attributes": "Throw Damage: (69-80) To (117-136) (93-108 Avg)\r\nOne-Hand Damage: (81-94) To (105-122) (93-108 Avg)\r\nRequired Level: 75\r\nRequired Strength: 45\r\nRequired Dexterity: 142\r\nBase Weapon Speed: [-20]\r\nMax Stack: (200)\n+200-250% Enhanced Damage (varies)\n50% Deadly Strike\n+30% Increased Attack Speed\nPiercing Attack [50]\n25% Chance To Cast Level 9 Nova On Striking\nReplenishes Quantity [1 in 3 sec.]\n(Ladder Only)\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Gimmershred",
+            "Gear Type": "Flying Axe",
+            "Attributes": "Throw Damage: (39-46) To (171-204) (105-125 Avg)\r\nOne-Hand Damage: (44-52) To (169-201) (106.5-126.5 Avg)\r\nRequired Level: 70\r\nRequired Strength: 88\r\nRequired Dexterity: 108\r\nBase Weapon Speed: [10]\r\nMax Stack: (240)\n+160-210% Enhanced Damage (varies)\nAdds 218-483 Fire Damage\nAdds 29-501 Lightning Damage\nAdds 176-397 Cold Damage, 4 sec. Duration (Normal)\n+30% Increased Attack Speed\nIncreased Stack Size [60]\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Lacerator",
+            "Gear Type": "Winged Axe",
+            "Attributes": "Throw Damage: (17-21) To (150-186) (83.5-103.5 Avg)\r\nOne-Hand Damage: (27-34) To (140-173) (83.5-103.5 Avg)\r\nRequired Level: 68\r\nRequired Strength: 96\r\nRequired Dexterity: 122\r\nBase Weapon Speed: [-10]\r\nMax Stack: (180)\n+150-210% Enhanced Damage (varies)\n+30% Increased Attack Speed\n33% Chance of Open Wounds\nPrevent Monster Heal\nHit Causes Monster To Flee 50%\n33% Chance To Cast Level 3 Amplify Damage On Striking\nReplenishes Quantity [1 in 4 sec.]\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ],
+    "Elite Unique Wands": [
+        {
+            "Name": "Boneshade",
+            "Gear Type": "Lich Wand",
+            "Attributes": "One-Hand Damage: 10 To 31 (20.5 Avg)\r\nRequired Level: 79\r\nRequired Strength: 25\r\nDurability: 17\r\nBase Weapon Speed: [-20]\n+50% Damage To Undead\n+2 To Necromancer Skill Levels (Necromancer Only)\n+1-2 To Bone Spirit (Necromancer Only) (varies)\n+2-3 To Bone Spear (Necromancer Only) (varies)\n+2-3 To Bone Wall (Necromancer Only) (varies)\n+4-5 To Bone Armor (Necromancer Only) (varies)\n+4-5 To Teeth (Necromancer Only) (varies)\n+25% Faster Cast Rate\r\n(Only Spawns In Patch 1.10 or later)"
+        },
+        {
+            "Name": "Death's Web",
+            "Gear Type": "Unearthed Wand",
+            "Attributes": "One-Hand Damage: 22 To 28 (25 Avg)\r\nRequired Level: 66\r\nRequired Strength: 25\r\nDurability: 18\r\nBase Weapon Speed: [0]\n+50% Damage To Undead\n-40-50% To Enemy Poison Resistance (varies)\n+7-12 To Mana After Each Kill (varies)\n+7-12 Life After Each Kill (varies)\n+2 To All Skills\n+1-2 To Poison And Bone Skills (Necromancer Only) (varies)\r\n(Only Spawns In Patch 1.10 or later)"
+        }
+    ]
+}

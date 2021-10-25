@@ -26,8 +26,18 @@ runeword_data_raw = json.load(f) # this is a dict with 1 key-value pair
 # key "runewords"; value is ALL runeword info in a list of dicts
 f.close()
 
+# Save all unique item data in an object
+f = open("tools\\d2_uniques.json")
+unique_data_raw = json.load(f) # this is a dict of many keys
+# Each key is a different item category.
+f.close()
+
 rune_data = rune_data_raw["runelist"] # this is a list of dicts; 1 dict per rune
-runeword_data = runeword_data_raw["runewords"]
+runeword_data = runeword_data_raw["runewords"] # list of dicts
+unique_data = [] # list of dicts
+for category in unique_data_raw:
+    for d in unique_data_raw[category]:
+        unique_data.append(d)
 
 # Generate rune list
 rune_list = []
@@ -38,6 +48,11 @@ for i in rune_data:
 runeword_list = []
 for i in runeword_data:
     runeword_list.append(i["name"].lower())
+
+# Generate unique item list
+unique_list = []
+for i in unique_data:
+    unique_list.append(i["Name"].lower())
 
 bot = commands.Bot(command_prefix='!')
 
@@ -123,6 +138,22 @@ async def runesearch(ctx, rune):
     embed.set_footer(text="Use !runeword for more info on any runeword.\n" + \
         "Example: !runeword " + random_runeword)
     await ctx.send(embed=embed)
+
+@bot.command()
+async def uniquename(ctx, *unique_name):
+    '''Prints information on the provided unique item.'''
+    u = " ".join(unique_name)
+    u = u.lower() # Match capitalization of unique list object
+    if u not in unique_list:
+        await ctx.send("That unique item does not exist.")
+    else:
+        i = unique_list.index(u)
+        d = unique_data[i]
+        title = d["Name"]
+        embed = discord.Embed(title=title, color=EMBED_COLOR)
+        embed.add_field(name="Gear Type", value=d["Gear Type"])
+        embed.add_field(name="Attributes", value=d["Attributes"], inline=False)
+        await ctx.send(embed=embed)
 
 
 def build_rune_embed(rune, data):

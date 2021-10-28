@@ -112,7 +112,7 @@
         {
             "Name": "Annihilus",
             "Gear Type": "Small Charm",
-            "Attributes": "Required Level: 70\n+1 To All Skills\n+10-20 To All Attributes (varies)\nAll Resistances +10-20 (varies)\n+5-10% To Experience Gained (varies)\r\n\r\n(Only Spawns In Patch 1.10 or later)"
+            "Attributes": "Required Level: 70\n+1 To All Skills\n+10-20 To All Attributes (varies)\nAll Resistances +10-20 (varies)\n+5-10% To Experience Gained (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
             "Name": "Gheed's Fortune",
@@ -129,40 +129,45 @@
         {
             "Name": "Rainbow Facet",
             "Gear Type": "Jewel",
+            "Attributes": "There are 8 types of Rainbow Facets. Search for these for more specific information:\nFire Rainbow Facet 1\nCold Rainbow Facet 1\nCold Rainbow Facet 1\nPoison Rainbow Facet 1\nFire Rainbow Facet 2\nCold Rainbow Facet 2\nLightning Rainbow Facet 2\nPoison Rainbow Facet 2"
+        },
+        {
+            "Name": "Fire Rainbow Facet 1",
+            "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 29 Blaze When You Level-Up\nAdds 17-45 Fire Damage\n+3-5% To Fire Skill Damage (varies)\n-(3-5)% To Enemy Fire Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Cold Rainbow Facet 1",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 43 Frost Nova When You Level-Up\nAdds 24-38 Cold Damage, 0.12 sec Duration (Normal)\n+3-5% To Cold Skill Damage (varies)\n-(3-5)% To Enemy Cold Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Lightning Rainbow Facet 1",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 41 Nova When You Level-Up\nAdds 1-74 Lightning Damage\n+3-5% To Lightning Skill Damage (varies)\n-(3-5)% To Enemy Lightning Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Poison Rainbow Facet 1",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 23 Venom When You Level-Up\n+37 Poison Damage Over 2 Seconds\n+3-5% To Poison Skill Damage (varies)\n-(3-5)% To Enemy Poison Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Fire Rainbow Facet 2",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 31 Meteor When You Die\nAdds 17-45 Fire Damage\n+3-5% To Fire Skill Damage (varies)\n-(3-5)% To Enemy Fire Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Cold Rainbow Facet 2",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 37 Blizzard When You Die\nAdds 24-38 Cold Damage, 0.12 sec Duration (Normal)\n+3-5% To Cold Skill Damage (varies)\n-(3-5)% To Enemy Cold Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Lightning Rainbow Facet 2",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 47 Chain Lightning When You Die\nAdds 1-74 Lightning Damage\n+3-5% To Lightning Skill Damage (varies)\n-(3-5)% To Enemy Lightning Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         },
         {
-            "Name": "Rainbow Facet",
+            "Name": "Poison Rainbow Facet 2",
             "Gear Type": "Jewel",
             "Attributes": "Required Level: 49\n100% Chance To Cast Level 51 Poison Nova When You Die\n+37 Poison Damage Over 2 Seconds\n+3-5% To Poison Skill Damage (varies)\n-(3-5)% To Enemy Poison Resistance (varies)\r\n(Only Spawns In Patch 1.10 or later)"
         }

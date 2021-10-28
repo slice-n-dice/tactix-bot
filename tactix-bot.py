@@ -3,59 +3,105 @@
 import os
 import random
 import json
+import requests
 import discord
-from discord.ext import commands
-intents = discord.Intents.default()
-intents.members = True # This allows us to see a list of members in guild.
+from discord.ext import tasks, commands
+from twitchAPI.twitch import Twitch
+from dotenv import load_dotenv
+
+load_dotenv()
 
 EMBED_COLOR = 0x1c3818
+TWITCH_NAME = "tactix11b"
+TOKEN = os.getenv("DISCORD_TOKEN")
+T_CLIENT_ID = os.getenv("TWITCH_CLIENT_ID")
+T_CLIENT_SECRET = os.getenv("TWITCH_CLIENT_SECRET")
+GUILD_ID = os.getenv("GUILD_ID")
+CHANNEL_ID = os.getenv("STREAM_ANNOUNCEMENT_CHANNEL_ID")
+T_STREAM_API_ENDPOINT_V5 = "https://api.twitch.tv/kraken/streams/{}"
+API_HEADERS = {
+    "Client-ID": T_CLIENT_ID,
+    "Accept": "application/vnd.twitchtv.v5+json"
+}
 
-from dotenv import load_dotenv
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+intents = discord.Intents.default()
+intents.members = True # This allows us to see a list of members in guild.
+bot = commands.Bot(command_prefix='!', intents=intents)
+
+# Authenticate with Twitch API.
+twitch = Twitch(T_CLIENT_ID, T_CLIENT_SECRET)
+twitch.authenticate_app([])
+
+# Store state and functionality to communicate with Twitch.
+class BotTwitchInterface(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+        self.announcement_sent = False
+        self.channel = self.bot.get_channel(CHANNEL_ID)
+
+    # When bot activates, set recurring loop to check tactix stream status
+    @tasks.loop(seconds=180) # Check every 3 minutes whether stream is on
+    async def live_notifs_loop(self):
+        is_live = self.checkuser(TWITCH_NAME)
+        if is_live and not self.announcement_sent:
+            self.announcement_sent = True
+            await self.channel.send(
+                f"""TactiX just went live on Twitch!\n
+                https://www.twitch.tv/{TWITCH_NAME}"""
+            )
+        elif self.announcement_sent and not is_live:
+            self.announcement_sent = False
+
+    # Wait until bot is ready before starting twitch checks
+    @live_notifs_loop.before_loop
+    async def before_live_notifs_loop(self):
+        await self.bot.wait_until_ready()
+
+    def checkuser(user):
+        try:
+            userid = twitch.get_users(logins=[user])["data"][0]["id"]
+            url = T_STREAM_API_ENDPOINT_V5.format(userid)
+            try:
+                req = requests.Session().get(url, headers=API_HEADERS)
+                jsondata = req.json()
+                if "stream" in jsondata:
+                    if jsondata["stream"] is not None:
+                        return True
+                    else:
+                        return False
+            except Exception as e:
+                print("Error checking user: ", e)
+                return False
+        except IndexError:
+            return False
+
+
+bot.add_cog(BotTwitchInterface(bot))
 
 # Save all rune data in an object
-f = open("runes.json")
-rune_data_raw = json.load(f) # this is a dict with 1 key-value pair
-# key "runelist"; value is ALL rune info in a list of dicts
-f.close()
+with open("runes.json") as f:
+    rune_data_raw = json.load(f) # this is a dict with 1 key-value pair
+    # key "runelist"; value is ALL rune info in a list of dicts
 
 # Save all runeword data in an object
-f = open("runewords.json")
-runeword_data_raw = json.load(f) # this is a dict with 1 key-value pair
-# key "runewords"; value is ALL runeword info in a list of dicts
-f.close()
+with open("runewords.json") as f:
+    runeword_data_raw = json.load(f) # this is a dict with 1 key-value pair
+    # key "runewords"; value is ALL runeword info in a list of dicts
 
 # Save all unique item data in an object
-
-f = open(os.path.join("tools", "d2_uniques.json"))
-unique_data_raw = json.load(f) # this is a dict of many keys
-# Each key is a different item category.
-f.close()
+with open(os.path.join("tools", "d2_uniques.json")) as f:
+    unique_data_raw = json.load(f) # this is a dict of many keys
+    # Each key is a different item category.
 
 rune_data = rune_data_raw["runelist"] # this is a list of dicts; 1 dict per rune
 runeword_data = runeword_data_raw["runewords"] # list of dicts
-unique_data = [] # list of dicts
-for category in unique_data_raw:
-    for d in unique_data_raw[category]:
-        unique_data.append(d)
+unique_data = [
+    d for category in unique_data_raw for d in unique_data_raw[category]
+    ] # list of dicts, each dict containing info on one unique item
 
-# Generate rune list
-rune_list = []
-for i in rune_data:
-    rune_list.append(i["rune_name"])
-
-# Generate runeword list
-runeword_list = []
-for i in runeword_data:
-    runeword_list.append(i["name"].lower())
-
-# Generate unique item list
-unique_list = []
-for i in unique_data:
-    unique_list.append(i["Name"].lower())
-
-bot = commands.Bot(command_prefix='!')
+rune_list = [r["rune_name"] for r in rune_data]
+runeword_list = [r["name"].lower() for r in runeword_data]
+unique_list = [u["Name"].lower() for u in unique_data]
 
 @bot.command()
 async def about(ctx):

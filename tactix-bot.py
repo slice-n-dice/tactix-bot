@@ -7,7 +7,7 @@ import requests
 import discord
 from discord.ext import tasks, commands
 from twitchAPI.twitch import Twitch
-from dotenv import load_dotenv
+from dotenv import load_dotenv, set_key
 
 load_dotenv()
 
@@ -17,12 +17,9 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 T_CLIENT_ID = os.getenv("TWITCH_CLIENT_ID")
 T_CLIENT_SECRET = os.getenv("TWITCH_CLIENT_SECRET")
 GUILD_ID = os.getenv("GUILD_ID")
-CHANNEL_ID = os.getenv("STREAM_ANNOUNCEMENT_CHANNEL_ID")
+ANNOUNCEMENT_CHANNEL_ID = os.getenv("STREAM_ANNOUNCEMENT_CHANNEL_ID")
+BOT_COMMAND_CHANNEL_ID = os.getenv("BOT_COMMAND_CHANNEL_ID")
 T_STREAM_API_ENDPOINT_HELIX = "https://api.twitch.tv/helix/search/channels?query={}"
-API_HEADERS = {
-    "Client-Id": T_CLIENT_ID,
-    "Authorization": "Bearer "
-}
 
 intents = discord.Intents.default()
 intents.members = True # This allows us to see a list of members in guild.
@@ -34,64 +31,71 @@ try:
 except Exception as e:
     print(e, "when creating Twitch object")
 
-#try:
-#    twitch.authenticate_app([])
-#except Exception as e:
-#    print(e, "when attempting to authenticate Twitch app")
-
 # Store state and functionality to communicate with Twitch.
 class BotTwitchInterface(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.announcement_sent = False
-        self.channel = self.bot.get_channel(CHANNEL_ID)
-        self.token = ""
-        self.headers = API_HEADERS
+        self.channel = self.bot.get_channel(int(ANNOUNCEMENT_CHANNEL_ID))
+        self.token = os.getenv("TWITCH_OAUTH_TOKEN")
+        self.headers = {
+            "Client-Id": T_CLIENT_ID,
+            "Authorization": f"Bearer {self.token}"
+        }
+        self.live_notifs_loop.start()
 
-    '''
     # When bot activates, set recurring loop to check tactix stream status
-    @tasks.loop(seconds=15) # Check every 3 minutes whether stream is on
+    @tasks.loop(seconds=180) # Check every 3 minutes whether stream is on
     async def live_notifs_loop(self):
-        print("Running live notifs loop")
-        is_live = self.checkuser(TWITCH_NAME)
+        if self.channel is None:
+            # if cog __init__ function ran before bot was done setting up,
+            # then retry assigning self.channel.
+            self.channel = self.bot.get_channel(int(ANNOUNCEMENT_CHANNEL_ID))
+        print("Entering loop.")
+        stream_data = self.checkuser()
+        is_live = stream_data["is_live"]
         if is_live and not self.announcement_sent:
-            print("Streamer is live!")
+            print("Streamer just went live!")
             self.announcement_sent = True
-            await self.channel.send(
-                f"""TactiX just went live on Twitch!\n
-                https://www.twitch.tv/{TWITCH_NAME}"""
-            )
+            embed = self.build_stream_embed(
+                stream_data["game_name"],
+                stream_data["title"]
+                )
+            await self.channel.send(embed=embed)
         elif self.announcement_sent and not is_live:
+            print("Streamer just ended stream; resetting announcement flag.")
             self.announcement_sent = False
-        else:
-            print("Streamer is not live")
 
     # Wait until bot is ready before starting twitch checks
     @live_notifs_loop.before_loop
     async def before_live_notifs_loop(self):
+        print("Waiting...")
         await self.bot.wait_until_ready()
-    '''
-
-    '''
-    def checkuser(user):
+    
+    def checkuser(self):
+        '''Use Twitch API to check whether streamer is live.
+        This is run every loop.'''
+        print("Running the check twitch command.")
         try:
-            userid = twitch.get_users(logins=[user])["data"][0]["id"]
-            url = T_STREAM_API_ENDPOINT_HELIX.format(userid)
-            try:
-                req = requests.Session().get(url, headers=API_HEADERS)
-                jsondata = req.json()
-                if "stream" in jsondata:
-                    if jsondata["stream"] is not None:
-                        return True
-                    else:
-                        return False
-            except Exception as e:
-                print("Error checking user: ", e)
-                return False
+                url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
+                jsondata = self.get_request_json(url, self.headers)
+                #print(json.dumps(jsondata, indent=4))
+                try:
+                    if "status" in jsondata and jsondata["status"] == 401: # OAuth expired
+                        self.token = self.get_oauth_token()
+                        self.headers["Authorization"] = f"Bearer {self.token}"
+                        jsondata = self.get_request_json(url, self.headers)
+                    return self.get_stream_data(jsondata, TWITCH_NAME)
+                except Exception as e:
+                    print("Error checking user: ", e)
+                    return
         except IndexError:
-            return False
-    '''
-
+            print("Index error.")
+            return
+        except Exception as e:
+            print(e)
+            return
+    
     @commands.command()
     async def checktwitch(self, ctx):
         '''Use Twitch API to check whether streamer is live.
@@ -99,24 +103,23 @@ class BotTwitchInterface(commands.Cog):
         print("Running the check twitch command.")
         try:
                 url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
-                print(f"Obtained url {url}")
+                jsondata = self.get_request_json(url, self.headers)
+                #print(json.dumps(jsondata, indent=4))
                 try:
-                    req = requests.Session().get(url, headers=API_HEADERS)
-                    print(req)
-                    jsondata = req.json()
-                    print(jsondata)
-                    if jsondata["status"] == 401:
+                    if "status" in jsondata and jsondata["status"] == 401: # OAuth expired
                         self.token = self.get_oauth_token()
                         self.headers["Authorization"] = f"Bearer {self.token}"
-                        req = requests.Session().get(url, headers=API_HEADERS)
-                        print(req)
-                        jsondata = req.json()
-                        print(json.dumps(jsondata, indent=4))
-                    if jsondata["data"][0]["is_live"]: # TODO: Find tactix11b
-                        await ctx.send(f"{TWITCH_NAME} is live.")
+                        jsondata = self.get_request_json(url, self.headers)
+                    stream_data = self.get_stream_data(jsondata, TWITCH_NAME)
+                    embed = self.build_stream_embed(
+                        stream_data["game_name"],
+                        stream_data["title"]
+                        )
+                    if stream_data["is_live"]:
+                        await ctx.send(f"{TWITCH_NAME} is LIVE.", embed=embed)
                         return
                     else:
-                        await ctx.send(f"{TWITCH_NAME} is NOT live.")
+                        await ctx.send(f"{TWITCH_NAME} is NOT live.", embed=embed)
                         return
                 except Exception as e:
                     print("Error checking user: ", e)
@@ -129,17 +132,45 @@ class BotTwitchInterface(commands.Cog):
             return
 
     def get_oauth_token(self):
-        print("Entering oauth function.")
-        client_id = T_CLIENT_ID
-        client_secret = T_CLIENT_SECRET
+        """Get new Twitch OAuth token using our global variable credentials.
+        Also stores the OAuth token in the .env file."""
         url = "https://id.twitch.tv/oauth2/token?client_id={}&client_secret={}&grant_type=client_credentials"
-        url = url.format(client_id, client_secret)
-        print(url)
+        url = url.format(T_CLIENT_ID, T_CLIENT_SECRET)
         req = requests.Session().post(url)
         jsondata = req.json()
-        print(jsondata)
-        print("Get oauth function finished...")
-        return jsondata["access_token"]
+        new_token = jsondata["access_token"]
+        set_key(".env", "TWITCH_OAUTH_TOKEN", new_token)
+        return new_token
+
+    def get_request_json(self, url, headers):
+        """Sends a request to a (Twitch) URL with authentication headers.
+        Returns the JSON sent back to us."""
+        req = requests.Session().get(url, headers=headers)
+        return req.json()
+
+    def get_stream_data(self, jsondata, streamer):
+        """Returns the dict containing the given streamer's data."""
+        for stream_data in jsondata["data"]:
+            if stream_data["display_name"] == streamer:
+                return stream_data
+        print(f"Error in get_stream_data: {streamer} data not found.")
+        return None
+
+    def build_stream_embed(self, game, title):
+        """Returns a Twitch notification embed object."""
+        url = f"https://www.twitch.tv/{TWITCH_NAME}"
+        embed = discord.Embed(
+            title=title,
+            url=url,
+            description=f"Now Playing: {game}\n\n[Watch Stream]({url})",
+            color=EMBED_COLOR,
+            )
+        embed.set_author(
+            name="🔴 TactiX just went live on Twitch!",
+            url=url,
+            icon_url="https://static-cdn.jtvnw.net/jtv_user_pictures/a252f218-198d-4746-8dd9-bc0b697896e7-profile_image-70x70.png"
+        )
+        return embed
 
 
 bot.add_cog(BotTwitchInterface(bot))
@@ -307,6 +338,5 @@ def clean_capitalize(s):
     t = [word.capitalize() for word in s.split()]
     return " ".join(t)
 
-print("About to run bot.")
-print(twitch)
+print("Starting up bot.")
 bot.run(TOKEN)

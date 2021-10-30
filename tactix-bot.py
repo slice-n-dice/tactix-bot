@@ -51,7 +51,6 @@ class BotTwitchInterface(commands.Cog):
             # if cog __init__ function ran before bot was done setting up,
             # then retry assigning self.channel.
             self.channel = self.bot.get_channel(int(ANNOUNCEMENT_CHANNEL_ID))
-        print("Entering loop.")
         stream_data = self.checkuser()
         is_live = stream_data["is_live"]
         if is_live and not self.announcement_sent:
@@ -69,13 +68,12 @@ class BotTwitchInterface(commands.Cog):
     # Wait until bot is ready before starting twitch checks
     @live_notifs_loop.before_loop
     async def before_live_notifs_loop(self):
-        print("Waiting...")
+        print("Waiting for bot to ready up before starting loops...")
         await self.bot.wait_until_ready()
     
     def checkuser(self):
         '''Use Twitch API to check whether streamer is live.
         This is run every loop.'''
-        print("Running the check twitch command.")
         try:
                 url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
                 jsondata = self.get_request_json(url, self.headers)

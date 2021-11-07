@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.10
+
 from time import sleep
 from bs4 import BeautifulSoup
 import requests

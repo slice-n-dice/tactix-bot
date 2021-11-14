@@ -37,10 +37,11 @@ class BotTwitchInterface(commands.Cog):
         self.bot = bot
         self.announcement_sent = False
         self.channel = self.bot.get_channel(int(ANNOUNCEMENT_CHANNEL_ID))
-        self.token = os.getenv("TWITCH_OAUTH_TOKEN")
+        self.oauth_token = os.getenv("TWITCH_OAUTH_TOKEN")
+        self.refresh_token = os.getenv("TWITCH_REFRESH_TOKEN")
         self.headers = {
             "Client-Id": T_CLIENT_ID,
-            "Authorization": f"Bearer {self.token}"
+            "Authorization": f"Bearer {self.oauth_token}"
         }
         self.live_notifs_loop.start()
 
@@ -70,18 +71,19 @@ class BotTwitchInterface(commands.Cog):
     async def before_live_notifs_loop(self):
         print("Waiting for bot to ready up before starting loops...")
         await self.bot.wait_until_ready()
+        print("Bot online.")
     
     def checkuser(self):
-        '''Use Twitch API to check whether streamer is live.
-        This is run every loop.'''
+        """Use Twitch API to check whether streamer is live.
+        This is run every loop."""
         try:
                 url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
                 jsondata = self.get_request_json(url, self.headers)
                 #print(json.dumps(jsondata, indent=4))
                 try:
-                    if "status" in jsondata and jsondata["status"] == 401: # OAuth expired
-                        self.token = self.get_oauth_token()
-                        self.headers["Authorization"] = f"Bearer {self.token}"
+                    if "status" in jsondata and jsondata["status"] in (400, 401):
+                        # OAuth is invalid or expired; fix tokens, then retry.
+                        self.refresh_tokens()
                         jsondata = self.get_request_json(url, self.headers)
                     return self.get_stream_data(jsondata, TWITCH_NAME)
                 except Exception as e:
@@ -96,17 +98,17 @@ class BotTwitchInterface(commands.Cog):
     
     @commands.command()
     async def checktwitch(self, ctx):
-        '''Use Twitch API to check whether streamer is live.
-        For debug purposes only.'''
+        """Use Twitch API to check whether streamer is live.
+        For debug purposes only."""
         print("Running the check twitch command.")
         try:
                 url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
                 jsondata = self.get_request_json(url, self.headers)
-                #print(json.dumps(jsondata, indent=4))
+                print(json.dumps(jsondata, indent=4))
                 try:
-                    if "status" in jsondata and jsondata["status"] == 401: # OAuth expired
-                        self.token = self.get_oauth_token()
-                        self.headers["Authorization"] = f"Bearer {self.token}"
+                    if "status" in jsondata and jsondata["status"] in (400, 401):
+                        # Oauth is invalid or expired; fix tokens, then retry.
+                        self.refresh_tokens()
                         jsondata = self.get_request_json(url, self.headers)
                     stream_data = self.get_stream_data(jsondata, TWITCH_NAME)
                     embed = self.build_stream_embed(
@@ -129,16 +131,73 @@ class BotTwitchInterface(commands.Cog):
             print(e)
             return
 
-    def get_oauth_token(self):
-        """Get new Twitch OAuth token using our global variable credentials.
-        Also stores the OAuth token in the .env file."""
-        url = "https://id.twitch.tv/oauth2/token?client_id={}&client_secret={}&grant_type=client_credentials"
+    @commands.command()
+    async def check_token(self, ctx):
+        """Get JSON data at OAuth token validate endpoint.
+        For debug purposes only."""
+        print("Running the get_token_validate_data command.")
+        jsondata = self.get_token_validate_data()
+        url = "https://id.twitch.tv/oauth2/validate"
+        jsondata = self.get_request_json(url, self.headers)
+        if "expires_in" in jsondata:
+            print(f"The token expires in {jsondata['expires_in']} seconds.")
+            await ctx.send(f"The token expires in {jsondata['expires_in']} seconds.")
+        else:
+            print("There was an error with the request.")
+            print(f"Error code: {jsondata['status']}")
+            await ctx.send(f"Request has error code {jsondata['status']}.")
+        return jsondata
+
+    def get_token_validate_data(self):
+        """Get JSON data at OAuth token validate endpoint."""
+        url = "https://id.twitch.tv/oauth2/validate"
+        jsondata = self.get_request_json(url, self.headers)
+        print(json.dumps(jsondata, indent=4))
+        return jsondata
+
+    def get_tokens(self):
+        """Get new Twitch OAuth and refresh tokens using our global variable 
+        credentials."""
+        url = ("https://id.twitch.tv/oauth2/token?"
+               "client_id={}&"
+               "client_secret={}&"
+               "grant_type=client_credentials")
         url = url.format(T_CLIENT_ID, T_CLIENT_SECRET)
         req = requests.Session().post(url)
         jsondata = req.json()
-        new_token = jsondata["access_token"]
-        set_key(".env", "TWITCH_OAUTH_TOKEN", new_token)
-        return new_token
+        tokens = (jsondata["access_token"], jsondata["refresh_token"])
+        return tokens
+
+    def refresh_tokens(self):
+        """This function should be called when the current OAuth token is 
+        expired, or when either the Oauth or refresh token is invalid.
+        The function will extend the lifetime of the current Oauth token if
+        the current OAuth and refresh token are both valid.
+        Otherwise, it will generate both tokens anew.
+        Tokens are saved in instance variables and .env variables.
+        """
+        url = ("https://id.twitch.tv/oauth2/token?"
+               "client_id={}&"
+               "client_secret={}&"
+               "grant_type=client_credentials&"
+               "refresh_token={}")
+        url = url.format(T_CLIENT_ID, T_CLIENT_SECRET, self.refresh_token)
+        req = requests.Session().post(url)
+        jsondata = req.json()
+        if "status" in jsondata and jsondata["status"] in (400, 401):
+            print("Refresh token was invalid. Generating new tokens.")
+            tokens = self.get_tokens()
+        else:
+            print("Refresh token was valid.")
+            tokens = (jsondata["access_token"], jsondata["refresh_token"])
+        
+        self.oauth_token = tokens[0]
+        self.refresh_token = tokens[1]
+        
+        set_key(".env", "TWITCH_OAUTH_TOKEN", self.oauth_token)
+        set_key(".env", "TWITCH_REFRESH_TOKEN", self.refresh_token)
+        self.headers["Authorization"] = f"Bearer {self.oauth_token}"
+        
 
     def get_request_json(self, url, headers):
         """Sends a request to a (Twitch) URL with authentication headers.
@@ -200,7 +259,7 @@ unique_list = [u["Name"].lower() for u in unique_data]
 
 @bot.command()
 async def about(ctx):
-    '''Provides general information on this bot.'''
+    """Provides general information on this bot."""
     embed = discord.Embed(title="TactiX-Bot", 
     url="https://github.com/slice-n-dice/tactix-bot",
     description="Created by tentacles for TactiX's War Room.",
@@ -211,12 +270,12 @@ async def about(ctx):
 
 @bot.command()
 async def github(ctx):
-    '''Links to the bot resources on github.'''
+    """Links to the bot resources on github."""
     await ctx.send("https://github.com/slice-n-dice/tactix-bot")
 
 @bot.command()
 async def runelist(ctx):
-    '''Prints the full Diablo 2 rune list.'''
+    """Prints the full Diablo 2 rune list."""
     low_runes = rune_list[0:11]
     mid_runes = rune_list[11:22]
     high_runes = rune_list[22:]
@@ -235,7 +294,7 @@ async def runelist(ctx):
 
 @bot.command()
 async def runeinfo(ctx, r):
-    '''Prints information on the given Diablo 2 rune.'''
+    """Prints information on the given Diablo 2 rune."""
     rune = r.capitalize() # 
     if rune not in rune_list:
         await ctx.send("That rune does not exist.")
@@ -247,7 +306,7 @@ async def runeinfo(ctx, r):
 
 @bot.command()
 async def runeword(ctx, *runeword):
-    '''Prints information on the given Diablo 2 runeword.'''
+    """Prints information on the given Diablo 2 runeword."""
     # Glue together the potentially multi-word argument
     r = " ".join(runeword)
     r = r.lower() # Match capitalization of runeword list object
@@ -261,7 +320,7 @@ async def runeword(ctx, *runeword):
 
 @bot.command()
 async def runesearch(ctx, rune):
-    '''Returns a list of runewords that use the given rune.'''
+    """Returns a list of runewords that use the given rune."""
     c_rune = rune.lower().capitalize()
     runeword_list = []
     for r in runeword_data:
@@ -283,7 +342,7 @@ async def runesearch(ctx, rune):
 
 @bot.command()
 async def uniquename(ctx, *unique_name):
-    '''Prints information on the provided unique item.'''
+    """Prints information on the provided unique item."""
     u = " ".join(unique_name)
     u = u.lower() # Match capitalization of unique list object
     if u not in unique_list:
@@ -298,7 +357,7 @@ async def uniquename(ctx, *unique_name):
         await ctx.send(embed=embed)
 
 def build_rune_embed(rune, data):
-    '''Creates an embed object based on the given rune and its data.'''
+    """Creates an embed object based on the given rune and its data."""
     # rune - string, capitalized
     # data - list containing the rune information
     embed = discord.Embed(title=rune+" Rune", color=EMBED_COLOR)
@@ -314,7 +373,7 @@ def build_rune_embed(rune, data):
     return embed
 
 def build_runeword_embed(runeword, data):
-    '''Creates an embed object based on the given runeword and its data.'''
+    """Creates an embed object based on the given runeword and its data."""
     # runeword - string, all words capitalized
     # data = list containing the runeword information
    
@@ -330,9 +389,9 @@ def build_runeword_embed(runeword, data):
     return embed
 
 def clean_capitalize(s):
-    '''Returns a string where all words are capitalized.
+    """Returns a string where all words are capitalized.
     Letters immediately following symbols (like apostrophe) are NOT treated
-    as new words, unlike the default python string.capitalize() function.'''
+    as new words, unlike the default python string.capitalize() function."""
     t = [word.capitalize() for word in s.split()]
     return " ".join(t)
 

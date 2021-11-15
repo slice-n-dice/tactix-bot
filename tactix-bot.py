@@ -104,7 +104,7 @@ class BotTwitchInterface(commands.Cog):
         try:
                 url = T_STREAM_API_ENDPOINT_HELIX.format(TWITCH_NAME)
                 jsondata = self.get_request_json(url, self.headers)
-                print(json.dumps(jsondata, indent=4))
+                #print(json.dumps(jsondata, indent=4))
                 try:
                     if "status" in jsondata and jsondata["status"] in (400, 401):
                         # Oauth is invalid or expired; fix tokens, then retry.

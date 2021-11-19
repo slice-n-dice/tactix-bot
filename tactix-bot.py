@@ -4,6 +4,7 @@ import os
 import random
 import json
 import requests
+from datetime import datetime
 import discord
 from discord.ext import tasks, commands
 from twitchAPI.twitch import Twitch
@@ -43,11 +44,13 @@ class BotTwitchInterface(commands.Cog):
             "Client-Id": T_CLIENT_ID,
             "Authorization": f"Bearer {self.oauth_token}"
         }
+        self.session = requests.Session()
         self.live_notifs_loop.start()
 
     # When bot activates, set recurring loop to check tactix stream status
     @tasks.loop(seconds=180) # Check every 3 minutes whether stream is on
     async def live_notifs_loop(self):
+        print(datetime.now()) # Temporary, to determine time of request error
         if self.channel is None:
             # if cog __init__ function ran before bot was done setting up,
             # then retry assigning self.channel.
@@ -163,7 +166,7 @@ class BotTwitchInterface(commands.Cog):
                "client_secret={}&"
                "grant_type=client_credentials")
         url = url.format(T_CLIENT_ID, T_CLIENT_SECRET)
-        req = requests.Session().post(url)
+        req = self.session.post(url)
         jsondata = req.json()
         tokens = (jsondata["access_token"], jsondata["refresh_token"])
         return tokens
@@ -182,7 +185,7 @@ class BotTwitchInterface(commands.Cog):
                "grant_type=client_credentials&"
                "refresh_token={}")
         url = url.format(T_CLIENT_ID, T_CLIENT_SECRET, self.refresh_token)
-        req = requests.Session().post(url)
+        req = self.session.post(url)
         jsondata = req.json()
         if "status" in jsondata and jsondata["status"] in (400, 401):
             print("Refresh token was invalid. Generating new tokens.")
@@ -202,7 +205,7 @@ class BotTwitchInterface(commands.Cog):
     def get_request_json(self, url, headers):
         """Sends a request to a (Twitch) URL with authentication headers.
         Returns the JSON sent back to us."""
-        req = requests.Session().get(url, headers=headers)
+        req = self.session.get(url, headers=headers)
         return req.json()
 
     def get_stream_data(self, jsondata, streamer):
